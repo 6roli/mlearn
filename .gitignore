@@ -1,0 +1,6 @@
+node_modules
+dist
+public/materials
+public/pyodide
+*.log
+.DS_Store

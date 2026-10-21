@@ -1,0 +1,42 @@
+{
+  "name": "mlearn-study",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Aplicación de estudio interactiva para Machine Learning from Data (labs y notebooks), con Python real en el navegador.",
+  "scripts": {
+    "setup": "node scripts/setup-pyodide.mjs",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "coverage-matrix": "node --experimental-strip-types scripts/coverage-matrix.ts",
+    "verify": "node --experimental-strip-types scripts/verify.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@codemirror/autocomplete": "6.20.3",
+    "@codemirror/commands": "6.11.1",
+    "@codemirror/lang-python": "6.2.1",
+    "@codemirror/language": "6.12.4",
+    "@codemirror/state": "6.7.6",
+    "@codemirror/view": "6.43.13",
+    "@lezer/highlight": "1.2.5",
+    "katex": "0.19.0",
+    "marked": "18.1.0",
+    "pyodide": "314.0.7",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@types/katex": "0.16.8",
+    "@types/node": "24.6.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "5.9.3",
+    "vite": "8.3.2",
+    "vitest": "5.0.3"
+  }
+}

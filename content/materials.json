@@ -1,0 +1,33 @@
+{
+  "defaultRoot": "C:/Users/groli/OneDrive/Documents/MATT/Q2 - Tardor/MLEARN/LAB",
+  "notebooks": [
+    { "id": "lab0_1", "lab": "lab0", "path": "Lab0 - Exploratory data analysis/Lab0/Lab0/Mlearn_lab0_1.ipynb", "origin": "original" },
+    { "id": "lab0_2", "lab": "lab0", "path": "Lab0 - Exploratory data analysis/Lab0/Lab0/Mlearn_lab0_2.ipynb", "origin": "original" },
+    { "id": "lab0_3", "lab": "lab0", "path": "Lab0 - Exploratory data analysis/Lab0/Lab0/Mlearn_lab0_3.ipynb", "origin": "solucion" },
+    { "id": "lab1_1", "lab": "lab1", "path": "Lab1 - MAP - Gauss/Mlearn_lab1_1.ipynb", "origin": "original" },
+    { "id": "lab1_2", "lab": "lab1", "path": "Lab1 - MAP - Gauss/Mlearn_lab1_2.ipynb", "origin": "original" },
+    { "id": "lab1_1_resuelto", "lab": "lab1", "path": "Lab1 - MAP - Gauss/resuelto_pdf/Mlearn_lab1_1_ejecutado.ipynb", "origin": "solucion" },
+    { "id": "lab1_2_resuelto", "lab": "lab1", "path": "Lab1 - MAP - Gauss/resuelto_pdf/Mlearn_lab1_2_ejecutado.ipynb", "origin": "solucion" },
+    { "id": "lab2_1", "lab": "lab2", "path": "Lab2 - Feature Selection/Lab2/Mlearn_lab2_1_Intro_PCA.ipynb", "origin": "original" },
+    { "id": "lab2_2", "lab": "lab2", "path": "Lab2 - Feature Selection/Lab2/Mlearn_lab2_2_Synthetic_PCA_MDA.ipynb", "origin": "original" },
+    { "id": "lab2_3", "lab": "lab2", "path": "Lab2 - Feature Selection/Lab2/Mlearn_lab2_3_Phoneme.ipynb", "origin": "original" }
+  ],
+  "datasets": [
+    { "id": "iris", "path": "Lab0 - Exploratory data analysis/Lab0/Lab0/iris.csv", "target": "iris.csv" },
+    { "id": "phoneme", "path": "Lab2 - Feature Selection/Lab2/BD_phoneme.csv", "target": "BD_phoneme.csv" }
+  ],
+  "documents": [
+    { "id": "lab0_guide", "lab": "lab0", "path": "Lab0 - Exploratory data analysis/Lab0/Lab0/Mlearn_lab0_guide_python.pdf", "origin": "original", "title": "Guía Lab0" },
+    { "id": "lab0_eda", "lab": "lab0", "path": "Lab0 - Exploratory data analysis/Mlearn_EDA_python.pdf", "origin": "original", "title": "Apuntes EDA" },
+    { "id": "lab0_cuht", "lab": "lab0", "path": "Lab0 - Exploratory data analysis/ML_Lab0_CI_HT_Review.pdf", "origin": "original", "title": "Repaso IC y contrastes" },
+    { "id": "lab0_slides", "lab": "lab0", "path": "Lab0 - Exploratory data analysis/ML_Lab0_Slides_2026.pdf", "origin": "original", "title": "Slides Lab0" },
+    { "id": "lab0_report_sol", "lab": "lab0", "path": "Lab0 - Exploratory data analysis/Lab0/Lab0/Mlearn_lab0_report_python.docx", "origin": "solucion", "title": "Report Lab0 (resuelto)" },
+    { "id": "lab1_guide", "lab": "lab1", "path": "Lab1 - MAP - Gauss/resuelto_pdf/Mlearn_lab1_guide_python.pdf", "origin": "original", "title": "Guía Lab1" },
+    { "id": "lab1_slides", "lab": "lab1", "path": "Lab1 - MAP - Gauss/resuelto_pdf/ML_Lab1.pdf", "origin": "original", "title": "Slides Lab1" },
+    { "id": "lab1_report", "lab": "lab1", "path": "Lab1 - MAP - Gauss/Mlearn_lab1_report.docx", "origin": "original", "title": "Report Lab1 (en blanco)" },
+    { "id": "lab1_report_sol", "lab": "lab1", "path": "Lab1 - MAP - Gauss/resuelto_pdf/Mlearn_lab1_report_resuelto.docx", "origin": "solucion", "title": "Report Lab1 (resuelto)" },
+    { "id": "lab2_guide", "lab": "lab2", "path": "Lab2 - Feature Selection/Lab2/Mlearn_Lab2_PCA_MDA_guide_python.pdf", "origin": "original", "title": "Guía Lab2" },
+    { "id": "lab2_report", "lab": "lab2", "path": "Lab2 - Feature Selection/Lab2/Mlearn_Lab2_PCA_MDA_report.docx", "origin": "original", "title": "Report Lab2 (en blanco)" },
+    { "id": "lab2_slides", "lab": "lab2", "path": "Lab2 - Feature Selection/ML_Lab2_Slides_T2025_PCA_MDA.pdf", "origin": "original", "title": "Slides Lab2" }
+  ]
+}

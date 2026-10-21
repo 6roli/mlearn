@@ -1,0 +1,213 @@
+Verificación 2026-10-21T14:08:49.067Z
+210 comprobaciones, 0 fallos
+
+  ok  [lab1_1] celda 0 asignada a un bloque
+  ok  [lab1_1] celda 1 asignada a un bloque
+  ok  [lab1_1] celda 2 asignada a un bloque
+  ok  [lab1_1] celda 3 asignada a un bloque
+  ok  [lab1_1] celda 4 asignada a un bloque
+  ok  [lab1_1] celda 5 asignada a un bloque
+  ok  [lab1_1] celda 6 asignada a un bloque
+  ok  [lab1_1] celda 7 asignada a un bloque
+  ok  [lab1_1] celda 8 asignada a un bloque
+  ok  [lab1_1] celda 9 asignada a un bloque
+  ok  [lab1_1] celda 10 asignada a un bloque
+  ok  [lab1_1] celda 11 asignada a un bloque
+  ok  [lab1_1] celda 12 asignada a un bloque
+  ok  [lab1_1] celda 13 asignada a un bloque
+  ok  [lab1_1] celda 14 asignada a un bloque
+  ok  [lab1_1] celda 15 asignada a un bloque
+  ok  [lab1_1] celda 16 asignada a un bloque
+  ok  [lab1_1] celda 17 asignada a un bloque
+  ok  [lab1_1] celda 18 asignada a un bloque
+  ok  [lab1_1] celda 19 asignada a un bloque
+  ok  [lab1_1] celda 20 asignada a un bloque
+  ok  [lab1_1] celda 21 asignada a un bloque
+  ok  [lab1_1] celda 22 asignada a un bloque
+  ok  [lab1_1] celda 23 asignada a un bloque
+  ok  [lab1_1] celda 24 asignada a un bloque
+  ok  [lab1_1] celda 25 asignada a un bloque
+  ok  [lab1_1] celda 26 asignada a un bloque
+  ok  [lab1_1] celda 27 asignada a un bloque
+  ok  [lab1_1] celda 28 asignada a un bloque
+  ok  [lab1_1] celda 29 asignada a un bloque
+  ok  [lab1_1] celda 30 asignada a un bloque
+  ok  [lab1_1] celda 31 asignada a un bloque
+  ok  [lab1_1] celda 32 asignada a un bloque
+  ok  [lab1_1] celda 33 asignada a un bloque
+  ok  [lab1_1] celda 34 asignada a un bloque
+  ok  [lab1_1] celda 35 asignada a un bloque
+  ok  [lab1_1] celda 36 asignada a un bloque
+  ok  [lab1_1] celda 37 asignada a un bloque
+  ok  [lab1_1] celda 38 asignada a un bloque
+  ok  [lab1_1] celda 39 asignada a un bloque
+  ok  [lab1_1] celda 3 se ejecuta
+  ok  [lab1_1] celda 6 se ejecuta
+  ok  [lab1_1] celda 7 se ejecuta
+  ok  [lab1_1] celda 8 se ejecuta
+  ok  [lab1_1] celda 9 se ejecuta
+  ok  [lab1_1] celda 10 se ejecuta
+  ok  [lab1_1] celda 11 salida de texto idéntica a la guardada
+  ok  [lab1_1] celda 13 se ejecuta
+  ok  [lab1_1] celda 14 se ejecuta
+  ok  [lab1_1] celda 16 se ejecuta
+  ok  [lab1_1] celda 18 se ejecuta
+  ok  [lab1_1] celda 20 se ejecuta
+  ok  [lab1_1] celda 22 se ejecuta
+  ok  [lab1_1] celda 27 difiere por una diferencia de versión documentada
+  ok  [lab1_1] celda 29 se ejecuta
+  ok  [lab1_1] celda 31 salida de texto idéntica a la guardada
+  ok  [lab1_1] celda 34 se ejecuta
+  ok  [lab1_1] celda 36 salida de texto idéntica a la guardada
+  ok  [lab1_1] celda 37 se ejecuta
+  ok  [lab1_1] celda 39 salida de texto idéntica a la guardada
+  ok  [lab1_1] lab1_1.exp.snr {} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab1_1] lab1_1.exp.snr err_lda_train = 0.008499999999999952 (esperado 0.0085; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr err_qda_train = 0.008499999999999952 (esperado 0.0085; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.009499999999999953 (esperado 0.0095; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.010000000000000009 (esperado 0.01; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr md01 = 26.46271472962466 (esperado 26.462714729624665; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr md10 = 26.82570658822264 (esperado 26.825706588222634; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr sigma2 = 0.041765602802272705 (esperado 0.0417656; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de SNR está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de n_samples está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de dist está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de priors está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de roc_set está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr {"SNR":"-10"} se ejecuta (0.4 s, 1 figuras)
+  ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.28900000000000003 (esperado 0.289; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.2925 (esperado 0.2925; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr md01 = 4.162377745490755 (esperado 4.162378; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr md10 = 4.3412405393580755 (esperado 4.341241; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de SNR está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de n_samples está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de dist está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de priors está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de roc_set está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr {"SNR":"-3"} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.11099999999999999 (esperado 0.111; Report resuelto de Lab1 (Q2 y Q4))
+  ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.11099999999999999 (esperado 0.111; Report resuelto de Lab1 (Q2 y Q4))
+  ok  [lab1_1] lab1_1.exp.snr auc_lda = 0.9574239999999999 (esperado 0.957424; Report resuelto de Lab1 (Q2 y Q4))
+  ok  [lab1_1] lab1_1.exp.snr auc_qda = 0.957379 (esperado 0.957379; Report resuelto de Lab1 (Q2 y Q4))
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de SNR está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de n_samples está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de dist está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de priors está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de roc_set está entre las opciones
+  ok  [lab1_1] lab1_1.check.intro tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.read.energy tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.read.attrs tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.read.mahal rúbrica y respuesta modelo
+  ok  [lab1_1] lab1_1.pred.shape_xdata predicción evaluable → [2000,3]
+  ok  [lab1_1] lab1_1.pred.sigma0 predicción evaluable → 0.08333333333333333
+  ok  [lab1_1] lab1_1.pred.cm_sum predicción evaluable → 1000
+  ok  [lab1_1] lab1_1.pred.qda_cov predicción evaluable → 2
+  ok  [lab1_1] lab1_1.fill.generate solución aprueba
+  ok  [lab1_1] lab1_1.fill.generate alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fill.generate errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab1_1] lab1_1.fill.generate el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.fill.fit solución aprueba
+  ok  [lab1_1] lab1_1.fill.fit alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fill.fit errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab1_1] lab1_1.fill.fit errónea 2 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab1_1] lab1_1.fill.fit el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.fix.mahal solución aprueba
+  ok  [lab1_1] lab1_1.fix.mahal alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fix.mahal errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab1_1] lab1_1.fix.mahal el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.fix.snr solución aprueba
+  ok  [lab1_1] lab1_1.fix.snr alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fix.snr el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.fix.priors solución aprueba
+  ok  [lab1_1] lab1_1.fix.priors alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fix.priors errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab1_1] lab1_1.fix.priors el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.mem.dataset solución aprueba
+  ok  [lab1_1] lab1_1.mem.dataset alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.mem.evaluate solución aprueba
+  ok  [lab1_1] lab1_1.adapt.auc solución aprueba
+  ok  [lab1_1] lab1_1.adapt.auc alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.adapt.auc alternativa 2 aprueba
+  ok  [lab1_1] lab1_1.adapt.auc errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab1_1] lab1_1.adapt.three solución aprueba
+  ok  [lab1_1] lab1_1.int.ldaqda tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.trainvstest tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.roc tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.q2 rúbrica y respuesta modelo
+  ok  [lab1_1] lab1_1.int.q5 rúbrica y respuesta modelo
+  ok  [lab1_1] lab1_1.int.misconception tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.bayes respuesta numérica definida
+  ok  [lab1_1] lab1_1.dyn.sigma variante seed=1 → 0.066194
+  ok  [lab1_1] lab1_1.dyn.sigma variante seed=2 → 0.019811
+  ok  [lab1_1] lab1_1.dyn.sigma variante seed=3 → 0.031399
+  ok  [lab1_1] referencia a actividad lab1_1.fill.generate
+  ok  [lab1_1] referencia a actividad lab1_1.fill.fit
+  ok  [lab1_1] referencia a actividad lab1_1.fix.snr
+  ok  [lab1_1] referencia a actividad lab1_1.fix.mahal
+  ok  [lab1_1] referencia a actividad lab1_1.mem.dataset
+  ok  [lab1_1] referencia a actividad lab1_1.mem.evaluate
+  ok  [lab1_1] referencia a actividad lab1_1.adapt.auc
+  ok  [lab1_1] referencia a actividad lab1_1.fix.snr
+  ok  [lab1_1] referencia a actividad lab1_1.mem.evaluate
+  ok  [lab1_1] referencia a actividad lab1_1.adapt.auc
+  ok  [lab1_1] referencia a actividad lab1_1.fix.mahal
+  ok  [lab1_1] referencia a actividad lab1_1.int.q2
+  ok  [lab1_1] referencia a actividad lab1_1.int.q5
+  ok  [lab1_1] mapa de flujo → b_intro
+  ok  [lab1_1] mapa de flujo → b_imports
+  ok  [lab1_1] mapa de flujo → b_snr
+  ok  [lab1_1] mapa de flujo → b_design
+  ok  [lab1_1] mapa de flujo → b_energy
+  ok  [lab1_1] mapa de flujo → b_sigma
+  ok  [lab1_1] mapa de flujo → b_covar
+  ok  [lab1_1] mapa de flujo → b_rng
+  ok  [lab1_1] mapa de flujo → b_generate
+  ok  [lab1_1] mapa de flujo → b_hist
+  ok  [lab1_1] mapa de flujo → b_pairplot
+  ok  [lab1_1] mapa de flujo → b_3d
+  ok  [lab1_1] mapa de flujo → b_shuffle
+  ok  [lab1_1] mapa de flujo → b_sklearn
+  ok  [lab1_1] mapa de flujo → b_theory
+  ok  [lab1_1] mapa de flujo → b_fit
+  ok  [lab1_1] mapa de flujo → b_roc_train
+  ok  [lab1_1] mapa de flujo → b_mahal_train
+  ok  [lab1_1] mapa de flujo → b_test_gen
+  ok  [lab1_1] mapa de flujo → b_test_eval
+  ok  [lab1_1] mapa de flujo → b_roc_test
+  ok  [lab1_1] mapa de flujo → b_mahal_test
+  ok  [lab1_1] lab1_1.read.energy → bloque b_energy
+  ok  [lab1_1] lab1_1.read.attrs → bloque b_fit
+  ok  [lab1_1] lab1_1.read.attrs → bloque b_sklearn
+  ok  [lab1_1] lab1_1.read.mahal → bloque b_mahal_train
+  ok  [lab1_1] lab1_1.pred.shape_xdata → bloque b_generate
+  ok  [lab1_1] lab1_1.pred.sigma0 → bloque b_sigma
+  ok  [lab1_1] lab1_1.pred.cm_sum → bloque b_test_eval
+  ok  [lab1_1] lab1_1.pred.qda_cov → bloque b_fit
+  ok  [lab1_1] lab1_1.fill.generate → bloque b_generate
+  ok  [lab1_1] lab1_1.fill.fit → bloque b_fit
+  ok  [lab1_1] lab1_1.fill.fit → bloque b_test_eval
+  ok  [lab1_1] lab1_1.fix.mahal → bloque b_mahal_train
+  ok  [lab1_1] lab1_1.fix.snr → bloque b_sigma
+  ok  [lab1_1] lab1_1.fix.priors → bloque b_fit
+  ok  [lab1_1] lab1_1.mem.dataset → bloque b_design
+  ok  [lab1_1] lab1_1.mem.dataset → bloque b_energy
+  ok  [lab1_1] lab1_1.mem.dataset → bloque b_sigma
+  ok  [lab1_1] lab1_1.mem.dataset → bloque b_covar
+  ok  [lab1_1] lab1_1.mem.dataset → bloque b_generate
+  ok  [lab1_1] lab1_1.mem.evaluate → bloque b_fit
+  ok  [lab1_1] lab1_1.mem.evaluate → bloque b_test_eval
+  ok  [lab1_1] lab1_1.adapt.auc → bloque b_roc_test
+  ok  [lab1_1] lab1_1.adapt.three → bloque b_design
+  ok  [lab1_1] lab1_1.adapt.three → bloque b_generate
+  ok  [lab1_1] lab1_1.adapt.three → bloque b_fit
+  ok  [lab1_1] lab1_1.int.ldaqda → bloque b_test_eval
+  ok  [lab1_1] lab1_1.int.trainvstest → bloque b_test_eval
+  ok  [lab1_1] lab1_1.int.trainvstest → bloque b_fit
+  ok  [lab1_1] lab1_1.int.roc → bloque b_roc_test
+  ok  [lab1_1] lab1_1.int.q2 → bloque b_test_eval
+  ok  [lab1_1] lab1_1.int.q5 → bloque b_mahal_test
+  ok  [lab1_1] lab1_1.int.misconception → bloque b_test_eval
+  ok  [lab1_1] lab1_1.int.misconception → bloque b_theory
+  ok  [lab1_1] lab1_1.int.bayes → bloque b_sigma
+  ok  [lab1_1] lab1_1.int.bayes → bloque b_test_eval
+  ok  [lab1_1] lab1_1.dyn.sigma → bloque b_sigma

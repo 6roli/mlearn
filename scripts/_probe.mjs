@@ -1,0 +1,12 @@
+import { loadPyodide } from 'pyodide';
+import fs from 'node:fs';
+const t0 = Date.now();
+const py = await loadPyodide();
+await py.loadPackage(['numpy','pandas','scipy','scikit-learn','matplotlib','micropip']);
+const whl = fs.readFileSync('public/wheels/seaborn-0.13.2-py3-none-any.whl');
+py.FS.writeFile('/tmp/seaborn-0.13.2-py3-none-any.whl', whl);
+await py.runPythonAsync(`import micropip; await micropip.install('emfs:/tmp/seaborn-0.13.2-py3-none-any.whl', deps=False)`);
+console.log('loaded in', (Date.now()-t0)/1000, 's');
+const code = fs.readFileSync(process.argv[2], 'utf8');
+py.setStdout({ batched: s => console.log(s) });
+await py.runPythonAsync(code);
