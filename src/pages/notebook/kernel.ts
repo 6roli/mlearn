@@ -18,16 +18,17 @@ export function lastExecuted(nbId: string) {
   return executed.get(nbId) ?? -1;
 }
 
-export function blockCode(nb: NotebookContent, file: NotebookFile, blockIdx: number): string[] {
+export function blockCode(nb: NotebookContent, file: NotebookFile | null, blockIdx: number): string[] {
   const b = nb.blocks[blockIdx];
   if (b.noRun) return [];
   if (b.runCode) return [b.runCode];
+  if (!file) return [];
   return b.cells.map((i) => file.cells[i]).filter((c) => c?.type === 'code').map((c) => c.source);
 }
 
 export async function runUpTo(
   nb: NotebookContent,
-  file: NotebookFile,
+  file: NotebookFile | null,
   blockIdx: number,
   onProgress?: (msg: string) => void,
 ): Promise<RunResult[]> {

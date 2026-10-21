@@ -514,7 +514,7 @@ function CodeView2(props: ActivityProps & { activity: CodeExercise }) {
       <div className="grid-2" style={{ margin: '0.6rem 0' }}>
         <div className="card tight">
           <h4>Disponible</h4>
-          {help === 'ninguna' ? <div className="faint">Oculto en modo sin ayudas.</div> : <Md text={a.available} />}
+          <Md text={a.available} />
           {a.setup && help !== 'ninguna' && (
             <button className="btn ghost sm" onClick={() => setShowSetup(!showSetup)}>
               {showSetup ? 'Ocultar' : 'Ver'} código de preparación

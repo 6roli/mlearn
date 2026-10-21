@@ -24,6 +24,7 @@ export function renderMarkdown(md: string): string {
     .replace(/\$\$([\s\S]+?)\$\$/g, (_m, body) => ph(tex(body, true)))
     .replace(/(^|[^\$])\$([^$\n]+?)\$/g, (_m, pre, body) => pre + ph(tex(body, false)));
   s = s.replace(/<script[\s\S]*?<\/script>/gi, '');
+  s = s.replace(/^(#{1,6})([^#\s])/gm, '$1 $2'); // Colab acepta «##Título» sin espacio
   let html = marked.parse(s) as string;
   html = html.replace(/@@M(\d+)@@/g, (_m, i) => parts[Number(i)]);
   cache.set(md, html);

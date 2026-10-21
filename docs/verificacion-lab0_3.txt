@@ -1,0 +1,127 @@
+Verificación 2026-10-21T14:21:29.822Z
+124 comprobaciones, 0 fallos
+
+  ok  [lab0_3] celda 0 asignada a un bloque
+  ok  [lab0_3] celda 1 asignada a un bloque
+  ok  [lab0_3] celda 2 asignada a un bloque
+  ok  [lab0_3] celda 3 asignada a un bloque
+  ok  [lab0_3] celda 4 asignada a un bloque
+  ok  [lab0_3] celda 5 asignada a un bloque
+  ok  [lab0_3] celda 6 asignada a un bloque
+  ok  [lab0_3] celda 7 asignada a un bloque
+  ok  [lab0_3] celda 8 asignada a un bloque
+  ok  [lab0_3] celda 1 salida de texto idéntica a la guardada
+  ok  [lab0_3] celda 3 salida de texto idéntica a la guardada
+  ok  [lab0_3] celda 5 salida de texto idéntica a la guardada
+  ok  [lab0_3] celda 6 salida de texto idéntica a la guardada
+  ok  [lab0_3] celda 7 salida de texto idéntica a la guardada
+  ok  [lab0_3] celda 8 salida de texto idéntica a la guardada
+  ok  [lab0_3] lab0_3.exp.ic {} se ejecuta (1.2 s, 1 figuras)
+  ok  [lab0_3] lab0_3.exp.ic media = 5.006 (esperado 5.006; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic ic_low = 4.905823539299264 (esperado 4.905823539299264; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic ic_high = 5.106176460700737 (esperado 5.106176460700737; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic ic_low_fun = 4.905823539299264 (esperado 4.905823539299264; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic W = 0.9776985498463123 (esperado 0.977699; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic p = 0.4595131518059563 (esperado 0.459513; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic A2 = 0.407985975495869 (esperado 0.407986; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic critico = 0.74 (esperado 0.74; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de feature está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de especie está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de confianza está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de ddof está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de alfa está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic {"confianza":"0.999","especie":"'Iris-virginica'"} se ejecuta (0.9 s, 1 figuras)
+  ok  [lab0_3] lab0_3.exp.ic ic_low = 6.273215831432414 (esperado 6.273215831432418; Salida guardada de la celda 3 (virginica, 99.9 %))
+  ok  [lab0_3] lab0_3.exp.ic ic_high = 6.902784168567583 (esperado 6.902784168567583; Salida guardada de la celda 3 (virginica, 99.9 %))
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de feature está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de especie está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de confianza está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de ddof está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de alfa está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic {"feature":"'petal_width'"} se ejecuta (0.9 s, 1 figuras)
+  ok  [lab0_3] lab0_3.exp.ic W = 0.8138167559908819 (esperado 0.813817; Salida guardada de la celda 5 (setosa · petal_width))
+  ok  [lab0_3] lab0_3.exp.ic A2 = 4.307007548538962 (esperado 4.307008; Salida guardada de la celda 5 (setosa · petal_width))
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de feature está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de especie está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de confianza está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de ddof está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de alfa está entre las opciones
+  ok  [lab0_3] lab0_3.read.sem tiene al menos una opción correcta
+  ok  [lab0_3] lab0_3.read.ci rúbrica y respuesta modelo
+  ok  [lab0_3] lab0_3.read.adrule tiene al menos una opción correcta
+  ok  [lab0_3] lab0_3.pred.tcrit predicción evaluable → 2.0095752371292392
+  ok  [lab0_3] lab0_3.pred.rows predicción evaluable → 12
+  ok  [lab0_3] lab0_3.pred.crit predicción evaluable → "[15.0, 10.0, 5.0, 2.5, 1.0]"
+  ok  [lab0_3] lab0_3.pred.crit el valor real «[15.0, 10.0, 5.0, 2.5, 1.0]» está entre las opciones
+  ok  [lab0_3] lab0_3.fill.load solución aprueba
+  ok  [lab0_3] lab0_3.fill.load alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.fill.load el código inicial no aprueba por sí solo
+  ok  [lab0_3] lab0_3.fill.interval solución aprueba
+  ok  [lab0_3] lab0_3.fill.interval alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.fill.interval errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_3] lab0_3.fill.interval el código inicial no aprueba por sí solo
+  ok  [lab0_3] lab0_3.fix.manual solución aprueba
+  ok  [lab0_3] lab0_3.fix.manual alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.fix.manual errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_3] lab0_3.fix.manual el código inicial no aprueba por sí solo
+  ok  [lab0_3] lab0_3.fix.ad solución aprueba
+  ok  [lab0_3] lab0_3.fix.ad alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.fix.ad el código inicial no aprueba por sí solo
+  ok  [lab0_3] lab0_3.mem.ci solución aprueba
+  ok  [lab0_3] lab0_3.mem.ci alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.mem.ci errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_3] lab0_3.mem.sw solución aprueba
+  ok  [lab0_3] lab0_3.mem.sw alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.mem.sw errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_3] lab0_3.adapt.wine solución aprueba
+  ok  [lab0_3] lab0_3.adapt.wine alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.adapt.wine errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_3] lab0_3.int.notreject tiene al menos una opción correcta
+  ok  [lab0_3] lab0_3.int.disagree tiene al menos una opción correcta
+  ok  [lab0_3] lab0_3.int.multiple respuesta numérica definida
+  ok  [lab0_3] lab0_3.int.q7 rúbrica y respuesta modelo
+  ok  [lab0_3] lab0_3.dyn.ci variante seed=1 → 2.88893
+  ok  [lab0_3] lab0_3.dyn.ci variante seed=2 → 0.218581
+  ok  [lab0_3] lab0_3.dyn.ci variante seed=3 → 0.218581
+  ok  [lab0_3] referencia a actividad lab0_3.fill.load
+  ok  [lab0_3] referencia a actividad lab0_3.fill.interval
+  ok  [lab0_3] referencia a actividad lab0_3.fix.manual
+  ok  [lab0_3] referencia a actividad lab0_3.fix.ad
+  ok  [lab0_3] referencia a actividad lab0_3.mem.ci
+  ok  [lab0_3] referencia a actividad lab0_3.mem.sw
+  ok  [lab0_3] referencia a actividad lab0_3.adapt.wine
+  ok  [lab0_3] referencia a actividad lab0_3.fill.load
+  ok  [lab0_3] referencia a actividad lab0_3.mem.ci
+  ok  [lab0_3] referencia a actividad lab0_3.read.ci
+  ok  [lab0_3] referencia a actividad lab0_3.mem.sw
+  ok  [lab0_3] referencia a actividad lab0_3.fix.ad
+  ok  [lab0_3] referencia a actividad lab0_3.int.notreject
+  ok  [lab0_3] referencia a actividad lab0_3.int.q7
+  ok  [lab0_3] mapa de flujo → b_intro
+  ok  [lab0_3] mapa de flujo → b_load
+  ok  [lab0_3] mapa de flujo → b_q6
+  ok  [lab0_3] mapa de flujo → b_q7
+  ok  [lab0_3] mapa de flujo → b_q6_table
+  ok  [lab0_3] mapa de flujo → b_q7_tables
+  ok  [lab0_3] lab0_3.read.sem → bloque b_q6
+  ok  [lab0_3] lab0_3.read.ci → bloque b_q6
+  ok  [lab0_3] lab0_3.read.adrule → bloque b_q7
+  ok  [lab0_3] lab0_3.pred.tcrit → bloque b_q6
+  ok  [lab0_3] lab0_3.pred.rows → bloque b_q7
+  ok  [lab0_3] lab0_3.pred.crit → bloque b_q7
+  ok  [lab0_3] lab0_3.fill.load → bloque b_load
+  ok  [lab0_3] lab0_3.fill.interval → bloque b_q6
+  ok  [lab0_3] lab0_3.fix.manual → bloque b_q6
+  ok  [lab0_3] lab0_3.fix.ad → bloque b_q7
+  ok  [lab0_3] lab0_3.fix.ad → bloque b_q7_tables
+  ok  [lab0_3] lab0_3.mem.ci → bloque b_q6
+  ok  [lab0_3] lab0_3.mem.ci → bloque b_q6_table
+  ok  [lab0_3] lab0_3.mem.sw → bloque b_q7
+  ok  [lab0_3] lab0_3.adapt.wine → bloque b_q6
+  ok  [lab0_3] lab0_3.int.notreject → bloque b_q7
+  ok  [lab0_3] lab0_3.int.disagree → bloque b_q7
+  ok  [lab0_3] lab0_3.int.disagree → bloque b_q7_tables
+  ok  [lab0_3] lab0_3.int.multiple → bloque b_q7
+  ok  [lab0_3] lab0_3.int.q7 → bloque b_q7
+  ok  [lab0_3] lab0_3.int.q7 → bloque b_q7_tables
+  ok  [lab0_3] lab0_3.dyn.ci → bloque b_q6

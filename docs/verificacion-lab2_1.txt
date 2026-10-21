@@ -1,0 +1,166 @@
+Verificación 2026-10-21T14:25:00.192Z
+163 comprobaciones, 0 fallos
+
+  ok  [lab2_1] celda 0 asignada a un bloque
+  ok  [lab2_1] celda 1 asignada a un bloque
+  ok  [lab2_1] celda 2 asignada a un bloque
+  ok  [lab2_1] celda 3 asignada a un bloque
+  ok  [lab2_1] celda 4 asignada a un bloque
+  ok  [lab2_1] celda 5 asignada a un bloque
+  ok  [lab2_1] celda 6 asignada a un bloque
+  ok  [lab2_1] celda 7 asignada a un bloque
+  ok  [lab2_1] celda 8 asignada a un bloque
+  ok  [lab2_1] celda 9 asignada a un bloque
+  ok  [lab2_1] celda 10 asignada a un bloque
+  ok  [lab2_1] celda 11 asignada a un bloque
+  ok  [lab2_1] celda 12 asignada a un bloque
+  ok  [lab2_1] celda 13 asignada a un bloque
+  ok  [lab2_1] celda 14 asignada a un bloque
+  ok  [lab2_1] celda 15 asignada a un bloque
+  ok  [lab2_1] celda 16 asignada a un bloque
+  ok  [lab2_1] celda 17 asignada a un bloque
+  ok  [lab2_1] celda 18 asignada a un bloque
+  ok  [lab2_1] celda 19 asignada a un bloque
+  ok  [lab2_1] celda 20 asignada a un bloque
+  ok  [lab2_1] celda 21 asignada a un bloque
+  ok  [lab2_1] celda 22 asignada a un bloque
+  ok  [lab2_1] celda 23 asignada a un bloque
+  ok  [lab2_1] celda 24 asignada a un bloque
+  ok  [lab2_1] celda 25 asignada a un bloque
+  ok  [lab2_1] celda 26 asignada a un bloque
+  ok  [lab2_1] celda 27 asignada a un bloque
+  ok  [lab2_1] celda 28 asignada a un bloque
+  ok  [lab2_1] celda 29 asignada a un bloque
+  ok  [lab2_1] celda 30 asignada a un bloque
+  ok  [lab2_1] celda 31 asignada a un bloque
+  ok  [lab2_1] celda 32 asignada a un bloque
+  ok  [lab2_1] celda 33 asignada a un bloque
+  ok  [lab2_1] celda 34 asignada a un bloque
+  ok  [lab2_1] celda 35 asignada a un bloque
+  ok  [lab2_1] celda 36 asignada a un bloque
+  ok  [lab2_1] celda 4 se ejecuta
+  ok  [lab2_1] celda 6 se ejecuta
+  ok  [lab2_1] celda 8 se ejecuta
+  ok  [lab2_1] celda 10 se ejecuta
+  ok  [lab2_1] celda 11 se ejecuta
+  ok  [lab2_1] celda 12 se ejecuta
+  ok  [lab2_1] celda 15 se ejecuta
+  ok  [lab2_1] celda 18 se ejecuta
+  ok  [lab2_1] celda 20 se ejecuta
+  ok  [lab2_1] celda 23 se ejecuta
+  ok  [lab2_1] celda 25 se ejecuta
+  ok  [lab2_1] celda 27 se ejecuta
+  ok  [lab2_1] bloque b_digits_scatter (código adaptado) se ejecuta
+  ok  [lab2_1] celda 32 se ejecuta
+  ok  [lab2_1] celda 35 se ejecuta
+  ok  [lab2_1] bloque b_tsne_plot (código adaptado) se ejecuta
+  ok  [lab2_1] lab2_1.exp.pca {} se ejecuta (2.2 s, 3 figuras)
+  ok  [lab2_1] lab2_1.exp.pca ev1 = 0.7625315008826108 (esperado 0.7625315008826108; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca ev2 = 0.018477895513562506 (esperado 0.018477895513562492; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca evr1 = 0.9763410074208769 (esperado 0.9763410074208769; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca mse_toy = 0.018385506035994762 (esperado 0.01838550603599476; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca var_digits_k = 0.2850936482369929 (esperado 0.28509364823699296; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca n_umbral = 21 (esperado 21; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_toy está entre las opciones
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_digits está entre las opciones
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de umbral está entre las opciones
+  ok  [lab2_1] lab2_1.exp.pca {"umbral":"0.95"} se ejecuta (1.6 s, 3 figuras)
+  ok  [lab2_1] lab2_1.exp.pca n_umbral = 29 (esperado 29; Ejecución local con tus versiones)
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_toy está entre las opciones
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_digits está entre las opciones
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de umbral está entre las opciones
+  ok  [lab2_1] lab2_1.check.intro tiene al menos una opción correcta
+  ok  [lab2_1] lab2_1.read.components tiene al menos una opción correcta
+  ok  [lab2_1] lab2_1.read.vectors tiene al menos una opción correcta
+  ok  [lab2_1] lab2_1.read.tsne rúbrica y respuesta modelo
+  ok  [lab2_1] lab2_1.pred.xpca predicción evaluable → [200,1]
+  ok  [lab2_1] lab2_1.pred.comp_digits predicción evaluable → [2,64]
+  ok  [lab2_1] lab2_1.pred.ratio_sum predicción evaluable → 1
+  ok  [lab2_1] lab2_1.pred.n90 predicción evaluable → 21
+  ok  [lab2_1] lab2_1.fill.inverse solución aprueba
+  ok  [lab2_1] lab2_1.fill.inverse alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.fill.inverse errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_1] lab2_1.fill.inverse el código inicial no aprueba por sí solo
+  ok  [lab2_1] lab2_1.fill.cumsum solución aprueba
+  ok  [lab2_1] lab2_1.fill.cumsum alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.fill.cumsum alternativa 2 aprueba
+  ok  [lab2_1] lab2_1.fill.cumsum errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_1] lab2_1.fill.cumsum el código inicial no aprueba por sí solo
+  ok  [lab2_1] lab2_1.fix.cmap solución aprueba
+  ok  [lab2_1] lab2_1.fix.cmap alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.fix.cmap errónea 1 suspende como «api» (obtenido: api)
+  ok  [lab2_1] lab2_1.fix.cmap el código inicial no aprueba por sí solo
+  ok  [lab2_1] lab2_1.fix.center solución aprueba
+  ok  [lab2_1] lab2_1.fix.center alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.fix.center errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_1] lab2_1.fix.center el código inicial no aprueba por sí solo
+  ok  [lab2_1] lab2_1.mem.ncomp solución aprueba
+  ok  [lab2_1] lab2_1.mem.ncomp alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.mem.ncomp alternativa 2 aprueba
+  ok  [lab2_1] lab2_1.mem.ncomp errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_1] lab2_1.mem.eig solución aprueba
+  ok  [lab2_1] lab2_1.mem.eig alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.mem.eig alternativa 2 aprueba
+  ok  [lab2_1] lab2_1.mem.eig errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_1] lab2_1.adapt.wine solución aprueba
+  ok  [lab2_1] lab2_1.int.misconception tiene al menos una opción correcta
+  ok  [lab2_1] lab2_1.int.curve rúbrica y respuesta modelo
+  ok  [lab2_1] lab2_1.int.mse respuesta numérica definida
+  ok  [lab2_1] lab2_1.dyn.cum variante seed=1 → 17
+  ok  [lab2_1] lab2_1.dyn.cum variante seed=2 → 29
+  ok  [lab2_1] lab2_1.dyn.cum variante seed=3 → 29
+  ok  [lab2_1] lab2_1.int.tsne_new tiene al menos una opción correcta
+  ok  [lab2_1] referencia a actividad lab2_1.fill.inverse
+  ok  [lab2_1] referencia a actividad lab2_1.fill.cumsum
+  ok  [lab2_1] referencia a actividad lab2_1.fix.cmap
+  ok  [lab2_1] referencia a actividad lab2_1.fix.center
+  ok  [lab2_1] referencia a actividad lab2_1.mem.ncomp
+  ok  [lab2_1] referencia a actividad lab2_1.mem.eig
+  ok  [lab2_1] referencia a actividad lab2_1.adapt.wine
+  ok  [lab2_1] referencia a actividad lab2_1.read.components
+  ok  [lab2_1] referencia a actividad lab2_1.fix.center
+  ok  [lab2_1] referencia a actividad lab2_1.fill.inverse
+  ok  [lab2_1] referencia a actividad lab2_1.int.mse
+  ok  [lab2_1] referencia a actividad lab2_1.mem.ncomp
+  ok  [lab2_1] referencia a actividad lab2_1.int.misconception
+  ok  [lab2_1] mapa de flujo → b_intro
+  ok  [lab2_1] mapa de flujo → b_imports
+  ok  [lab2_1] mapa de flujo → b_toy
+  ok  [lab2_1] mapa de flujo → b_digits_load
+  ok  [lab2_1] mapa de flujo → b_digits_show
+  ok  [lab2_1] mapa de flujo → b_fit
+  ok  [lab2_1] mapa de flujo → b_reduce
+  ok  [lab2_1] mapa de flujo → b_digits_pca
+  ok  [lab2_1] mapa de flujo → b_tsne
+  ok  [lab2_1] mapa de flujo → b_attrs
+  ok  [lab2_1] mapa de flujo → b_vectors
+  ok  [lab2_1] mapa de flujo → b_inverse
+  ok  [lab2_1] mapa de flujo → b_digits_scatter
+  ok  [lab2_1] mapa de flujo → b_tsne_plot
+  ok  [lab2_1] mapa de flujo → b_meaning
+  ok  [lab2_1] mapa de flujo → b_ncomp
+  ok  [lab2_1] lab2_1.read.components → bloque b_attrs
+  ok  [lab2_1] lab2_1.read.vectors → bloque b_vectors
+  ok  [lab2_1] lab2_1.read.tsne → bloque b_tsne
+  ok  [lab2_1] lab2_1.read.tsne → bloque b_tsne_plot
+  ok  [lab2_1] lab2_1.pred.xpca → bloque b_reduce
+  ok  [lab2_1] lab2_1.pred.comp_digits → bloque b_digits_pca
+  ok  [lab2_1] lab2_1.pred.ratio_sum → bloque b_attrs
+  ok  [lab2_1] lab2_1.pred.n90 → bloque b_ncomp
+  ok  [lab2_1] lab2_1.fill.inverse → bloque b_reduce
+  ok  [lab2_1] lab2_1.fill.inverse → bloque b_inverse
+  ok  [lab2_1] lab2_1.fill.cumsum → bloque b_ncomp
+  ok  [lab2_1] lab2_1.fix.cmap → bloque b_digits_scatter
+  ok  [lab2_1] lab2_1.fix.center → bloque b_reduce
+  ok  [lab2_1] lab2_1.fix.center → bloque b_fit
+  ok  [lab2_1] lab2_1.mem.ncomp → bloque b_ncomp
+  ok  [lab2_1] lab2_1.mem.eig → bloque b_attrs
+  ok  [lab2_1] lab2_1.mem.eig → bloque b_fit
+  ok  [lab2_1] lab2_1.adapt.wine → bloque b_digits_pca
+  ok  [lab2_1] lab2_1.adapt.wine → bloque b_ncomp
+  ok  [lab2_1] lab2_1.int.misconception → bloque b_digits_scatter
+  ok  [lab2_1] lab2_1.int.misconception → bloque b_ncomp
+  ok  [lab2_1] lab2_1.int.curve → bloque b_ncomp
+  ok  [lab2_1] lab2_1.int.mse → bloque b_inverse
+  ok  [lab2_1] lab2_1.dyn.cum → bloque b_ncomp
+  ok  [lab2_1] lab2_1.int.tsne_new → bloque b_tsne

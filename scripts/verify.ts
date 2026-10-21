@@ -123,11 +123,12 @@ function sameOutput(a: string, b: string) {
 
 async function verifyCells(nb: NotebookContent) {
   const file = path.resolve(import.meta.dirname, `../public/materials/notebooks/${nb.id}.json`);
-  if (!fs.existsSync(file)) {
-    log(!!nb.proposed, `[${nb.id}] materiales importados${nb.proposed ? ' (notebook propuesto: no existe en los materiales)' : ''}`);
+  const exists = fs.existsSync(file);
+  if (!exists && !nb.proposed) {
+    log(false, `[${nb.id}] materiales importados`);
     return;
   }
-  const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+  const data = exists ? JSON.parse(fs.readFileSync(file, 'utf8')) : { cells: [] };
   const covered = new Set(nb.blocks.flatMap((b) => b.cells));
   for (const c of data.cells) log(covered.has(c.index), `[${nb.id}] celda ${c.index} asignada a un bloque`);
   const kernel = `verify-${nb.id}`;

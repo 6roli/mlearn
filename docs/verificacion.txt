@@ -1,0 +1,1523 @@
+Verificación 2026-10-21T14:34:58.624Z
+1520 comprobaciones, 0 fallos
+
+  ok  [lab0_1] celda 0 asignada a un bloque
+  ok  [lab0_1] celda 1 asignada a un bloque
+  ok  [lab0_1] celda 2 asignada a un bloque
+  ok  [lab0_1] celda 3 asignada a un bloque
+  ok  [lab0_1] celda 4 asignada a un bloque
+  ok  [lab0_1] celda 5 asignada a un bloque
+  ok  [lab0_1] celda 6 asignada a un bloque
+  ok  [lab0_1] celda 7 asignada a un bloque
+  ok  [lab0_1] celda 8 asignada a un bloque
+  ok  [lab0_1] celda 9 asignada a un bloque
+  ok  [lab0_1] celda 10 asignada a un bloque
+  ok  [lab0_1] celda 11 asignada a un bloque
+  ok  [lab0_1] celda 12 asignada a un bloque
+  ok  [lab0_1] celda 13 asignada a un bloque
+  ok  [lab0_1] celda 14 asignada a un bloque
+  ok  [lab0_1] celda 15 asignada a un bloque
+  ok  [lab0_1] celda 16 asignada a un bloque
+  ok  [lab0_1] celda 17 asignada a un bloque
+  ok  [lab0_1] celda 18 asignada a un bloque
+  ok  [lab0_1] celda 19 asignada a un bloque
+  ok  [lab0_1] celda 20 asignada a un bloque
+  ok  [lab0_1] celda 21 asignada a un bloque
+  ok  [lab0_1] celda 22 asignada a un bloque
+  ok  [lab0_1] celda 23 asignada a un bloque
+  ok  [lab0_1] celda 24 asignada a un bloque
+  ok  [lab0_1] celda 25 asignada a un bloque
+  ok  [lab0_1] celda 26 asignada a un bloque
+  ok  [lab0_1] celda 5 se ejecuta
+  ok  [lab0_1] celda 7 se ejecuta
+  ok  [lab0_1] celda 9 se ejecuta
+  ok  [lab0_1] celda 11 se ejecuta
+  ok  [lab0_1] celda 13 se ejecuta
+  ok  [lab0_1] celda 15 se ejecuta
+  ok  [lab0_1] celda 17 se ejecuta
+  ok  [lab0_1] celda 19 se ejecuta
+  ok  [lab0_1] celda 21 se ejecuta
+  ok  [lab0_1] celda 23 se ejecuta
+  ok  [lab0_1] celda 25 se ejecuta
+  ok  [lab0_1] celda 26 se ejecuta
+  ok  [lab0_1] lab0_1.exp.dist {} se ejecuta (1.7 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist kurt = 0.01950599007746323 (esperado 0.01950599007746323; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
+  ok  [lab0_1] lab0_1.exp.dist skew = 0.014189860673160708 (esperado 0.014189860673160708; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
+  ok  [lab0_1] lab0_1.exp.dist media = 2.977047139785621 (esperado 2.977047139785621; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
+  ok  [lab0_1] lab0_1.exp.dist std = 4.982665940924694 (esperado 4.982665940924694; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
+  ok  [lab0_1] lab0_1.exp.dist max_dif_cdf = 0.0016634386118963285 (esperado 0.0016634386118963285; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de n está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nmu está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_uniform"} se ejecuta (1.7 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist kurt = -1.197480999277135 (esperado -1.197480999277135; Celda 21 (uniforme))
+  ok  [lab0_1] lab0_1.exp.dist skew = 0.00527575785004402 (esperado 0.00527575785004402; Celda 21 (uniforme))
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de n está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nmu está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_laplace"} se ejecuta (1.6 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist kurt = 2.832184327661956 (esperado 2.832184327661956; Celdas 21 y 26 (Laplace))
+  ok  [lab0_1] lab0_1.exp.dist skew = 0.030603984277548974 (esperado 0.03060398427754898; Celdas 21 y 26 (Laplace))
+  ok  [lab0_1] lab0_1.exp.dist max_dif_cdf = 0.06191111304323438 (esperado 0.06191111304323438; Celdas 21 y 26 (Laplace))
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de n está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nmu está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_rayleigh"} se ejecuta (1.8 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist kurt = 0.2370316573665998 (esperado 0.2370316573665998; Celda 21 (Rayleigh))
+  ok  [lab0_1] lab0_1.exp.dist skew = 0.6238096598566125 (esperado 0.6238096598566125; Celda 21 (Rayleigh))
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de n está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nmu está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
+  ok  [lab0_1] lab0_1.check.intro tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.read.vstack tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.read.density tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.read.cdf rúbrica y respuesta modelo
+  ok  [lab0_1] lab0_1.pred.alldata predicción evaluable → [4,100000]
+  ok  [lab0_1] lab0_1.pred.axis0 predicción evaluable → [100000]
+  ok  [lab0_1] lab0_1.pred.kurt_uniform predicción evaluable → -1.197480999277135
+  ok  [lab0_1] lab0_1.fill.moments solución aprueba
+  ok  [lab0_1] lab0_1.fill.moments alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.fill.moments errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab0_1] lab0_1.fill.moments el código inicial no aprueba por sí solo
+  ok  [lab0_1] lab0_1.fill.cdf solución aprueba
+  ok  [lab0_1] lab0_1.fill.cdf alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.fill.cdf errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_1] lab0_1.fill.cdf el código inicial no aprueba por sí solo
+  ok  [lab0_1] lab0_1.fix.pearson solución aprueba
+  ok  [lab0_1] lab0_1.fix.pearson alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.fix.pearson errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_1] lab0_1.fix.pearson el código inicial no aprueba por sí solo
+  ok  [lab0_1] lab0_1.fix.axis solución aprueba
+  ok  [lab0_1] lab0_1.fix.axis el código inicial no aprueba por sí solo
+  ok  [lab0_1] lab0_1.mem.samples solución aprueba
+  ok  [lab0_1] lab0_1.mem.samples alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.mem.ks solución aprueba
+  ok  [lab0_1] lab0_1.mem.ks alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.adapt.expo solución aprueba
+  ok  [lab0_1] lab0_1.adapt.wine solución aprueba
+  ok  [lab0_1] lab0_1.adapt.wine alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.adapt.wine errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_1] lab0_1.int.qq tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.int.bars tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.int.misconception tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.int.kde tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.int.q1 rúbrica y respuesta modelo
+  ok  [lab0_1] lab0_1.int.sem respuesta numérica definida
+  ok  [lab0_1] lab0_1.dyn.which variante seed=1 → Uniforme
+  ok  [lab0_1] lab0_1.dyn.which variante seed=1: la respuesta está entre las opciones
+  ok  [lab0_1] lab0_1.dyn.which variante seed=2 → Rayleigh
+  ok  [lab0_1] lab0_1.dyn.which variante seed=2: la respuesta está entre las opciones
+  ok  [lab0_1] lab0_1.dyn.which variante seed=3 → Rayleigh
+  ok  [lab0_1] lab0_1.dyn.which variante seed=3: la respuesta está entre las opciones
+  ok  [lab0_1] referencia a actividad lab0_1.fill.moments
+  ok  [lab0_1] referencia a actividad lab0_1.fill.cdf
+  ok  [lab0_1] referencia a actividad lab0_1.fix.axis
+  ok  [lab0_1] referencia a actividad lab0_1.fix.pearson
+  ok  [lab0_1] referencia a actividad lab0_1.mem.samples
+  ok  [lab0_1] referencia a actividad lab0_1.mem.ks
+  ok  [lab0_1] referencia a actividad lab0_1.adapt.expo
+  ok  [lab0_1] referencia a actividad lab0_1.mem.samples
+  ok  [lab0_1] referencia a actividad lab0_1.int.bars
+  ok  [lab0_1] referencia a actividad lab0_1.int.qq
+  ok  [lab0_1] referencia a actividad lab0_1.int.misconception
+  ok  [lab0_1] referencia a actividad lab0_1.int.q1
+  ok  [lab0_1] referencia a actividad lab0_1.adapt.expo
+  ok  [lab0_1] mapa de flujo → b_intro
+  ok  [lab0_1] mapa de flujo → b_imports
+  ok  [lab0_1] mapa de flujo → b_rng
+  ok  [lab0_1] mapa de flujo → b_normal
+  ok  [lab0_1] mapa de flujo → b_uniform
+  ok  [lab0_1] mapa de flujo → b_laplace
+  ok  [lab0_1] mapa de flujo → b_rayleigh
+  ok  [lab0_1] mapa de flujo → b_histplot
+  ok  [lab0_1] mapa de flujo → b_cdf
+  ok  [lab0_1] mapa de flujo → b_moments
+  ok  [lab0_1] mapa de flujo → b_qq
+  ok  [lab0_1] mapa de flujo → b_extra_moments
+  ok  [lab0_1] mapa de flujo → b_extra_ecdf
+  ok  [lab0_1] lab0_1.read.vstack → bloque b_moments
+  ok  [lab0_1] lab0_1.read.density → bloque b_normal
+  ok  [lab0_1] lab0_1.read.density → bloque b_cdf
+  ok  [lab0_1] lab0_1.read.cdf → bloque b_cdf
+  ok  [lab0_1] lab0_1.pred.alldata → bloque b_moments
+  ok  [lab0_1] lab0_1.pred.axis0 → bloque b_moments
+  ok  [lab0_1] lab0_1.pred.kurt_uniform → bloque b_moments
+  ok  [lab0_1] lab0_1.pred.kurt_uniform → bloque b_uniform
+  ok  [lab0_1] lab0_1.fill.moments → bloque b_moments
+  ok  [lab0_1] lab0_1.fill.cdf → bloque b_cdf
+  ok  [lab0_1] lab0_1.fix.pearson → bloque b_moments
+  ok  [lab0_1] lab0_1.fix.axis → bloque b_moments
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_rng
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_normal
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_uniform
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_laplace
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_rayleigh
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_moments
+  ok  [lab0_1] lab0_1.mem.ks → bloque b_extra_ecdf
+  ok  [lab0_1] lab0_1.mem.ks → bloque b_cdf
+  ok  [lab0_1] lab0_1.adapt.expo → bloque b_moments
+  ok  [lab0_1] lab0_1.adapt.expo → bloque b_qq
+  ok  [lab0_1] lab0_1.adapt.wine → bloque b_moments
+  ok  [lab0_1] lab0_1.int.qq → bloque b_qq
+  ok  [lab0_1] lab0_1.int.bars → bloque b_moments
+  ok  [lab0_1] lab0_1.int.misconception → bloque b_moments
+  ok  [lab0_1] lab0_1.int.misconception → bloque b_uniform
+  ok  [lab0_1] lab0_1.int.kde → bloque b_histplot
+  ok  [lab0_1] lab0_1.int.q1 → bloque b_histplot
+  ok  [lab0_1] lab0_1.int.q1 → bloque b_cdf
+  ok  [lab0_1] lab0_1.int.q1 → bloque b_moments
+  ok  [lab0_1] lab0_1.int.q1 → bloque b_qq
+  ok  [lab0_1] lab0_1.int.sem → bloque b_rng
+  ok  [lab0_1] lab0_1.dyn.which → bloque b_moments
+  ok  [lab0_2] celda 0 asignada a un bloque
+  ok  [lab0_2] celda 1 asignada a un bloque
+  ok  [lab0_2] celda 2 asignada a un bloque
+  ok  [lab0_2] celda 3 asignada a un bloque
+  ok  [lab0_2] celda 4 asignada a un bloque
+  ok  [lab0_2] celda 5 asignada a un bloque
+  ok  [lab0_2] celda 6 asignada a un bloque
+  ok  [lab0_2] celda 7 asignada a un bloque
+  ok  [lab0_2] celda 8 asignada a un bloque
+  ok  [lab0_2] celda 9 asignada a un bloque
+  ok  [lab0_2] celda 10 asignada a un bloque
+  ok  [lab0_2] celda 11 asignada a un bloque
+  ok  [lab0_2] celda 12 asignada a un bloque
+  ok  [lab0_2] celda 13 asignada a un bloque
+  ok  [lab0_2] celda 14 asignada a un bloque
+  ok  [lab0_2] celda 15 asignada a un bloque
+  ok  [lab0_2] celda 16 asignada a un bloque
+  ok  [lab0_2] celda 17 asignada a un bloque
+  ok  [lab0_2] celda 18 asignada a un bloque
+  ok  [lab0_2] celda 19 asignada a un bloque
+  ok  [lab0_2] celda 20 asignada a un bloque
+  ok  [lab0_2] celda 21 asignada a un bloque
+  ok  [lab0_2] celda 22 asignada a un bloque
+  ok  [lab0_2] celda 23 asignada a un bloque
+  ok  [lab0_2] celda 24 asignada a un bloque
+  ok  [lab0_2] celda 25 asignada a un bloque
+  ok  [lab0_2] celda 26 asignada a un bloque
+  ok  [lab0_2] celda 27 asignada a un bloque
+  ok  [lab0_2] celda 28 asignada a un bloque
+  ok  [lab0_2] celda 29 asignada a un bloque
+  ok  [lab0_2] celda 30 asignada a un bloque
+  ok  [lab0_2] celda 31 asignada a un bloque
+  ok  [lab0_2] celda 32 asignada a un bloque
+  ok  [lab0_2] celda 33 asignada a un bloque
+  ok  [lab0_2] celda 34 asignada a un bloque
+  ok  [lab0_2] celda 35 asignada a un bloque
+  ok  [lab0_2] celda 36 asignada a un bloque
+  ok  [lab0_2] celda 37 asignada a un bloque
+  ok  [lab0_2] celda 38 asignada a un bloque
+  ok  [lab0_2] celda 39 asignada a un bloque
+  ok  [lab0_2] celda 40 asignada a un bloque
+  ok  [lab0_2] celda 41 asignada a un bloque
+  ok  [lab0_2] celda 42 asignada a un bloque
+  ok  [lab0_2] celda 43 asignada a un bloque
+  ok  [lab0_2] celda 44 asignada a un bloque
+  ok  [lab0_2] celda 45 asignada a un bloque
+  ok  [lab0_2] celda 46 asignada a un bloque
+  ok  [lab0_2] celda 47 asignada a un bloque
+  ok  [lab0_2] celda 48 asignada a un bloque
+  ok  [lab0_2] celda 49 asignada a un bloque
+  ok  [lab0_2] celda 50 asignada a un bloque
+  ok  [lab0_2] celda 51 asignada a un bloque
+  ok  [lab0_2] celda 52 asignada a un bloque
+  ok  [lab0_2] celda 4 se ejecuta
+  ok  [lab0_2] bloque b_load (código adaptado) se ejecuta
+  ok  [lab0_2] celda 9 se ejecuta
+  ok  [lab0_2] celda 12 se ejecuta
+  ok  [lab0_2] celda 14 se ejecuta
+  ok  [lab0_2] celda 15 difiere por una diferencia de versión documentada
+  ok  [lab0_2] celda 17 se ejecuta
+  ok  [lab0_2] celda 20 salida de texto idéntica a la guardada
+  ok  [lab0_2] celda 22 se ejecuta
+  ok  [lab0_2] celda 25 se ejecuta
+  ok  [lab0_2] celda 27 se ejecuta
+  ok  [lab0_2] celda 29 se ejecuta
+  ok  [lab0_2] celda 31 se ejecuta
+  ok  [lab0_2] celda 32 se ejecuta
+  ok  [lab0_2] celda 34 se ejecuta
+  ok  [lab0_2] celda 36 se ejecuta
+  ok  [lab0_2] celda 38 se ejecuta
+  ok  [lab0_2] celda 40 se ejecuta
+  ok  [lab0_2] celda 42 se ejecuta
+  ok  [lab0_2] celda 44 se ejecuta
+  ok  [lab0_2] celda 46 se ejecuta
+  ok  [lab0_2] celda 48 se ejecuta
+  ok  [lab0_2] celda 50 se ejecuta
+  ok  [lab0_2] celda 52 se ejecuta
+  ok  [lab0_2] lab0_2.exp.dist {} se ejecuta (1.3 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist kurt_setosa = -0.2526887962236595 (esperado -0.2526887962236595; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist kurt_versicolor = -0.5330095410360967 (esperado -0.5330095410360967; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist kurt_virginica = 0.03290441633529895 (esperado 0.0329044163352985; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist skew_setosa = 0.12008698599540613 (esperado 0.12008698599540614; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist skew_versicolor = 0.10537761729396021 (esperado 0.10537761729396174; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist skew_virginica = 0.11801511964927229 (esperado 0.1180151196492624; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist mean_setosa = 5.006 (esperado 5.006; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist sw_p = 0.4595131518059563 (esperado 0.459513; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de feature está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de clase está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bias está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bins está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de multiple está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de plot está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist {"feature":"\"petal_width\""} se ejecuta (0.9 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist kurt_setosa = 1.5664416078903205 (esperado 1.5664416078903205; Celdas 31 y 32 (petal_width))
+  ok  [lab0_2] lab0_2.exp.dist skew_setosa = 1.1972429698312046 (esperado 1.1972429698312044; Celdas 31 y 32 (petal_width))
+  ok  [lab0_2] lab0_2.exp.dist kurt_virginica = -0.6022644795578462 (esperado -0.6022644795578467; Celdas 31 y 32 (petal_width))
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de feature está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de clase está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bias está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bins está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de multiple está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de plot está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist {"bias":"True"} se ejecuta (0.7 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist kurt_setosa = -0.34576467558246327 (esperado -0.34576467558246327; Recalculado con tu entorno local (scipy, bias=True))
+  ok  [lab0_2] lab0_2.exp.dist skew_setosa = 0.11645392749203057 (esperado 0.11645392749203057; Recalculado con tu entorno local (scipy, bias=True))
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de feature está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de clase está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bias está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bins está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de multiple está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de plot está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel {} se ejecuta (0.4 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.rel corr_total = -0.10936924995064935 (esperado -0.1094; Correlación recalculada con tu entorno local)
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fx está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fy está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de hue está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel {"fx":"\"petal_length\"","fy":"\"petal_width\""} se ejecuta (0.4 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.rel corr_total = 0.9627570970509663 (esperado 0.9628; Correlación recalculada con tu entorno local)
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fx está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fy está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de hue está entre las opciones
+  ok  [lab0_2] lab0_2.read.filter tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.read.describe tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.read.iax rúbrica y respuesta modelo
+  ok  [lab0_2] lab0_2.pred.shape predicción evaluable → [150,5]
+  ok  [lab0_2] lab0_2.pred.groupby predicción evaluable → [3,4]
+  ok  [lab0_2] lab0_2.pred.bias predicción evaluable → -0.34576467558246327
+  ok  [lab0_2] lab0_2.pred.mean predicción evaluable → 4.35
+  ok  [lab0_2] lab0_2.fill.moments solución aprueba
+  ok  [lab0_2] lab0_2.fill.moments alternativa 1 aprueba
+  ok  [lab0_2] lab0_2.fill.moments errónea 1 suspende como «api» (obtenido: api)
+  ok  [lab0_2] lab0_2.fill.moments el código inicial no aprueba por sí solo
+  ok  [lab0_2] lab0_2.fill.grid solución aprueba
+  ok  [lab0_2] lab0_2.fill.grid errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_2] lab0_2.fill.grid el código inicial no aprueba por sí solo
+  ok  [lab0_2] lab0_2.fix.keyerror solución aprueba
+  ok  [lab0_2] lab0_2.fix.keyerror alternativa 1 aprueba
+  ok  [lab0_2] lab0_2.fix.keyerror el código inicial no aprueba por sí solo
+  ok  [lab0_2] lab0_2.fix.iqr solución aprueba
+  ok  [lab0_2] lab0_2.fix.iqr alternativa 1 aprueba
+  ok  [lab0_2] lab0_2.fix.iqr el código inicial no aprueba por sí solo
+  ok  [lab0_2] lab0_2.mem.boxplots solución aprueba
+  ok  [lab0_2] lab0_2.mem.boxplots alternativa 1 aprueba
+  ok  [lab0_2] lab0_2.mem.moments solución aprueba
+  ok  [lab0_2] lab0_2.mem.moments errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_2] lab0_2.adapt.wine solución aprueba
+  ok  [lab0_2] lab0_2.adapt.sep solución aprueba
+  ok  [lab0_2] lab0_2.int.pairplot tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.int.qq tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.int.boxplot tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.int.simpson tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.int.q2 rúbrica y respuesta modelo
+  ok  [lab0_2] lab0_2.int.q4 rúbrica y respuesta modelo
+  ok  [lab0_2] lab0_2.int.q3 rúbrica y respuesta modelo
+  ok  [lab0_2] lab0_2.dyn.kurt variante seed=1 → -0.448272
+  ok  [lab0_2] lab0_2.dyn.kurt variante seed=2 → 1.566442
+  ok  [lab0_2] lab0_2.dyn.kurt variante seed=3 → 1.566442
+  ok  [lab0_2] referencia a actividad lab0_2.fill.moments
+  ok  [lab0_2] referencia a actividad lab0_2.fill.grid
+  ok  [lab0_2] referencia a actividad lab0_2.fix.keyerror
+  ok  [lab0_2] referencia a actividad lab0_2.fix.iqr
+  ok  [lab0_2] referencia a actividad lab0_2.mem.boxplots
+  ok  [lab0_2] referencia a actividad lab0_2.mem.moments
+  ok  [lab0_2] referencia a actividad lab0_2.adapt.sep
+  ok  [lab0_2] referencia a actividad lab0_2.mem.moments
+  ok  [lab0_2] referencia a actividad lab0_2.int.qq
+  ok  [lab0_2] referencia a actividad lab0_2.int.q2
+  ok  [lab0_2] referencia a actividad lab0_2.int.q3
+  ok  [lab0_2] referencia a actividad lab0_2.mem.boxplots
+  ok  [lab0_2] referencia a actividad lab0_2.int.q4
+  ok  [lab0_2] referencia a actividad lab0_2.int.pairplot
+  ok  [lab0_2] referencia a actividad lab0_2.int.simpson
+  ok  [lab0_2] referencia a actividad lab0_2.adapt.wine
+  ok  [lab0_2] referencia a actividad lab0_2.adapt.sep
+  ok  [lab0_2] mapa de flujo → b_intro
+  ok  [lab0_2] mapa de flujo → b_imports
+  ok  [lab0_2] mapa de flujo → b_load
+  ok  [lab0_2] mapa de flujo → b_head
+  ok  [lab0_2] mapa de flujo → b_tail
+  ok  [lab0_2] mapa de flujo → b_info
+  ok  [lab0_2] mapa de flujo → b_describe
+  ok  [lab0_2] mapa de flujo → b_hist1
+  ok  [lab0_2] mapa de flujo → b_hist_grid
+  ok  [lab0_2] mapa de flujo → b_seaborn
+  ok  [lab0_2] mapa de flujo → b_hue
+  ok  [lab0_2] mapa de flujo → b_cdf
+  ok  [lab0_2] mapa de flujo → b_kurt
+  ok  [lab0_2] mapa de flujo → b_skew
+  ok  [lab0_2] mapa de flujo → b_kurt1
+  ok  [lab0_2] mapa de flujo → b_qq
+  ok  [lab0_2] mapa de flujo → b_boxplot
+  ok  [lab0_2] mapa de flujo → b_task
+  ok  [lab0_2] mapa de flujo → b_violin
+  ok  [lab0_2] mapa de flujo → b_scatter
+  ok  [lab0_2] mapa de flujo → b_joint
+  ok  [lab0_2] mapa de flujo → b_pairplot
+  ok  [lab0_2] lab0_2.read.filter → bloque b_hist1
+  ok  [lab0_2] lab0_2.read.describe → bloque b_describe
+  ok  [lab0_2] lab0_2.read.iax → bloque b_hist_grid
+  ok  [lab0_2] lab0_2.pred.shape → bloque b_load
+  ok  [lab0_2] lab0_2.pred.groupby → bloque b_kurt
+  ok  [lab0_2] lab0_2.pred.bias → bloque b_kurt1
+  ok  [lab0_2] lab0_2.pred.mean → bloque b_describe
+  ok  [lab0_2] lab0_2.fill.moments → bloque b_kurt
+  ok  [lab0_2] lab0_2.fill.moments → bloque b_skew
+  ok  [lab0_2] lab0_2.fill.grid → bloque b_hist_grid
+  ok  [lab0_2] lab0_2.fix.keyerror → bloque b_hist1
+  ok  [lab0_2] lab0_2.fix.iqr → bloque b_boxplot
+  ok  [lab0_2] lab0_2.mem.boxplots → bloque b_task
+  ok  [lab0_2] lab0_2.mem.boxplots → bloque b_boxplot
+  ok  [lab0_2] lab0_2.mem.moments → bloque b_kurt
+  ok  [lab0_2] lab0_2.mem.moments → bloque b_kurt1
+  ok  [lab0_2] lab0_2.adapt.wine → bloque b_kurt
+  ok  [lab0_2] lab0_2.adapt.wine → bloque b_skew
+  ok  [lab0_2] lab0_2.adapt.wine → bloque b_boxplot
+  ok  [lab0_2] lab0_2.adapt.sep → bloque b_boxplot
+  ok  [lab0_2] lab0_2.adapt.sep → bloque b_pairplot
+  ok  [lab0_2] lab0_2.int.pairplot → bloque b_pairplot
+  ok  [lab0_2] lab0_2.int.qq → bloque b_qq
+  ok  [lab0_2] lab0_2.int.boxplot → bloque b_boxplot
+  ok  [lab0_2] lab0_2.int.simpson → bloque b_scatter
+  ok  [lab0_2] lab0_2.int.simpson → bloque b_joint
+  ok  [lab0_2] lab0_2.int.q2 → bloque b_hist_grid
+  ok  [lab0_2] lab0_2.int.q2 → bloque b_cdf
+  ok  [lab0_2] lab0_2.int.q2 → bloque b_qq
+  ok  [lab0_2] lab0_2.int.q4 → bloque b_boxplot
+  ok  [lab0_2] lab0_2.int.q4 → bloque b_task
+  ok  [lab0_2] lab0_2.int.q4 → bloque b_violin
+  ok  [lab0_2] lab0_2.int.q3 → bloque b_kurt
+  ok  [lab0_2] lab0_2.int.q3 → bloque b_skew
+  ok  [lab0_2] lab0_2.dyn.kurt → bloque b_kurt
+  ok  [lab0_2] lab0_2.dyn.kurt → bloque b_kurt1
+  ok  [lab0_3] celda 0 asignada a un bloque
+  ok  [lab0_3] celda 1 asignada a un bloque
+  ok  [lab0_3] celda 2 asignada a un bloque
+  ok  [lab0_3] celda 3 asignada a un bloque
+  ok  [lab0_3] celda 4 asignada a un bloque
+  ok  [lab0_3] celda 5 asignada a un bloque
+  ok  [lab0_3] celda 6 asignada a un bloque
+  ok  [lab0_3] celda 7 asignada a un bloque
+  ok  [lab0_3] celda 8 asignada a un bloque
+  ok  [lab0_3] celda 1 salida de texto idéntica a la guardada
+  ok  [lab0_3] celda 3 salida de texto idéntica a la guardada
+  ok  [lab0_3] celda 5 salida de texto idéntica a la guardada
+  ok  [lab0_3] celda 6 salida de texto idéntica a la guardada
+  ok  [lab0_3] celda 7 salida de texto idéntica a la guardada
+  ok  [lab0_3] celda 8 salida de texto idéntica a la guardada
+  ok  [lab0_3] lab0_3.exp.ic {} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab0_3] lab0_3.exp.ic media = 5.006 (esperado 5.006; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic ic_low = 4.905823539299264 (esperado 4.905823539299264; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic ic_high = 5.106176460700737 (esperado 5.106176460700737; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic ic_low_fun = 4.905823539299264 (esperado 4.905823539299264; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic W = 0.9776985498463123 (esperado 0.977699; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic p = 0.4595131518059563 (esperado 0.459513; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic A2 = 0.407985975495869 (esperado 0.407986; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic critico = 0.74 (esperado 0.74; Salidas guardadas de las celdas 3 y 5 (setosa · sepal_length))
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de feature está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de especie está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de confianza está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de ddof está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de alfa está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic {"confianza":"0.999","especie":"'Iris-virginica'"} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab0_3] lab0_3.exp.ic ic_low = 6.273215831432414 (esperado 6.273215831432418; Salida guardada de la celda 3 (virginica, 99.9 %))
+  ok  [lab0_3] lab0_3.exp.ic ic_high = 6.902784168567583 (esperado 6.902784168567583; Salida guardada de la celda 3 (virginica, 99.9 %))
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de feature está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de especie está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de confianza está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de ddof está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de alfa está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic {"feature":"'petal_width'"} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab0_3] lab0_3.exp.ic W = 0.8138167559908819 (esperado 0.813817; Salida guardada de la celda 5 (setosa · petal_width))
+  ok  [lab0_3] lab0_3.exp.ic A2 = 4.307007548538962 (esperado 4.307008; Salida guardada de la celda 5 (setosa · petal_width))
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de feature está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de especie está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de confianza está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de ddof está entre las opciones
+  ok  [lab0_3] lab0_3.exp.ic el valor por defecto de alfa está entre las opciones
+  ok  [lab0_3] lab0_3.read.sem tiene al menos una opción correcta
+  ok  [lab0_3] lab0_3.read.ci rúbrica y respuesta modelo
+  ok  [lab0_3] lab0_3.read.adrule tiene al menos una opción correcta
+  ok  [lab0_3] lab0_3.pred.tcrit predicción evaluable → 2.0095752371292392
+  ok  [lab0_3] lab0_3.pred.rows predicción evaluable → 12
+  ok  [lab0_3] lab0_3.pred.crit predicción evaluable → "[15.0, 10.0, 5.0, 2.5, 1.0]"
+  ok  [lab0_3] lab0_3.pred.crit el valor real «[15.0, 10.0, 5.0, 2.5, 1.0]» está entre las opciones
+  ok  [lab0_3] lab0_3.fill.load solución aprueba
+  ok  [lab0_3] lab0_3.fill.load alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.fill.load el código inicial no aprueba por sí solo
+  ok  [lab0_3] lab0_3.fill.interval solución aprueba
+  ok  [lab0_3] lab0_3.fill.interval alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.fill.interval errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_3] lab0_3.fill.interval el código inicial no aprueba por sí solo
+  ok  [lab0_3] lab0_3.fix.manual solución aprueba
+  ok  [lab0_3] lab0_3.fix.manual alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.fix.manual errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_3] lab0_3.fix.manual el código inicial no aprueba por sí solo
+  ok  [lab0_3] lab0_3.fix.ad solución aprueba
+  ok  [lab0_3] lab0_3.fix.ad alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.fix.ad el código inicial no aprueba por sí solo
+  ok  [lab0_3] lab0_3.mem.ci solución aprueba
+  ok  [lab0_3] lab0_3.mem.ci alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.mem.ci errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_3] lab0_3.mem.sw solución aprueba
+  ok  [lab0_3] lab0_3.mem.sw alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.mem.sw errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_3] lab0_3.adapt.wine solución aprueba
+  ok  [lab0_3] lab0_3.adapt.wine alternativa 1 aprueba
+  ok  [lab0_3] lab0_3.adapt.wine errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_3] lab0_3.int.notreject tiene al menos una opción correcta
+  ok  [lab0_3] lab0_3.int.disagree tiene al menos una opción correcta
+  ok  [lab0_3] lab0_3.int.multiple respuesta numérica definida
+  ok  [lab0_3] lab0_3.int.q7 rúbrica y respuesta modelo
+  ok  [lab0_3] lab0_3.dyn.ci variante seed=1 → 2.88893
+  ok  [lab0_3] lab0_3.dyn.ci variante seed=2 → 0.218581
+  ok  [lab0_3] lab0_3.dyn.ci variante seed=3 → 0.218581
+  ok  [lab0_3] referencia a actividad lab0_3.fill.load
+  ok  [lab0_3] referencia a actividad lab0_3.fill.interval
+  ok  [lab0_3] referencia a actividad lab0_3.fix.manual
+  ok  [lab0_3] referencia a actividad lab0_3.fix.ad
+  ok  [lab0_3] referencia a actividad lab0_3.mem.ci
+  ok  [lab0_3] referencia a actividad lab0_3.mem.sw
+  ok  [lab0_3] referencia a actividad lab0_3.adapt.wine
+  ok  [lab0_3] referencia a actividad lab0_3.fill.load
+  ok  [lab0_3] referencia a actividad lab0_3.mem.ci
+  ok  [lab0_3] referencia a actividad lab0_3.read.ci
+  ok  [lab0_3] referencia a actividad lab0_3.mem.sw
+  ok  [lab0_3] referencia a actividad lab0_3.fix.ad
+  ok  [lab0_3] referencia a actividad lab0_3.int.notreject
+  ok  [lab0_3] referencia a actividad lab0_3.int.q7
+  ok  [lab0_3] mapa de flujo → b_intro
+  ok  [lab0_3] mapa de flujo → b_load
+  ok  [lab0_3] mapa de flujo → b_q6
+  ok  [lab0_3] mapa de flujo → b_q7
+  ok  [lab0_3] mapa de flujo → b_q6_table
+  ok  [lab0_3] mapa de flujo → b_q7_tables
+  ok  [lab0_3] lab0_3.read.sem → bloque b_q6
+  ok  [lab0_3] lab0_3.read.ci → bloque b_q6
+  ok  [lab0_3] lab0_3.read.adrule → bloque b_q7
+  ok  [lab0_3] lab0_3.pred.tcrit → bloque b_q6
+  ok  [lab0_3] lab0_3.pred.rows → bloque b_q7
+  ok  [lab0_3] lab0_3.pred.crit → bloque b_q7
+  ok  [lab0_3] lab0_3.fill.load → bloque b_load
+  ok  [lab0_3] lab0_3.fill.interval → bloque b_q6
+  ok  [lab0_3] lab0_3.fix.manual → bloque b_q6
+  ok  [lab0_3] lab0_3.fix.ad → bloque b_q7
+  ok  [lab0_3] lab0_3.fix.ad → bloque b_q7_tables
+  ok  [lab0_3] lab0_3.mem.ci → bloque b_q6
+  ok  [lab0_3] lab0_3.mem.ci → bloque b_q6_table
+  ok  [lab0_3] lab0_3.mem.sw → bloque b_q7
+  ok  [lab0_3] lab0_3.adapt.wine → bloque b_q6
+  ok  [lab0_3] lab0_3.int.notreject → bloque b_q7
+  ok  [lab0_3] lab0_3.int.disagree → bloque b_q7
+  ok  [lab0_3] lab0_3.int.disagree → bloque b_q7_tables
+  ok  [lab0_3] lab0_3.int.multiple → bloque b_q7
+  ok  [lab0_3] lab0_3.int.q7 → bloque b_q7
+  ok  [lab0_3] lab0_3.int.q7 → bloque b_q7_tables
+  ok  [lab0_3] lab0_3.dyn.ci → bloque b_q6
+  ok  [lab1_1] celda 0 asignada a un bloque
+  ok  [lab1_1] celda 1 asignada a un bloque
+  ok  [lab1_1] celda 2 asignada a un bloque
+  ok  [lab1_1] celda 3 asignada a un bloque
+  ok  [lab1_1] celda 4 asignada a un bloque
+  ok  [lab1_1] celda 5 asignada a un bloque
+  ok  [lab1_1] celda 6 asignada a un bloque
+  ok  [lab1_1] celda 7 asignada a un bloque
+  ok  [lab1_1] celda 8 asignada a un bloque
+  ok  [lab1_1] celda 9 asignada a un bloque
+  ok  [lab1_1] celda 10 asignada a un bloque
+  ok  [lab1_1] celda 11 asignada a un bloque
+  ok  [lab1_1] celda 12 asignada a un bloque
+  ok  [lab1_1] celda 13 asignada a un bloque
+  ok  [lab1_1] celda 14 asignada a un bloque
+  ok  [lab1_1] celda 15 asignada a un bloque
+  ok  [lab1_1] celda 16 asignada a un bloque
+  ok  [lab1_1] celda 17 asignada a un bloque
+  ok  [lab1_1] celda 18 asignada a un bloque
+  ok  [lab1_1] celda 19 asignada a un bloque
+  ok  [lab1_1] celda 20 asignada a un bloque
+  ok  [lab1_1] celda 21 asignada a un bloque
+  ok  [lab1_1] celda 22 asignada a un bloque
+  ok  [lab1_1] celda 23 asignada a un bloque
+  ok  [lab1_1] celda 24 asignada a un bloque
+  ok  [lab1_1] celda 25 asignada a un bloque
+  ok  [lab1_1] celda 26 asignada a un bloque
+  ok  [lab1_1] celda 27 asignada a un bloque
+  ok  [lab1_1] celda 28 asignada a un bloque
+  ok  [lab1_1] celda 29 asignada a un bloque
+  ok  [lab1_1] celda 30 asignada a un bloque
+  ok  [lab1_1] celda 31 asignada a un bloque
+  ok  [lab1_1] celda 32 asignada a un bloque
+  ok  [lab1_1] celda 33 asignada a un bloque
+  ok  [lab1_1] celda 34 asignada a un bloque
+  ok  [lab1_1] celda 35 asignada a un bloque
+  ok  [lab1_1] celda 36 asignada a un bloque
+  ok  [lab1_1] celda 37 asignada a un bloque
+  ok  [lab1_1] celda 38 asignada a un bloque
+  ok  [lab1_1] celda 39 asignada a un bloque
+  ok  [lab1_1] celda 3 se ejecuta
+  ok  [lab1_1] celda 6 se ejecuta
+  ok  [lab1_1] celda 7 se ejecuta
+  ok  [lab1_1] celda 8 se ejecuta
+  ok  [lab1_1] celda 9 se ejecuta
+  ok  [lab1_1] celda 10 se ejecuta
+  ok  [lab1_1] celda 11 salida de texto idéntica a la guardada
+  ok  [lab1_1] celda 13 se ejecuta
+  ok  [lab1_1] celda 14 se ejecuta
+  ok  [lab1_1] celda 16 se ejecuta
+  ok  [lab1_1] celda 18 se ejecuta
+  ok  [lab1_1] celda 20 se ejecuta
+  ok  [lab1_1] celda 22 se ejecuta
+  ok  [lab1_1] celda 27 difiere por una diferencia de versión documentada
+  ok  [lab1_1] celda 29 se ejecuta
+  ok  [lab1_1] celda 31 salida de texto idéntica a la guardada
+  ok  [lab1_1] celda 34 se ejecuta
+  ok  [lab1_1] celda 36 salida de texto idéntica a la guardada
+  ok  [lab1_1] celda 37 se ejecuta
+  ok  [lab1_1] celda 39 salida de texto idéntica a la guardada
+  ok  [lab1_1] lab1_1.exp.snr {} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab1_1] lab1_1.exp.snr err_lda_train = 0.008499999999999952 (esperado 0.0085; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr err_qda_train = 0.008499999999999952 (esperado 0.0085; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.009499999999999953 (esperado 0.0095; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.010000000000000009 (esperado 0.01; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr md01 = 26.46271472962468 (esperado 26.462714729624665; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr md10 = 26.82570658822265 (esperado 26.825706588222634; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr sigma2 = 0.041765602802272705 (esperado 0.0417656; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de SNR está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de n_samples está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de dist está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de priors está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de roc_set está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr {"SNR":"-10"} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.28900000000000003 (esperado 0.289; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.2925 (esperado 0.2925; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr md01 = 4.162377745490757 (esperado 4.162378; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr md10 = 4.341240539358074 (esperado 4.341241; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de SNR está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de n_samples está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de dist está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de priors está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de roc_set está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr {"SNR":"-3"} se ejecuta (0.4 s, 1 figuras)
+  ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.11099999999999999 (esperado 0.111; Report resuelto de Lab1 (Q2 y Q4))
+  ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.11099999999999999 (esperado 0.111; Report resuelto de Lab1 (Q2 y Q4))
+  ok  [lab1_1] lab1_1.exp.snr auc_lda = 0.9574239999999999 (esperado 0.957424; Report resuelto de Lab1 (Q2 y Q4))
+  ok  [lab1_1] lab1_1.exp.snr auc_qda = 0.957379 (esperado 0.957379; Report resuelto de Lab1 (Q2 y Q4))
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de SNR está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de n_samples está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de dist está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de priors está entre las opciones
+  ok  [lab1_1] lab1_1.exp.snr el valor por defecto de roc_set está entre las opciones
+  ok  [lab1_1] lab1_1.check.intro tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.read.energy tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.read.attrs tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.read.mahal rúbrica y respuesta modelo
+  ok  [lab1_1] lab1_1.pred.shape_xdata predicción evaluable → [2000,3]
+  ok  [lab1_1] lab1_1.pred.sigma0 predicción evaluable → 0.08333333333333333
+  ok  [lab1_1] lab1_1.pred.cm_sum predicción evaluable → 1000
+  ok  [lab1_1] lab1_1.pred.qda_cov predicción evaluable → 2
+  ok  [lab1_1] lab1_1.fill.generate solución aprueba
+  ok  [lab1_1] lab1_1.fill.generate alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fill.generate errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab1_1] lab1_1.fill.generate el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.fill.fit solución aprueba
+  ok  [lab1_1] lab1_1.fill.fit alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fill.fit errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab1_1] lab1_1.fill.fit errónea 2 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab1_1] lab1_1.fill.fit el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.fix.mahal solución aprueba
+  ok  [lab1_1] lab1_1.fix.mahal alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fix.mahal errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab1_1] lab1_1.fix.mahal el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.fix.snr solución aprueba
+  ok  [lab1_1] lab1_1.fix.snr alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fix.snr el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.fix.priors solución aprueba
+  ok  [lab1_1] lab1_1.fix.priors alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fix.priors errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab1_1] lab1_1.fix.priors el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.mem.dataset solución aprueba
+  ok  [lab1_1] lab1_1.mem.dataset alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.mem.evaluate solución aprueba
+  ok  [lab1_1] lab1_1.adapt.auc solución aprueba
+  ok  [lab1_1] lab1_1.adapt.auc alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.adapt.auc alternativa 2 aprueba
+  ok  [lab1_1] lab1_1.adapt.auc errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab1_1] lab1_1.adapt.three solución aprueba
+  ok  [lab1_1] lab1_1.int.ldaqda tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.trainvstest tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.roc tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.q2 rúbrica y respuesta modelo
+  ok  [lab1_1] lab1_1.int.q5 rúbrica y respuesta modelo
+  ok  [lab1_1] lab1_1.int.misconception tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.bayes respuesta numérica definida
+  ok  [lab1_1] lab1_1.dyn.sigma variante seed=1 → 0.066194
+  ok  [lab1_1] lab1_1.dyn.sigma variante seed=2 → 0.019811
+  ok  [lab1_1] lab1_1.dyn.sigma variante seed=3 → 0.031399
+  ok  [lab1_1] lab1_1.read.imports tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.num.db respuesta numérica definida
+  ok  [lab1_1] lab1_1.pred.seed predicción evaluable → "(True, False)"
+  ok  [lab1_1] lab1_1.pred.seed el valor real «(True, False)» está entre las opciones
+  ok  [lab1_1] lab1_1.fill.hist solución aprueba
+  ok  [lab1_1] lab1_1.fill.hist alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fill.hist errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab1_1] lab1_1.fill.hist el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.fix.shuffle solución aprueba
+  ok  [lab1_1] lab1_1.fix.shuffle alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fix.shuffle el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.int.pairplot tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.read.3d tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.roctrain tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.reseed tiene al menos una opción correcta
+  ok  [lab1_1] referencia a actividad lab1_1.fill.generate
+  ok  [lab1_1] referencia a actividad lab1_1.fill.fit
+  ok  [lab1_1] referencia a actividad lab1_1.fix.snr
+  ok  [lab1_1] referencia a actividad lab1_1.fix.mahal
+  ok  [lab1_1] referencia a actividad lab1_1.mem.dataset
+  ok  [lab1_1] referencia a actividad lab1_1.mem.evaluate
+  ok  [lab1_1] referencia a actividad lab1_1.adapt.auc
+  ok  [lab1_1] referencia a actividad lab1_1.fix.snr
+  ok  [lab1_1] referencia a actividad lab1_1.mem.evaluate
+  ok  [lab1_1] referencia a actividad lab1_1.adapt.auc
+  ok  [lab1_1] referencia a actividad lab1_1.fix.mahal
+  ok  [lab1_1] referencia a actividad lab1_1.int.q2
+  ok  [lab1_1] referencia a actividad lab1_1.int.q5
+  ok  [lab1_1] mapa de flujo → b_intro
+  ok  [lab1_1] mapa de flujo → b_imports
+  ok  [lab1_1] mapa de flujo → b_snr
+  ok  [lab1_1] mapa de flujo → b_design
+  ok  [lab1_1] mapa de flujo → b_energy
+  ok  [lab1_1] mapa de flujo → b_sigma
+  ok  [lab1_1] mapa de flujo → b_covar
+  ok  [lab1_1] mapa de flujo → b_rng
+  ok  [lab1_1] mapa de flujo → b_generate
+  ok  [lab1_1] mapa de flujo → b_hist
+  ok  [lab1_1] mapa de flujo → b_pairplot
+  ok  [lab1_1] mapa de flujo → b_3d
+  ok  [lab1_1] mapa de flujo → b_shuffle
+  ok  [lab1_1] mapa de flujo → b_sklearn
+  ok  [lab1_1] mapa de flujo → b_theory
+  ok  [lab1_1] mapa de flujo → b_fit
+  ok  [lab1_1] mapa de flujo → b_roc_train
+  ok  [lab1_1] mapa de flujo → b_mahal_train
+  ok  [lab1_1] mapa de flujo → b_test_gen
+  ok  [lab1_1] mapa de flujo → b_test_eval
+  ok  [lab1_1] mapa de flujo → b_roc_test
+  ok  [lab1_1] mapa de flujo → b_mahal_test
+  ok  [lab1_1] lab1_1.read.energy → bloque b_energy
+  ok  [lab1_1] lab1_1.read.attrs → bloque b_fit
+  ok  [lab1_1] lab1_1.read.attrs → bloque b_sklearn
+  ok  [lab1_1] lab1_1.read.mahal → bloque b_mahal_train
+  ok  [lab1_1] lab1_1.pred.shape_xdata → bloque b_generate
+  ok  [lab1_1] lab1_1.pred.sigma0 → bloque b_sigma
+  ok  [lab1_1] lab1_1.pred.cm_sum → bloque b_test_eval
+  ok  [lab1_1] lab1_1.pred.qda_cov → bloque b_fit
+  ok  [lab1_1] lab1_1.fill.generate → bloque b_generate
+  ok  [lab1_1] lab1_1.fill.fit → bloque b_fit
+  ok  [lab1_1] lab1_1.fill.fit → bloque b_test_eval
+  ok  [lab1_1] lab1_1.fix.mahal → bloque b_mahal_train
+  ok  [lab1_1] lab1_1.fix.snr → bloque b_sigma
+  ok  [lab1_1] lab1_1.fix.priors → bloque b_fit
+  ok  [lab1_1] lab1_1.mem.dataset → bloque b_design
+  ok  [lab1_1] lab1_1.mem.dataset → bloque b_energy
+  ok  [lab1_1] lab1_1.mem.dataset → bloque b_sigma
+  ok  [lab1_1] lab1_1.mem.dataset → bloque b_covar
+  ok  [lab1_1] lab1_1.mem.dataset → bloque b_generate
+  ok  [lab1_1] lab1_1.mem.evaluate → bloque b_fit
+  ok  [lab1_1] lab1_1.mem.evaluate → bloque b_test_eval
+  ok  [lab1_1] lab1_1.adapt.auc → bloque b_roc_test
+  ok  [lab1_1] lab1_1.adapt.three → bloque b_design
+  ok  [lab1_1] lab1_1.adapt.three → bloque b_generate
+  ok  [lab1_1] lab1_1.adapt.three → bloque b_fit
+  ok  [lab1_1] lab1_1.int.ldaqda → bloque b_test_eval
+  ok  [lab1_1] lab1_1.int.trainvstest → bloque b_test_eval
+  ok  [lab1_1] lab1_1.int.trainvstest → bloque b_fit
+  ok  [lab1_1] lab1_1.int.roc → bloque b_roc_test
+  ok  [lab1_1] lab1_1.int.q2 → bloque b_test_eval
+  ok  [lab1_1] lab1_1.int.q5 → bloque b_mahal_test
+  ok  [lab1_1] lab1_1.int.misconception → bloque b_test_eval
+  ok  [lab1_1] lab1_1.int.misconception → bloque b_theory
+  ok  [lab1_1] lab1_1.int.bayes → bloque b_sigma
+  ok  [lab1_1] lab1_1.int.bayes → bloque b_test_eval
+  ok  [lab1_1] lab1_1.dyn.sigma → bloque b_sigma
+  ok  [lab1_1] lab1_1.read.imports → bloque b_imports
+  ok  [lab1_1] lab1_1.num.db → bloque b_snr
+  ok  [lab1_1] lab1_1.pred.seed → bloque b_rng
+  ok  [lab1_1] lab1_1.fill.hist → bloque b_hist
+  ok  [lab1_1] lab1_1.fix.shuffle → bloque b_shuffle
+  ok  [lab1_1] lab1_1.int.pairplot → bloque b_pairplot
+  ok  [lab1_1] lab1_1.read.3d → bloque b_3d
+  ok  [lab1_1] lab1_1.int.roctrain → bloque b_roc_train
+  ok  [lab1_1] lab1_1.int.reseed → bloque b_test_gen
+  ok  [lab1_2] celda 0 asignada a un bloque
+  ok  [lab1_2] celda 1 asignada a un bloque
+  ok  [lab1_2] celda 2 asignada a un bloque
+  ok  [lab1_2] celda 3 asignada a un bloque
+  ok  [lab1_2] celda 4 asignada a un bloque
+  ok  [lab1_2] celda 5 asignada a un bloque
+  ok  [lab1_2] celda 6 asignada a un bloque
+  ok  [lab1_2] celda 7 asignada a un bloque
+  ok  [lab1_2] celda 8 asignada a un bloque
+  ok  [lab1_2] celda 9 asignada a un bloque
+  ok  [lab1_2] celda 10 asignada a un bloque
+  ok  [lab1_2] celda 11 asignada a un bloque
+  ok  [lab1_2] celda 12 asignada a un bloque
+  ok  [lab1_2] celda 13 asignada a un bloque
+  ok  [lab1_2] celda 14 asignada a un bloque
+  ok  [lab1_2] celda 15 asignada a un bloque
+  ok  [lab1_2] celda 16 asignada a un bloque
+  ok  [lab1_2] celda 17 asignada a un bloque
+  ok  [lab1_2] celda 18 asignada a un bloque
+  ok  [lab1_2] celda 19 asignada a un bloque
+  ok  [lab1_2] celda 20 asignada a un bloque
+  ok  [lab1_2] celda 3 se ejecuta
+  ok  [lab1_2] celda 6 se ejecuta
+  ok  [lab1_2] celda 8 se ejecuta
+  ok  [lab1_2] celda 9 salida de texto idéntica a la guardada
+  ok  [lab1_2] celda 11 salida de texto idéntica a la guardada
+  ok  [lab1_2] celda 13 se ejecuta
+  ok  [lab1_2] celda 15 difiere por una diferencia de versión documentada
+  ok  [lab1_2] celda 17 se ejecuta
+  ok  [lab1_2] celda 19 se ejecuta
+  ok  [lab1_2] celda 20 se ejecuta
+  ok  [lab1_2] lab1_2.exp.cases {} se ejecuta (0.7 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases err_lda = 0.0014999999999999458 (esperado 0.0015; Salidas guardadas de las celdas 9 y 15 (SNR = 10 dB, Case 3))
+  ok  [lab1_2] lab1_2.exp.cases err_qda = 0.0004999999999999449 (esperado 0.0005; Salidas guardadas de las celdas 9 y 15 (SNR = 10 dB, Case 3))
+  ok  [lab1_2] lab1_2.exp.cases sigma0 = 0.05 (esperado 0.05; Salidas guardadas de las celdas 9 y 15 (SNR = 10 dB, Case 3))
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de ro está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases {"SNR":"5"} se ejecuta (0.5 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases err_lda = 0.06274999999999997 (esperado 0.06275; Report resuelto de Lab1, Q9 (5 dB))
+  ok  [lab1_2] lab1_2.exp.cases err_qda = 0.05900000000000005 (esperado 0.059; Report resuelto de Lab1, Q9 (5 dB))
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de ro está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases {"sig0":"30"} se ejecuta (0.6 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases err_lda = 0.127 (esperado 0.127; Report resuelto de Lab1, Q12)
+  ok  [lab1_2] lab1_2.exp.cases err_qda = 0.04874999999999996 (esperado 0.04875; Report resuelto de Lab1, Q12)
+  ok  [lab1_2] lab1_2.exp.cases sigma0 = 1.5 (esperado 1.5; Report resuelto de Lab1, Q12)
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de ro está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases {"ro":"[0, 0, 0, 0]"} se ejecuta (0.5 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases err_lda = 0.0022499999999999742 (esperado 0.00225; Report resuelto de Lab1, Q6)
+  ok  [lab1_2] lab1_2.exp.cases err_qda = 0.0020000000000000018 (esperado 0.002; Report resuelto de Lab1, Q6)
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de ro está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases {"ro":"[0.5, 0.5, 0.5, 0.5]"} se ejecuta (0.6 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases err_lda = 0 (esperado 0; Report resuelto de Lab1, Q7)
+  ok  [lab1_2] lab1_2.exp.cases err_qda = 0 (esperado 0; Report resuelto de Lab1, Q7)
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de ro está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
+  ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
+  ok  [lab1_2] lab1_2.check.intro tiene al menos una opción correcta
+  ok  [lab1_2] lab1_2.read.covar tiene al menos una opción correcta
+  ok  [lab1_2] lab1_2.read.mesh tiene al menos una opción correcta
+  ok  [lab1_2] lab1_2.read.lines rúbrica y respuesta modelo
+  ok  [lab1_2] lab1_2.pred.shape_grid predicción evaluable → 2
+  ok  [lab1_2] lab1_2.pred.sigma predicción evaluable → 0.15811388300841897
+  ok  [lab1_2] lab1_2.pred.lda_cov predicción evaluable → [2,2]
+  ok  [lab1_2] lab1_2.fill.covar solución aprueba
+  ok  [lab1_2] lab1_2.fill.covar alternativa 1 aprueba
+  ok  [lab1_2] lab1_2.fill.covar errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab1_2] lab1_2.fill.covar el código inicial no aprueba por sí solo
+  ok  [lab1_2] lab1_2.fill.regions solución aprueba
+  ok  [lab1_2] lab1_2.fill.regions alternativa 1 aprueba
+  ok  [lab1_2] lab1_2.fill.regions errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab1_2] lab1_2.fill.regions el código inicial no aprueba por sí solo
+  ok  [lab1_2] lab1_2.fix.sigma30 solución aprueba
+  ok  [lab1_2] lab1_2.fix.sigma30 alternativa 1 aprueba
+  ok  [lab1_2] lab1_2.fix.sigma30 el código inicial no aprueba por sí solo
+  ok  [lab1_2] lab1_2.fix.pairwise solución aprueba
+  ok  [lab1_2] lab1_2.fix.pairwise alternativa 1 aprueba
+  ok  [lab1_2] lab1_2.fix.pairwise el código inicial no aprueba por sí solo
+  ok  [lab1_2] lab1_2.misconception.h tiene al menos una opción correcta
+  ok  [lab1_2] lab1_2.mem.eig solución aprueba
+  ok  [lab1_2] lab1_2.mem.eig alternativa 1 aprueba
+  ok  [lab1_2] lab1_2.mem.eig errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab1_2] lab1_2.mem.compare solución aprueba
+  ok  [lab1_2] lab1_2.adapt.test solución aprueba
+  ok  [lab1_2] lab1_2.int.scatter tiene al menos una opción correcta
+  ok  [lab1_2] lab1_2.int.regions tiene al menos una opción correcta
+  ok  [lab1_2] lab1_2.int.q8 rúbrica y respuesta modelo
+  ok  [lab1_2] lab1_2.int.eig08 respuesta numérica definida
+  ok  [lab1_2] lab1_2.dyn.eig variante seed=1 → 0.0632456
+  ok  [lab1_2] lab1_2.dyn.eig variante seed=2 → 0.0200475
+  ok  [lab1_2] lab1_2.dyn.eig variante seed=3 → 0.045
+  ok  [lab1_2] lab1_2.int.train tiene al menos una opción correcta
+  ok  [lab1_2] referencia a actividad lab1_2.fill.covar
+  ok  [lab1_2] referencia a actividad lab1_2.fill.regions
+  ok  [lab1_2] referencia a actividad lab1_2.fix.sigma30
+  ok  [lab1_2] referencia a actividad lab1_2.fix.pairwise
+  ok  [lab1_2] referencia a actividad lab1_2.mem.eig
+  ok  [lab1_2] referencia a actividad lab1_2.mem.compare
+  ok  [lab1_2] referencia a actividad lab1_2.adapt.test
+  ok  [lab1_2] referencia a actividad lab1_2.int.eig08
+  ok  [lab1_2] referencia a actividad lab1_2.fill.covar
+  ok  [lab1_2] referencia a actividad lab1_2.fix.sigma30
+  ok  [lab1_2] referencia a actividad lab1_2.mem.eig
+  ok  [lab1_2] referencia a actividad lab1_2.fill.regions
+  ok  [lab1_2] referencia a actividad lab1_2.int.regions
+  ok  [lab1_2] referencia a actividad lab1_2.int.q8
+  ok  [lab1_2] mapa de flujo → b_intro
+  ok  [lab1_2] mapa de flujo → b_imports
+  ok  [lab1_2] mapa de flujo → b_params
+  ok  [lab1_2] mapa de flujo → b_cases
+  ok  [lab1_2] mapa de flujo → b_covar
+  ok  [lab1_2] mapa de flujo → b_generate
+  ok  [lab1_2] mapa de flujo → b_scatter
+  ok  [lab1_2] mapa de flujo → b_fit
+  ok  [lab1_2] mapa de flujo → b_lines
+  ok  [lab1_2] mapa de flujo → b_regions_lda
+  ok  [lab1_2] mapa de flujo → b_regions_qda
+  ok  [lab1_2] lab1_2.read.covar → bloque b_covar
+  ok  [lab1_2] lab1_2.read.mesh → bloque b_regions_lda
+  ok  [lab1_2] lab1_2.read.lines → bloque b_lines
+  ok  [lab1_2] lab1_2.pred.shape_grid → bloque b_regions_lda
+  ok  [lab1_2] lab1_2.pred.sigma → bloque b_covar
+  ok  [lab1_2] lab1_2.pred.lda_cov → bloque b_fit
+  ok  [lab1_2] lab1_2.fill.covar → bloque b_covar
+  ok  [lab1_2] lab1_2.fill.regions → bloque b_regions_lda
+  ok  [lab1_2] lab1_2.fix.sigma30 → bloque b_covar
+  ok  [lab1_2] lab1_2.fix.pairwise → bloque b_lines
+  ok  [lab1_2] lab1_2.misconception.h → bloque b_regions_lda
+  ok  [lab1_2] lab1_2.mem.eig → bloque b_covar
+  ok  [lab1_2] lab1_2.mem.eig → bloque b_fit
+  ok  [lab1_2] lab1_2.mem.compare → bloque b_cases
+  ok  [lab1_2] lab1_2.mem.compare → bloque b_covar
+  ok  [lab1_2] lab1_2.mem.compare → bloque b_generate
+  ok  [lab1_2] lab1_2.mem.compare → bloque b_fit
+  ok  [lab1_2] lab1_2.adapt.test → bloque b_fit
+  ok  [lab1_2] lab1_2.adapt.test → bloque b_generate
+  ok  [lab1_2] lab1_2.int.scatter → bloque b_scatter
+  ok  [lab1_2] lab1_2.int.regions → bloque b_regions_lda
+  ok  [lab1_2] lab1_2.int.regions → bloque b_regions_qda
+  ok  [lab1_2] lab1_2.int.q8 → bloque b_fit
+  ok  [lab1_2] lab1_2.int.q8 → bloque b_covar
+  ok  [lab1_2] lab1_2.int.eig08 → bloque b_covar
+  ok  [lab1_2] lab1_2.dyn.eig → bloque b_covar
+  ok  [lab1_2] lab1_2.int.train → bloque b_fit
+  ok  [lab2_1] celda 0 asignada a un bloque
+  ok  [lab2_1] celda 1 asignada a un bloque
+  ok  [lab2_1] celda 2 asignada a un bloque
+  ok  [lab2_1] celda 3 asignada a un bloque
+  ok  [lab2_1] celda 4 asignada a un bloque
+  ok  [lab2_1] celda 5 asignada a un bloque
+  ok  [lab2_1] celda 6 asignada a un bloque
+  ok  [lab2_1] celda 7 asignada a un bloque
+  ok  [lab2_1] celda 8 asignada a un bloque
+  ok  [lab2_1] celda 9 asignada a un bloque
+  ok  [lab2_1] celda 10 asignada a un bloque
+  ok  [lab2_1] celda 11 asignada a un bloque
+  ok  [lab2_1] celda 12 asignada a un bloque
+  ok  [lab2_1] celda 13 asignada a un bloque
+  ok  [lab2_1] celda 14 asignada a un bloque
+  ok  [lab2_1] celda 15 asignada a un bloque
+  ok  [lab2_1] celda 16 asignada a un bloque
+  ok  [lab2_1] celda 17 asignada a un bloque
+  ok  [lab2_1] celda 18 asignada a un bloque
+  ok  [lab2_1] celda 19 asignada a un bloque
+  ok  [lab2_1] celda 20 asignada a un bloque
+  ok  [lab2_1] celda 21 asignada a un bloque
+  ok  [lab2_1] celda 22 asignada a un bloque
+  ok  [lab2_1] celda 23 asignada a un bloque
+  ok  [lab2_1] celda 24 asignada a un bloque
+  ok  [lab2_1] celda 25 asignada a un bloque
+  ok  [lab2_1] celda 26 asignada a un bloque
+  ok  [lab2_1] celda 27 asignada a un bloque
+  ok  [lab2_1] celda 28 asignada a un bloque
+  ok  [lab2_1] celda 29 asignada a un bloque
+  ok  [lab2_1] celda 30 asignada a un bloque
+  ok  [lab2_1] celda 31 asignada a un bloque
+  ok  [lab2_1] celda 32 asignada a un bloque
+  ok  [lab2_1] celda 33 asignada a un bloque
+  ok  [lab2_1] celda 34 asignada a un bloque
+  ok  [lab2_1] celda 35 asignada a un bloque
+  ok  [lab2_1] celda 36 asignada a un bloque
+  ok  [lab2_1] celda 4 se ejecuta
+  ok  [lab2_1] celda 6 se ejecuta
+  ok  [lab2_1] celda 8 se ejecuta
+  ok  [lab2_1] celda 10 se ejecuta
+  ok  [lab2_1] celda 11 se ejecuta
+  ok  [lab2_1] celda 12 se ejecuta
+  ok  [lab2_1] celda 15 se ejecuta
+  ok  [lab2_1] celda 18 se ejecuta
+  ok  [lab2_1] celda 20 se ejecuta
+  ok  [lab2_1] celda 23 se ejecuta
+  ok  [lab2_1] celda 25 se ejecuta
+  ok  [lab2_1] celda 27 se ejecuta
+  ok  [lab2_1] bloque b_digits_scatter (código adaptado) se ejecuta
+  ok  [lab2_1] celda 32 se ejecuta
+  ok  [lab2_1] celda 35 se ejecuta
+  ok  [lab2_1] bloque b_tsne_plot (código adaptado) se ejecuta
+  ok  [lab2_1] lab2_1.exp.pca {} se ejecuta (1.0 s, 3 figuras)
+  ok  [lab2_1] lab2_1.exp.pca ev1 = 0.7625315008826108 (esperado 0.7625315008826108; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca ev2 = 0.018477895513562506 (esperado 0.018477895513562492; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca evr1 = 0.9763410074208769 (esperado 0.9763410074208769; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca mse_toy = 0.018385506035994762 (esperado 0.01838550603599476; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca var_digits_k = 0.2850936482369929 (esperado 0.28509364823699296; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca n_umbral = 21 (esperado 21; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_toy está entre las opciones
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_digits está entre las opciones
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de umbral está entre las opciones
+  ok  [lab2_1] lab2_1.exp.pca {"umbral":"0.95"} se ejecuta (0.9 s, 3 figuras)
+  ok  [lab2_1] lab2_1.exp.pca n_umbral = 29 (esperado 29; Ejecución local con tus versiones)
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_toy está entre las opciones
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_digits está entre las opciones
+  ok  [lab2_1] lab2_1.exp.pca el valor por defecto de umbral está entre las opciones
+  ok  [lab2_1] lab2_1.check.intro tiene al menos una opción correcta
+  ok  [lab2_1] lab2_1.read.components tiene al menos una opción correcta
+  ok  [lab2_1] lab2_1.read.vectors tiene al menos una opción correcta
+  ok  [lab2_1] lab2_1.read.tsne rúbrica y respuesta modelo
+  ok  [lab2_1] lab2_1.pred.xpca predicción evaluable → [200,1]
+  ok  [lab2_1] lab2_1.pred.comp_digits predicción evaluable → [2,64]
+  ok  [lab2_1] lab2_1.pred.ratio_sum predicción evaluable → 1
+  ok  [lab2_1] lab2_1.pred.n90 predicción evaluable → 21
+  ok  [lab2_1] lab2_1.fill.inverse solución aprueba
+  ok  [lab2_1] lab2_1.fill.inverse alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.fill.inverse errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_1] lab2_1.fill.inverse el código inicial no aprueba por sí solo
+  ok  [lab2_1] lab2_1.fill.cumsum solución aprueba
+  ok  [lab2_1] lab2_1.fill.cumsum alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.fill.cumsum alternativa 2 aprueba
+  ok  [lab2_1] lab2_1.fill.cumsum errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_1] lab2_1.fill.cumsum el código inicial no aprueba por sí solo
+  ok  [lab2_1] lab2_1.fix.cmap solución aprueba
+  ok  [lab2_1] lab2_1.fix.cmap alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.fix.cmap errónea 1 suspende como «api» (obtenido: api)
+  ok  [lab2_1] lab2_1.fix.cmap el código inicial no aprueba por sí solo
+  ok  [lab2_1] lab2_1.fix.center solución aprueba
+  ok  [lab2_1] lab2_1.fix.center alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.fix.center errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_1] lab2_1.fix.center el código inicial no aprueba por sí solo
+  ok  [lab2_1] lab2_1.mem.ncomp solución aprueba
+  ok  [lab2_1] lab2_1.mem.ncomp alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.mem.ncomp alternativa 2 aprueba
+  ok  [lab2_1] lab2_1.mem.ncomp errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_1] lab2_1.mem.eig solución aprueba
+  ok  [lab2_1] lab2_1.mem.eig alternativa 1 aprueba
+  ok  [lab2_1] lab2_1.mem.eig alternativa 2 aprueba
+  ok  [lab2_1] lab2_1.mem.eig errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_1] lab2_1.adapt.wine solución aprueba
+  ok  [lab2_1] lab2_1.int.misconception tiene al menos una opción correcta
+  ok  [lab2_1] lab2_1.int.curve rúbrica y respuesta modelo
+  ok  [lab2_1] lab2_1.int.mse respuesta numérica definida
+  ok  [lab2_1] lab2_1.dyn.cum variante seed=1 → 17
+  ok  [lab2_1] lab2_1.dyn.cum variante seed=2 → 29
+  ok  [lab2_1] lab2_1.dyn.cum variante seed=3 → 29
+  ok  [lab2_1] lab2_1.int.tsne_new tiene al menos una opción correcta
+  ok  [lab2_1] referencia a actividad lab2_1.fill.inverse
+  ok  [lab2_1] referencia a actividad lab2_1.fill.cumsum
+  ok  [lab2_1] referencia a actividad lab2_1.fix.cmap
+  ok  [lab2_1] referencia a actividad lab2_1.fix.center
+  ok  [lab2_1] referencia a actividad lab2_1.mem.ncomp
+  ok  [lab2_1] referencia a actividad lab2_1.mem.eig
+  ok  [lab2_1] referencia a actividad lab2_1.adapt.wine
+  ok  [lab2_1] referencia a actividad lab2_1.read.components
+  ok  [lab2_1] referencia a actividad lab2_1.fix.center
+  ok  [lab2_1] referencia a actividad lab2_1.fill.inverse
+  ok  [lab2_1] referencia a actividad lab2_1.int.mse
+  ok  [lab2_1] referencia a actividad lab2_1.mem.ncomp
+  ok  [lab2_1] referencia a actividad lab2_1.int.misconception
+  ok  [lab2_1] mapa de flujo → b_intro
+  ok  [lab2_1] mapa de flujo → b_imports
+  ok  [lab2_1] mapa de flujo → b_toy
+  ok  [lab2_1] mapa de flujo → b_digits_load
+  ok  [lab2_1] mapa de flujo → b_digits_show
+  ok  [lab2_1] mapa de flujo → b_fit
+  ok  [lab2_1] mapa de flujo → b_reduce
+  ok  [lab2_1] mapa de flujo → b_digits_pca
+  ok  [lab2_1] mapa de flujo → b_tsne
+  ok  [lab2_1] mapa de flujo → b_attrs
+  ok  [lab2_1] mapa de flujo → b_vectors
+  ok  [lab2_1] mapa de flujo → b_inverse
+  ok  [lab2_1] mapa de flujo → b_digits_scatter
+  ok  [lab2_1] mapa de flujo → b_tsne_plot
+  ok  [lab2_1] mapa de flujo → b_meaning
+  ok  [lab2_1] mapa de flujo → b_ncomp
+  ok  [lab2_1] lab2_1.read.components → bloque b_attrs
+  ok  [lab2_1] lab2_1.read.vectors → bloque b_vectors
+  ok  [lab2_1] lab2_1.read.tsne → bloque b_tsne
+  ok  [lab2_1] lab2_1.read.tsne → bloque b_tsne_plot
+  ok  [lab2_1] lab2_1.pred.xpca → bloque b_reduce
+  ok  [lab2_1] lab2_1.pred.comp_digits → bloque b_digits_pca
+  ok  [lab2_1] lab2_1.pred.ratio_sum → bloque b_attrs
+  ok  [lab2_1] lab2_1.pred.n90 → bloque b_ncomp
+  ok  [lab2_1] lab2_1.fill.inverse → bloque b_reduce
+  ok  [lab2_1] lab2_1.fill.inverse → bloque b_inverse
+  ok  [lab2_1] lab2_1.fill.cumsum → bloque b_ncomp
+  ok  [lab2_1] lab2_1.fix.cmap → bloque b_digits_scatter
+  ok  [lab2_1] lab2_1.fix.center → bloque b_reduce
+  ok  [lab2_1] lab2_1.fix.center → bloque b_fit
+  ok  [lab2_1] lab2_1.mem.ncomp → bloque b_ncomp
+  ok  [lab2_1] lab2_1.mem.eig → bloque b_attrs
+  ok  [lab2_1] lab2_1.mem.eig → bloque b_fit
+  ok  [lab2_1] lab2_1.adapt.wine → bloque b_digits_pca
+  ok  [lab2_1] lab2_1.adapt.wine → bloque b_ncomp
+  ok  [lab2_1] lab2_1.int.misconception → bloque b_digits_scatter
+  ok  [lab2_1] lab2_1.int.misconception → bloque b_ncomp
+  ok  [lab2_1] lab2_1.int.curve → bloque b_ncomp
+  ok  [lab2_1] lab2_1.int.mse → bloque b_inverse
+  ok  [lab2_1] lab2_1.dyn.cum → bloque b_ncomp
+  ok  [lab2_1] lab2_1.int.tsne_new → bloque b_tsne
+  ok  [lab2_2] celda 0 asignada a un bloque
+  ok  [lab2_2] celda 1 asignada a un bloque
+  ok  [lab2_2] celda 2 asignada a un bloque
+  ok  [lab2_2] celda 3 asignada a un bloque
+  ok  [lab2_2] celda 4 asignada a un bloque
+  ok  [lab2_2] celda 5 asignada a un bloque
+  ok  [lab2_2] celda 6 asignada a un bloque
+  ok  [lab2_2] celda 7 asignada a un bloque
+  ok  [lab2_2] celda 8 asignada a un bloque
+  ok  [lab2_2] celda 9 asignada a un bloque
+  ok  [lab2_2] celda 10 asignada a un bloque
+  ok  [lab2_2] celda 11 asignada a un bloque
+  ok  [lab2_2] celda 12 asignada a un bloque
+  ok  [lab2_2] celda 13 asignada a un bloque
+  ok  [lab2_2] celda 14 asignada a un bloque
+  ok  [lab2_2] celda 15 asignada a un bloque
+  ok  [lab2_2] celda 16 asignada a un bloque
+  ok  [lab2_2] celda 17 asignada a un bloque
+  ok  [lab2_2] celda 18 asignada a un bloque
+  ok  [lab2_2] celda 19 asignada a un bloque
+  ok  [lab2_2] celda 20 asignada a un bloque
+  ok  [lab2_2] celda 21 asignada a un bloque
+  ok  [lab2_2] celda 22 asignada a un bloque
+  ok  [lab2_2] celda 23 asignada a un bloque
+  ok  [lab2_2] celda 24 asignada a un bloque
+  ok  [lab2_2] celda 25 asignada a un bloque
+  ok  [lab2_2] celda 26 asignada a un bloque
+  ok  [lab2_2] celda 27 asignada a un bloque
+  ok  [lab2_2] celda 28 asignada a un bloque
+  ok  [lab2_2] celda 29 asignada a un bloque
+  ok  [lab2_2] celda 2 se ejecuta
+  ok  [lab2_2] celda 4 se ejecuta
+  ok  [lab2_2] celda 6 se ejecuta
+  ok  [lab2_2] celda 8 se ejecuta
+  ok  [lab2_2] celda 9 se ejecuta
+  ok  [lab2_2] celda 11 se ejecuta
+  ok  [lab2_2] celda 13 se ejecuta
+  ok  [lab2_2] celda 15 se ejecuta
+  ok  [lab2_2] celda 17 se ejecuta
+  ok  [lab2_2] celda 19 se ejecuta
+  ok  [lab2_2] celda 21 se ejecuta
+  ok  [lab2_2] celda 23 se ejecuta
+  ok  [lab2_2] celda 25 se ejecuta
+  ok  [lab2_2] celda 27 se ejecuta
+  ok  [lab2_2] celda 29 se ejecuta
+  ok  [lab2_2] lab2_2.exp.reduce {} se ejecuta (0.7 s, 1 figuras)
+  ok  [lab2_2] lab2_2.exp.reduce lda_3d_train = 0 (esperado 0; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_3d_test = 0.0006666666666667043 (esperado 0.000666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce qda_3d_test = 0 (esperado 0; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca2_train = 0.0020000000000000018 (esperado 0.002; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca2_test = 0.002666666666666706 (esperado 0.002666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca1_train = 0.026000000000000023 (esperado 0.026; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca1_test = 0.040000000000000036 (esperado 0.04; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce qda_pca1_test = 0.03200000000000003 (esperado 0.032; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_mda2_test = 0.0006666666666667043 (esperado 0.000666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_mda1_train = 0.0033333333333332993 (esperado 0.003333333; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_mda1_test = 0.010666666666666713 (esperado 0.010666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce qda_mda1_test = 0.00666666666666671 (esperado 0.006666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de SNR está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de n_samples está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de vista está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de h está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce {"SNR":"0"} se ejecuta (0.7 s, 1 figuras)
+  ok  [lab2_2] lab2_2.exp.reduce lda_3d_train = 0.11399999999999999 (esperado 0.114; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce lda_3d_test = 0.1273333333333333 (esperado 0.127333333; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce qda_3d_train = 0.07066666666666666 (esperado 0.070666667; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce qda_3d_test = 0.06133333333333335 (esperado 0.061333333; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca2_test = 0.16466666666666663 (esperado 0.164666667; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce qda_pca2_test = 0.15000000000000002 (esperado 0.15; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce lda_mda2_test = 0.1273333333333333 (esperado 0.127333333; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce qda_mda2_test = 0.128 (esperado 0.128; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca1_test = 0.242 (esperado 0.242; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce lda_mda1_test = 0.22533333333333339 (esperado 0.225333333; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de SNR está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de n_samples está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de vista está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de h está entre las opciones
+  ok  [lab2_2] lab2_2.check.intro tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.read.func tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.read.fit_train rúbrica y respuesta modelo
+  ok  [lab2_2] lab2_2.pred.shape_mda predicción evaluable → [1500,2]
+  ok  [lab2_2] lab2_2.pred.mda3 predicción evaluable → "ValueError"
+  ok  [lab2_2] lab2_2.pred.mda3 el valor real «ValueError» está entre las opciones
+  ok  [lab2_2] lab2_2.pred.sig predicción evaluable → 0.07777777777777778
+  ok  [lab2_2] lab2_2.fill.pca solución aprueba
+  ok  [lab2_2] lab2_2.fill.pca alternativa 1 aprueba
+  ok  [lab2_2] lab2_2.fill.pca errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_2] lab2_2.fill.pca el código inicial no aprueba por sí solo
+  ok  [lab2_2] lab2_2.fill.mda solución aprueba
+  ok  [lab2_2] lab2_2.fill.mda alternativa 1 aprueba
+  ok  [lab2_2] lab2_2.fill.mda errónea 1 suspende como «api» (obtenido: api)
+  ok  [lab2_2] lab2_2.fill.mda el código inicial no aprueba por sí solo
+  ok  [lab2_2] lab2_2.fix.leak solución aprueba
+  ok  [lab2_2] lab2_2.fix.leak el código inicial no aprueba por sí solo
+  ok  [lab2_2] lab2_2.fix.ncomp solución aprueba
+  ok  [lab2_2] lab2_2.fix.ncomp alternativa 1 aprueba
+  ok  [lab2_2] lab2_2.fix.ncomp el código inicial no aprueba por sí solo
+  ok  [lab2_2] lab2_2.mem.table solución aprueba
+  ok  [lab2_2] lab2_2.mem.table alternativa 1 aprueba
+  ok  [lab2_2] lab2_2.adapt.snr0 solución aprueba
+  ok  [lab2_2] lab2_2.adapt.wine solución aprueba
+  ok  [lab2_2] lab2_2.int.equal tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.int.misconception tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.int.q1 rúbrica y respuesta modelo
+  ok  [lab2_2] lab2_2.int.q4 rúbrica y respuesta modelo
+  ok  [lab2_2] lab2_2.int.dmax respuesta numérica definida
+  ok  [lab2_2] lab2_2.dyn.dmax variante seed=1 → 3
+  ok  [lab2_2] lab2_2.dyn.dmax variante seed=2 → 2
+  ok  [lab2_2] lab2_2.dyn.dmax variante seed=3 → 1
+  ok  [lab2_2] referencia a actividad lab2_2.fill.pca
+  ok  [lab2_2] referencia a actividad lab2_2.fill.mda
+  ok  [lab2_2] referencia a actividad lab2_2.fix.leak
+  ok  [lab2_2] referencia a actividad lab2_2.fix.ncomp
+  ok  [lab2_2] referencia a actividad lab2_2.mem.table
+  ok  [lab2_2] referencia a actividad lab2_2.adapt.snr0
+  ok  [lab2_2] referencia a actividad lab2_2.adapt.wine
+  ok  [lab2_2] referencia a actividad lab2_2.fill.pca
+  ok  [lab2_2] referencia a actividad lab2_2.fix.ncomp
+  ok  [lab2_2] referencia a actividad lab2_2.mem.table
+  ok  [lab2_2] referencia a actividad lab2_2.int.equal
+  ok  [lab2_2] referencia a actividad lab2_2.adapt.snr0
+  ok  [lab2_2] referencia a actividad lab2_2.int.q4
+  ok  [lab2_2] mapa de flujo → b_intro
+  ok  [lab2_2] mapa de flujo → b_imports
+  ok  [lab2_2] mapa de flujo → b_params
+  ok  [lab2_2] mapa de flujo → b_gen
+  ok  [lab2_2] mapa de flujo → b_scatter3d
+  ok  [lab2_2] mapa de flujo → b_pairplot
+  ok  [lab2_2] mapa de flujo → b_funcs
+  ok  [lab2_2] mapa de flujo → b_pca2
+  ok  [lab2_2] mapa de flujo → b_pca1
+  ok  [lab2_2] mapa de flujo → b_mda2
+  ok  [lab2_2] mapa de flujo → b_mda1
+  ok  [lab2_2] mapa de flujo → b_3d
+  ok  [lab2_2] mapa de flujo → b_pca2_plot
+  ok  [lab2_2] mapa de flujo → b_pca1_plot
+  ok  [lab2_2] mapa de flujo → b_mda2_plot
+  ok  [lab2_2] mapa de flujo → b_mda1_plot
+  ok  [lab2_2] lab2_2.read.func → bloque b_funcs
+  ok  [lab2_2] lab2_2.read.fit_train → bloque b_pca2
+  ok  [lab2_2] lab2_2.pred.shape_mda → bloque b_mda2
+  ok  [lab2_2] lab2_2.pred.mda3 → bloque b_mda2
+  ok  [lab2_2] lab2_2.pred.sig → bloque b_params
+  ok  [lab2_2] lab2_2.fill.pca → bloque b_pca2
+  ok  [lab2_2] lab2_2.fill.pca → bloque b_funcs
+  ok  [lab2_2] lab2_2.fill.mda → bloque b_mda2
+  ok  [lab2_2] lab2_2.fix.leak → bloque b_pca1
+  ok  [lab2_2] lab2_2.fix.leak → bloque b_gen
+  ok  [lab2_2] lab2_2.fix.ncomp → bloque b_mda2
+  ok  [lab2_2] lab2_2.mem.table → bloque b_mda2
+  ok  [lab2_2] lab2_2.mem.table → bloque b_mda1
+  ok  [lab2_2] lab2_2.mem.table → bloque b_funcs
+  ok  [lab2_2] lab2_2.adapt.snr0 → bloque b_3d
+  ok  [lab2_2] lab2_2.adapt.snr0 → bloque b_mda2
+  ok  [lab2_2] lab2_2.adapt.wine → bloque b_pca2
+  ok  [lab2_2] lab2_2.adapt.wine → bloque b_mda2
+  ok  [lab2_2] lab2_2.int.equal → bloque b_mda2
+  ok  [lab2_2] lab2_2.int.equal → bloque b_3d
+  ok  [lab2_2] lab2_2.int.misconception → bloque b_pca1
+  ok  [lab2_2] lab2_2.int.misconception → bloque b_mda1
+  ok  [lab2_2] lab2_2.int.q1 → bloque b_3d
+  ok  [lab2_2] lab2_2.int.q1 → bloque b_pca2
+  ok  [lab2_2] lab2_2.int.q1 → bloque b_pca1
+  ok  [lab2_2] lab2_2.int.q4 → bloque b_mda2
+  ok  [lab2_2] lab2_2.int.q4 → bloque b_mda1
+  ok  [lab2_2] lab2_2.int.dmax → bloque b_mda2
+  ok  [lab2_2] lab2_2.dyn.dmax → bloque b_mda2
+  ok  [lab2_3] celda 0 asignada a un bloque
+  ok  [lab2_3] celda 1 asignada a un bloque
+  ok  [lab2_3] celda 2 asignada a un bloque
+  ok  [lab2_3] celda 3 asignada a un bloque
+  ok  [lab2_3] celda 4 asignada a un bloque
+  ok  [lab2_3] celda 5 asignada a un bloque
+  ok  [lab2_3] celda 6 asignada a un bloque
+  ok  [lab2_3] celda 7 asignada a un bloque
+  ok  [lab2_3] celda 8 asignada a un bloque
+  ok  [lab2_3] celda 9 asignada a un bloque
+  ok  [lab2_3] celda 10 asignada a un bloque
+  ok  [lab2_3] celda 11 asignada a un bloque
+  ok  [lab2_3] celda 12 asignada a un bloque
+  ok  [lab2_3] celda 13 asignada a un bloque
+  ok  [lab2_3] celda 14 asignada a un bloque
+  ok  [lab2_3] celda 15 asignada a un bloque
+  ok  [lab2_3] celda 16 asignada a un bloque
+  ok  [lab2_3] celda 17 asignada a un bloque
+  ok  [lab2_3] celda 18 asignada a un bloque
+  ok  [lab2_3] celda 19 asignada a un bloque
+  ok  [lab2_3] celda 20 asignada a un bloque
+  ok  [lab2_3] celda 21 asignada a un bloque
+  ok  [lab2_3] celda 2 se ejecuta
+  ok  [lab2_3] celda 4 difiere por una diferencia de versión documentada
+  ok  [lab2_3] celda 5 se ejecuta
+  ok  [lab2_3] celda 7 salida de texto idéntica a la guardada
+  ok  [lab2_3] celda 9 se ejecuta
+  ok  [lab2_3] celda 11 salida de texto idéntica a la guardada
+  ok  [lab2_3] celda 13 se ejecuta
+  ok  [lab2_3] celda 15 salida de texto idéntica a la guardada
+  ok  [lab2_3] celda 17 salida de texto idéntica a la guardada
+  ok  [lab2_3] celda 19 se ejecuta
+  ok  [lab2_3] celda 21 se ejecuta
+  ok  [lab2_3] lab2_3.exp.manual {} se ejecuta (1.0 s, 2 figuras)
+  ok  [lab2_3] lab2_3.exp.manual lda_train = 0.2550697084917617 (esperado 0.25507; Salida guardada de la celda 17 (V_coor = [10, 30]))
+  ok  [lab2_3] lab2_3.exp.manual lda_test = 0.27937915742793795 (esperado 0.279379; Salida guardada de la celda 17 (V_coor = [10, 30]))
+  ok  [lab2_3] lab2_3.exp.manual qda_train = 0.2519011406844106 (esperado 0.251901; Salida guardada de la celda 17 (V_coor = [10, 30]))
+  ok  [lab2_3] lab2_3.exp.manual qda_test = 0.28307464892830747 (esperado 0.283075; Salida guardada de la celda 17 (V_coor = [10, 30]))
+  ok  [lab2_3] lab2_3.exp.manual el valor por defecto de V_coor está entre las opciones
+  ok  [lab2_3] lab2_3.exp.manual el valor por defecto de trainsize está entre las opciones
+  ok  [lab2_3] lab2_3.exp.manual el valor por defecto de h está entre las opciones
+  ok  [lab2_3] lab2_3.exp.manual el valor por defecto de xmax está entre las opciones
+  ok  [lab2_3] lab2_3.exp.nfirst {} se ejecuta (0.6 s, 1 figuras)
+  ok  [lab2_3] lab2_3.exp.nfirst lda_train = 0.07667934093789608 (esperado 0.076679; Salida guardada de la celda 15 (64 features))
+  ok  [lab2_3] lab2_3.exp.nfirst lda_test = 0.07908351810790837 (esperado 0.079084; Salida guardada de la celda 15 (64 features))
+  ok  [lab2_3] lab2_3.exp.nfirst qda_train = 0.05259822560202787 (esperado 0.052598; Salida guardada de la celda 15 (64 features))
+  ok  [lab2_3] lab2_3.exp.nfirst qda_test = 0.11234294161123426 (esperado 0.112343; Salida guardada de la celda 15 (64 features))
+  ok  [lab2_3] lab2_3.exp.nfirst el valor por defecto de nfirst está entre las opciones
+  ok  [lab2_3] lab2_3.exp.nfirst el valor por defecto de trainsize está entre las opciones
+  ok  [lab2_3] lab2_3.exp.nfirst el valor por defecto de reg está entre las opciones
+  ok  [lab2_3] lab2_3.check.intro tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.read.broadcast tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.read.split tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.read.stratify rúbrica y respuesta modelo
+  ok  [lab2_3] lab2_3.pred.shape_train predicción evaluable → [3156,64]
+  ok  [lab2_3] lab2_3.pred.freq predicción evaluable → 0.9375
+  ok  [lab2_3] lab2_3.pred.aa predicción evaluable → 0
+  ok  [lab2_3] lab2_3.fill.center solución aprueba
+  ok  [lab2_3] lab2_3.fill.center alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.fill.center errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_3] lab2_3.fill.center errónea 2 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_3] lab2_3.fill.center el código inicial no aprueba por sí solo
+  ok  [lab2_3] lab2_3.fill.split solución aprueba
+  ok  [lab2_3] lab2_3.fill.split alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.fill.split errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_3] lab2_3.fill.split el código inicial no aprueba por sí solo
+  ok  [lab2_3] lab2_3.fix.rerun solución aprueba
+  ok  [lab2_3] lab2_3.fix.rerun alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.fix.rerun errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_3] lab2_3.fix.rerun el código inicial no aprueba por sí solo
+  ok  [lab2_3] lab2_3.fix.confusion solución aprueba
+  ok  [lab2_3] lab2_3.fix.confusion errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_3] lab2_3.fix.confusion el código inicial no aprueba por sí solo
+  ok  [lab2_3] lab2_3.mem.pipeline solución aprueba
+  ok  [lab2_3] lab2_3.mem.pipeline alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.mem.pipeline errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_3] lab2_3.mem.meanspec solución aprueba
+  ok  [lab2_3] lab2_3.mem.meanspec alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.mem.meanspec errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_3] lab2_3.adapt.fscore solución aprueba
+  ok  [lab2_3] lab2_3.adapt.fscore alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.adapt.fscore errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_3] lab2_3.adapt.recall solución aprueba
+  ok  [lab2_3] lab2_3.adapt.recall alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.adapt.recall errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_3] lab2_3.int.spectrum tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.int.qdaoverfit tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.int.params respuesta numérica definida
+  ok  [lab2_3] lab2_3.int.regions tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.int.q8 rúbrica y respuesta modelo
+  ok  [lab2_3] lab2_3.int.misconception tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.dyn.freq variante seed=1 → 3.78125
+  ok  [lab2_3] lab2_3.dyn.freq variante seed=2 → 6.6875
+  ok  [lab2_3] lab2_3.dyn.freq variante seed=3 → 6.46875
+  ok  [lab2_3] referencia a actividad lab2_3.fill.center
+  ok  [lab2_3] referencia a actividad lab2_3.fill.split
+  ok  [lab2_3] referencia a actividad lab2_3.fix.rerun
+  ok  [lab2_3] referencia a actividad lab2_3.fix.confusion
+  ok  [lab2_3] referencia a actividad lab2_3.mem.pipeline
+  ok  [lab2_3] referencia a actividad lab2_3.mem.meanspec
+  ok  [lab2_3] referencia a actividad lab2_3.adapt.recall
+  ok  [lab2_3] referencia a actividad lab2_3.fill.center
+  ok  [lab2_3] referencia a actividad lab2_3.mem.pipeline
+  ok  [lab2_3] referencia a actividad lab2_3.adapt.recall
+  ok  [lab2_3] referencia a actividad lab2_3.int.qdaoverfit
+  ok  [lab2_3] referencia a actividad lab2_3.pred.aa
+  ok  [lab2_3] referencia a actividad lab2_3.int.q8
+  ok  [lab2_3] mapa de flujo → b_intro
+  ok  [lab2_3] mapa de flujo → b_imports
+  ok  [lab2_3] mapa de flujo → b_read
+  ok  [lab2_3] mapa de flujo → b_spectrum
+  ok  [lab2_3] mapa de flujo → b_prepare
+  ok  [lab2_3] mapa de flujo → b_first64
+  ok  [lab2_3] mapa de flujo → b_split
+  ok  [lab2_3] mapa de flujo → b_classify64
+  ok  [lab2_3] mapa de flujo → b_manual
+  ok  [lab2_3] mapa de flujo → b_lines
+  ok  [lab2_3] mapa de flujo → b_regions
+  ok  [lab2_3] lab2_3.read.broadcast → bloque b_prepare
+  ok  [lab2_3] lab2_3.read.split → bloque b_split
+  ok  [lab2_3] lab2_3.read.stratify → bloque b_split
+  ok  [lab2_3] lab2_3.pred.shape_train → bloque b_split
+  ok  [lab2_3] lab2_3.pred.freq → bloque b_spectrum
+  ok  [lab2_3] lab2_3.pred.freq → bloque b_manual
+  ok  [lab2_3] lab2_3.pred.aa → bloque b_manual
+  ok  [lab2_3] lab2_3.fill.center → bloque b_read
+  ok  [lab2_3] lab2_3.fill.center → bloque b_prepare
+  ok  [lab2_3] lab2_3.fill.split → bloque b_split
+  ok  [lab2_3] lab2_3.fix.rerun → bloque b_manual
+  ok  [lab2_3] lab2_3.fix.confusion → bloque b_classify64
+  ok  [lab2_3] lab2_3.mem.pipeline → bloque b_first64
+  ok  [lab2_3] lab2_3.mem.pipeline → bloque b_split
+  ok  [lab2_3] lab2_3.mem.pipeline → bloque b_classify64
+  ok  [lab2_3] lab2_3.mem.meanspec → bloque b_spectrum
+  ok  [lab2_3] lab2_3.adapt.fscore → bloque b_manual
+  ok  [lab2_3] lab2_3.adapt.recall → bloque b_classify64
+  ok  [lab2_3] lab2_3.int.spectrum → bloque b_spectrum
+  ok  [lab2_3] lab2_3.int.qdaoverfit → bloque b_classify64
+  ok  [lab2_3] lab2_3.int.params → bloque b_classify64
+  ok  [lab2_3] lab2_3.int.regions → bloque b_regions
+  ok  [lab2_3] lab2_3.int.q8 → bloque b_manual
+  ok  [lab2_3] lab2_3.int.misconception → bloque b_first64
+  ok  [lab2_3] lab2_3.int.misconception → bloque b_manual
+  ok  [lab2_3] lab2_3.dyn.freq → bloque b_spectrum
+  ok  [lab2_4] bloque b4_load (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_pca (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_loop_pca (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_plot_pca (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_mda (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_plot_mda (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_blocks (código adaptado) se ejecuta
+  ok  [lab2_4] lab2_4.exp.curves {} se ejecuta (12.0 s, 1 figuras)
+  ok  [lab2_4] lab2_4.exp.curves lda_test_last = 0.07317073170731703 (esperado 0.07317073170731703; Ejecución de referencia de la app (PCA, 256 componentes))
+  ok  [lab2_4] lab2_4.exp.curves qda_train_last = 0.0003168567807351197 (esperado 0.000316856780735; Ejecución de referencia de la app (PCA, 256 componentes))
+  ok  [lab2_4] lab2_4.exp.curves qda_test_last = 0.1699926090169993 (esperado 0.16999260901699928; Ejecución de referencia de la app (PCA, 256 componentes))
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de metodo está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de dims está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de reg está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de trainsize está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves {"metodo":"'MDA'"} se ejecuta (2.4 s, 1 figuras)
+  ok  [lab2_4] lab2_4.exp.curves dim_max = 4 (esperado 4; Ejecución de referencia de la app (MDA, d' = 4))
+  ok  [lab2_4] lab2_4.exp.curves lda_test_last = 0.07317073170731703 (esperado 0.07317073170731703; Ejecución de referencia de la app (MDA, d' = 4))
+  ok  [lab2_4] lab2_4.exp.curves qda_test_last = 0.07390983000739093 (esperado 0.0739; Ejecución de referencia de la app (MDA, d' = 4))
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de metodo está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de dims está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de reg está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de trainsize está entre las opciones
+  ok  [lab2_4] lab2_4.check.task tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.read.leak tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.read.dmax respuesta numérica definida
+  ok  [lab2_4] lab2_4.read.ncomp tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.pred.components predicción evaluable → [256,256]
+  ok  [lab2_4] lab2_4.pred.mdashape predicción evaluable → [1353,3]
+  ok  [lab2_4] lab2_4.fill.pca solución aprueba
+  ok  [lab2_4] lab2_4.fill.pca alternativa 1 aprueba
+  ok  [lab2_4] lab2_4.fill.pca errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_4] lab2_4.fill.pca el código inicial no aprueba por sí solo
+  ok  [lab2_4] lab2_4.fix.leak solución aprueba
+  ok  [lab2_4] lab2_4.fix.leak errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_4] lab2_4.fix.leak el código inicial no aprueba por sí solo
+  ok  [lab2_4] lab2_4.fix.mdacomp solución aprueba
+  ok  [lab2_4] lab2_4.fix.mdacomp alternativa 1 aprueba
+  ok  [lab2_4] lab2_4.fix.mdacomp errónea 1 suspende como «ejecucion» (obtenido: ejecucion)
+  ok  [lab2_4] lab2_4.fix.mdacomp el código inicial no aprueba por sí solo
+  ok  [lab2_4] lab2_4.mem.pcaloop solución aprueba
+  ok  [lab2_4] lab2_4.mem.pcaloop alternativa 1 aprueba
+  ok  [lab2_4] lab2_4.mem.pcaloop errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_4] lab2_4.mem.pcaloop el código inicial no aprueba por sí solo
+  ok  [lab2_4] lab2_4.mem.mdaloop solución aprueba
+  ok  [lab2_4] lab2_4.mem.mdaloop alternativa 1 aprueba
+  ok  [lab2_4] lab2_4.adapt.digits solución aprueba
+  ok  [lab2_4] lab2_4.adapt.blocks solución aprueba
+  ok  [lab2_4] lab2_4.int.curves tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.int.q11 rúbrica y respuesta modelo
+  ok  [lab2_4] lab2_4.int.q13 tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.int.lda4 tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.int.misconception tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.dyn.dmax variante seed=1 → 4
+  ok  [lab2_4] lab2_4.dyn.dmax variante seed=2 → 2
+  ok  [lab2_4] lab2_4.dyn.dmax variante seed=3 → 1
+  ok  [lab2_4] referencia a actividad lab2_4.fill.pca
+  ok  [lab2_4] referencia a actividad lab2_4.fix.leak
+  ok  [lab2_4] referencia a actividad lab2_4.fix.mdacomp
+  ok  [lab2_4] referencia a actividad lab2_4.mem.pcaloop
+  ok  [lab2_4] referencia a actividad lab2_4.mem.mdaloop
+  ok  [lab2_4] referencia a actividad lab2_4.adapt.digits
+  ok  [lab2_4] referencia a actividad lab2_4.read.leak
+  ok  [lab2_4] referencia a actividad lab2_4.mem.pcaloop
+  ok  [lab2_4] referencia a actividad lab2_4.int.q11
+  ok  [lab2_4] referencia a actividad lab2_4.read.dmax
+  ok  [lab2_4] referencia a actividad lab2_4.mem.mdaloop
+  ok  [lab2_4] referencia a actividad lab2_4.int.q13
+  ok  [lab2_4] mapa de flujo → b4_task
+  ok  [lab2_4] mapa de flujo → b4_load
+  ok  [lab2_4] mapa de flujo → b4_pca
+  ok  [lab2_4] mapa de flujo → b4_loop_pca
+  ok  [lab2_4] mapa de flujo → b4_plot_pca
+  ok  [lab2_4] mapa de flujo → b4_choose_pca
+  ok  [lab2_4] mapa de flujo → b4_mda
+  ok  [lab2_4] mapa de flujo → b4_plot_mda
+  ok  [lab2_4] mapa de flujo → b4_blocks
+  ok  [lab2_4] mapa de flujo → b4_compare
+  ok  [lab2_4] lab2_4.read.leak → bloque b4_pca
+  ok  [lab2_4] lab2_4.read.dmax → bloque b4_mda
+  ok  [lab2_4] lab2_4.read.ncomp → bloque b4_mda
+  ok  [lab2_4] lab2_4.pred.components → bloque b4_pca
+  ok  [lab2_4] lab2_4.pred.mdashape → bloque b4_mda
+  ok  [lab2_4] lab2_4.fill.pca → bloque b4_pca
+  ok  [lab2_4] lab2_4.fix.leak → bloque b4_pca
+  ok  [lab2_4] lab2_4.fix.mdacomp → bloque b4_mda
+  ok  [lab2_4] lab2_4.mem.pcaloop → bloque b4_loop_pca
+  ok  [lab2_4] lab2_4.mem.pcaloop → bloque b4_plot_pca
+  ok  [lab2_4] lab2_4.mem.mdaloop → bloque b4_mda
+  ok  [lab2_4] lab2_4.mem.mdaloop → bloque b4_plot_mda
+  ok  [lab2_4] lab2_4.adapt.digits → bloque b4_mda
+  ok  [lab2_4] lab2_4.adapt.digits → bloque b4_compare
+  ok  [lab2_4] lab2_4.adapt.blocks → bloque b4_blocks
+  ok  [lab2_4] lab2_4.int.curves → bloque b4_plot_pca
+  ok  [lab2_4] lab2_4.int.curves → bloque b4_choose_pca
+  ok  [lab2_4] lab2_4.int.q11 → bloque b4_choose_pca
+  ok  [lab2_4] lab2_4.int.q13 → bloque b4_compare
+  ok  [lab2_4] lab2_4.int.lda4 → bloque b4_compare
+  ok  [lab2_4] lab2_4.int.misconception → bloque b4_choose_pca
+  ok  [lab2_4] lab2_4.dyn.dmax → bloque b4_mda
+  ok  [global/g.iris.pipeline] g.iris.shapiro solución aprueba
+  ok  [global/g.iris.pipeline] g.iris.shapiro alternativa 1 aprueba
+  ok  [global/g.iris.pipeline] g.iris.shapiro errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [global/g.iris.pipeline] g.iris.cov tiene al menos una opción correcta
+  ok  [global/g.iris.pipeline] g.iris.ldaqda solución aprueba
+  ok  [global/g.iris.pipeline] g.iris.ldaqda alternativa 1 aprueba
+  ok  [global/g.iris.pipeline] g.iris.ldaqda errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [global/g.iris.pipeline] g.iris.justify rúbrica y respuesta modelo
+  ok  [global/g.bugs.pipeline] g.bugs.fix solución aprueba
+  ok  [global/g.bugs.pipeline] g.bugs.fix alternativa 1 aprueba
+  ok  [global/g.bugs.pipeline] g.bugs.fix errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [global/g.bugs.pipeline] g.bugs.fix el código inicial no aprueba por sí solo
+  ok  [global/g.wine.transfer] g.wine.explore solución aprueba
+  ok  [global/g.wine.transfer] g.wine.explore alternativa 1 aprueba
+  ok  [global/g.wine.transfer] g.wine.choose tiene al menos una opción correcta
+  ok  [global/g.wine.transfer] g.wine.apply solución aprueba
+  ok  [global/g.wine.transfer] g.wine.apply errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [global/g.wine.transfer] g.wine.justify rúbrica y respuesta modelo
+  ok  [global/g.cancer.transfer] g.cancer.auc solución aprueba
+  ok  [global/g.cancer.transfer] g.cancer.auc alternativa 1 aprueba
+  ok  [global/g.cancer.transfer] g.cancer.cost tiene al menos una opción correcta

@@ -1,5 +1,5 @@
-Verificación 2026-10-21T14:08:49.067Z
-210 comprobaciones, 0 fallos
+Verificación 2026-10-21T14:15:40.540Z
+234 comprobaciones, 0 fallos
 
   ok  [lab1_1] celda 0 asignada a un bloque
   ok  [lab1_1] celda 1 asignada a un bloque
@@ -61,13 +61,13 @@ Verificación 2026-10-21T14:08:49.067Z
   ok  [lab1_1] celda 36 salida de texto idéntica a la guardada
   ok  [lab1_1] celda 37 se ejecuta
   ok  [lab1_1] celda 39 salida de texto idéntica a la guardada
-  ok  [lab1_1] lab1_1.exp.snr {} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab1_1] lab1_1.exp.snr {} se ejecuta (0.4 s, 1 figuras)
   ok  [lab1_1] lab1_1.exp.snr err_lda_train = 0.008499999999999952 (esperado 0.0085; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
   ok  [lab1_1] lab1_1.exp.snr err_qda_train = 0.008499999999999952 (esperado 0.0085; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
   ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.009499999999999953 (esperado 0.0095; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
   ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.010000000000000009 (esperado 0.01; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
   ok  [lab1_1] lab1_1.exp.snr md01 = 26.46271472962466 (esperado 26.462714729624665; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
-  ok  [lab1_1] lab1_1.exp.snr md10 = 26.82570658822264 (esperado 26.825706588222634; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr md10 = 26.825706588222634 (esperado 26.825706588222634; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
   ok  [lab1_1] lab1_1.exp.snr sigma2 = 0.041765602802272705 (esperado 0.0417656; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de SNR está entre las opciones
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de n_samples está entre las opciones
@@ -77,14 +77,14 @@ Verificación 2026-10-21T14:08:49.067Z
   ok  [lab1_1] lab1_1.exp.snr {"SNR":"-10"} se ejecuta (0.4 s, 1 figuras)
   ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.28900000000000003 (esperado 0.289; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
   ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.2925 (esperado 0.2925; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
-  ok  [lab1_1] lab1_1.exp.snr md01 = 4.162377745490755 (esperado 4.162378; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
-  ok  [lab1_1] lab1_1.exp.snr md10 = 4.3412405393580755 (esperado 4.341241; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr md01 = 4.162377745490752 (esperado 4.162378; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr md10 = 4.341240539358074 (esperado 4.341241; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de SNR está entre las opciones
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de n_samples está entre las opciones
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de dist está entre las opciones
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de priors está entre las opciones
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de roc_set está entre las opciones
-  ok  [lab1_1] lab1_1.exp.snr {"SNR":"-3"} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab1_1] lab1_1.exp.snr {"SNR":"-3"} se ejecuta (0.4 s, 1 figuras)
   ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.11099999999999999 (esperado 0.111; Report resuelto de Lab1 (Q2 y Q4))
   ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.11099999999999999 (esperado 0.111; Report resuelto de Lab1 (Q2 y Q4))
   ok  [lab1_1] lab1_1.exp.snr auc_lda = 0.9574239999999999 (esperado 0.957424; Report resuelto de Lab1 (Q2 y Q4))
@@ -140,6 +140,21 @@ Verificación 2026-10-21T14:08:49.067Z
   ok  [lab1_1] lab1_1.dyn.sigma variante seed=1 → 0.066194
   ok  [lab1_1] lab1_1.dyn.sigma variante seed=2 → 0.019811
   ok  [lab1_1] lab1_1.dyn.sigma variante seed=3 → 0.031399
+  ok  [lab1_1] lab1_1.read.imports tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.num.db respuesta numérica definida
+  ok  [lab1_1] lab1_1.pred.seed predicción evaluable → "(True, False)"
+  ok  [lab1_1] lab1_1.pred.seed el valor real «(True, False)» está entre las opciones
+  ok  [lab1_1] lab1_1.fill.hist solución aprueba
+  ok  [lab1_1] lab1_1.fill.hist alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fill.hist errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab1_1] lab1_1.fill.hist el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.fix.shuffle solución aprueba
+  ok  [lab1_1] lab1_1.fix.shuffle alternativa 1 aprueba
+  ok  [lab1_1] lab1_1.fix.shuffle el código inicial no aprueba por sí solo
+  ok  [lab1_1] lab1_1.int.pairplot tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.read.3d tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.roctrain tiene al menos una opción correcta
+  ok  [lab1_1] lab1_1.int.reseed tiene al menos una opción correcta
   ok  [lab1_1] referencia a actividad lab1_1.fill.generate
   ok  [lab1_1] referencia a actividad lab1_1.fill.fit
   ok  [lab1_1] referencia a actividad lab1_1.fix.snr
@@ -211,3 +226,12 @@ Verificación 2026-10-21T14:08:49.067Z
   ok  [lab1_1] lab1_1.int.bayes → bloque b_sigma
   ok  [lab1_1] lab1_1.int.bayes → bloque b_test_eval
   ok  [lab1_1] lab1_1.dyn.sigma → bloque b_sigma
+  ok  [lab1_1] lab1_1.read.imports → bloque b_imports
+  ok  [lab1_1] lab1_1.num.db → bloque b_snr
+  ok  [lab1_1] lab1_1.pred.seed → bloque b_rng
+  ok  [lab1_1] lab1_1.fill.hist → bloque b_hist
+  ok  [lab1_1] lab1_1.fix.shuffle → bloque b_shuffle
+  ok  [lab1_1] lab1_1.int.pairplot → bloque b_pairplot
+  ok  [lab1_1] lab1_1.read.3d → bloque b_3d
+  ok  [lab1_1] lab1_1.int.roctrain → bloque b_roc_train
+  ok  [lab1_1] lab1_1.int.reseed → bloque b_test_gen

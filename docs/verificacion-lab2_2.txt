@@ -1,0 +1,170 @@
+Verificación 2026-10-21T14:30:01.919Z
+167 comprobaciones, 0 fallos
+
+  ok  [lab2_2] celda 0 asignada a un bloque
+  ok  [lab2_2] celda 1 asignada a un bloque
+  ok  [lab2_2] celda 2 asignada a un bloque
+  ok  [lab2_2] celda 3 asignada a un bloque
+  ok  [lab2_2] celda 4 asignada a un bloque
+  ok  [lab2_2] celda 5 asignada a un bloque
+  ok  [lab2_2] celda 6 asignada a un bloque
+  ok  [lab2_2] celda 7 asignada a un bloque
+  ok  [lab2_2] celda 8 asignada a un bloque
+  ok  [lab2_2] celda 9 asignada a un bloque
+  ok  [lab2_2] celda 10 asignada a un bloque
+  ok  [lab2_2] celda 11 asignada a un bloque
+  ok  [lab2_2] celda 12 asignada a un bloque
+  ok  [lab2_2] celda 13 asignada a un bloque
+  ok  [lab2_2] celda 14 asignada a un bloque
+  ok  [lab2_2] celda 15 asignada a un bloque
+  ok  [lab2_2] celda 16 asignada a un bloque
+  ok  [lab2_2] celda 17 asignada a un bloque
+  ok  [lab2_2] celda 18 asignada a un bloque
+  ok  [lab2_2] celda 19 asignada a un bloque
+  ok  [lab2_2] celda 20 asignada a un bloque
+  ok  [lab2_2] celda 21 asignada a un bloque
+  ok  [lab2_2] celda 22 asignada a un bloque
+  ok  [lab2_2] celda 23 asignada a un bloque
+  ok  [lab2_2] celda 24 asignada a un bloque
+  ok  [lab2_2] celda 25 asignada a un bloque
+  ok  [lab2_2] celda 26 asignada a un bloque
+  ok  [lab2_2] celda 27 asignada a un bloque
+  ok  [lab2_2] celda 28 asignada a un bloque
+  ok  [lab2_2] celda 29 asignada a un bloque
+  ok  [lab2_2] celda 2 se ejecuta
+  ok  [lab2_2] celda 4 se ejecuta
+  ok  [lab2_2] celda 6 se ejecuta
+  ok  [lab2_2] celda 8 se ejecuta
+  ok  [lab2_2] celda 9 se ejecuta
+  ok  [lab2_2] celda 11 se ejecuta
+  ok  [lab2_2] celda 13 se ejecuta
+  ok  [lab2_2] celda 15 se ejecuta
+  ok  [lab2_2] celda 17 se ejecuta
+  ok  [lab2_2] celda 19 se ejecuta
+  ok  [lab2_2] celda 21 se ejecuta
+  ok  [lab2_2] celda 23 se ejecuta
+  ok  [lab2_2] celda 25 se ejecuta
+  ok  [lab2_2] celda 27 se ejecuta
+  ok  [lab2_2] celda 29 se ejecuta
+  ok  [lab2_2] lab2_2.exp.reduce {} se ejecuta (0.7 s, 1 figuras)
+  ok  [lab2_2] lab2_2.exp.reduce lda_3d_train = 0 (esperado 0; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_3d_test = 0.0006666666666667043 (esperado 0.000666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce qda_3d_test = 0 (esperado 0; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca2_train = 0.0020000000000000018 (esperado 0.002; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca2_test = 0.002666666666666706 (esperado 0.002666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca1_train = 0.026000000000000023 (esperado 0.026; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca1_test = 0.040000000000000036 (esperado 0.04; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce qda_pca1_test = 0.03200000000000003 (esperado 0.032; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_mda2_test = 0.0006666666666667043 (esperado 0.000666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_mda1_train = 0.0033333333333332993 (esperado 0.003333333; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce lda_mda1_test = 0.010666666666666713 (esperado 0.010666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce qda_mda1_test = 0.00666666666666671 (esperado 0.006666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de SNR está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de n_samples está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de vista está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de h está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce {"SNR":"0"} se ejecuta (0.6 s, 1 figuras)
+  ok  [lab2_2] lab2_2.exp.reduce lda_3d_train = 0.11399999999999999 (esperado 0.114; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce lda_3d_test = 0.1273333333333333 (esperado 0.127333333; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce qda_3d_train = 0.07066666666666666 (esperado 0.070666667; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce qda_3d_test = 0.06133333333333335 (esperado 0.061333333; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca2_test = 0.16466666666666663 (esperado 0.164666667; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce qda_pca2_test = 0.15000000000000002 (esperado 0.15; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce lda_mda2_test = 0.1273333333333333 (esperado 0.127333333; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce qda_mda2_test = 0.128 (esperado 0.128; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce lda_pca1_test = 0.242 (esperado 0.242; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce lda_mda1_test = 0.22533333333333339 (esperado 0.225333333; Ejecución celda a celda del notebook en la app, 0 dB)
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de SNR está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de n_samples está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de vista está entre las opciones
+  ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de h está entre las opciones
+  ok  [lab2_2] lab2_2.check.intro tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.read.func tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.read.fit_train rúbrica y respuesta modelo
+  ok  [lab2_2] lab2_2.pred.shape_mda predicción evaluable → [1500,2]
+  ok  [lab2_2] lab2_2.pred.mda3 predicción evaluable → "ValueError"
+  ok  [lab2_2] lab2_2.pred.mda3 el valor real «ValueError» está entre las opciones
+  ok  [lab2_2] lab2_2.pred.sig predicción evaluable → 0.07777777777777778
+  ok  [lab2_2] lab2_2.fill.pca solución aprueba
+  ok  [lab2_2] lab2_2.fill.pca alternativa 1 aprueba
+  ok  [lab2_2] lab2_2.fill.pca errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_2] lab2_2.fill.pca el código inicial no aprueba por sí solo
+  ok  [lab2_2] lab2_2.fill.mda solución aprueba
+  ok  [lab2_2] lab2_2.fill.mda alternativa 1 aprueba
+  ok  [lab2_2] lab2_2.fill.mda errónea 1 suspende como «api» (obtenido: api)
+  ok  [lab2_2] lab2_2.fill.mda el código inicial no aprueba por sí solo
+  ok  [lab2_2] lab2_2.fix.leak solución aprueba
+  ok  [lab2_2] lab2_2.fix.leak el código inicial no aprueba por sí solo
+  ok  [lab2_2] lab2_2.fix.ncomp solución aprueba
+  ok  [lab2_2] lab2_2.fix.ncomp alternativa 1 aprueba
+  ok  [lab2_2] lab2_2.fix.ncomp el código inicial no aprueba por sí solo
+  ok  [lab2_2] lab2_2.mem.table solución aprueba
+  ok  [lab2_2] lab2_2.mem.table alternativa 1 aprueba
+  ok  [lab2_2] lab2_2.adapt.snr0 solución aprueba
+  ok  [lab2_2] lab2_2.adapt.wine solución aprueba
+  ok  [lab2_2] lab2_2.int.equal tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.int.misconception tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.int.q1 rúbrica y respuesta modelo
+  ok  [lab2_2] lab2_2.int.q4 rúbrica y respuesta modelo
+  ok  [lab2_2] lab2_2.int.dmax respuesta numérica definida
+  ok  [lab2_2] lab2_2.dyn.dmax variante seed=1 → 3
+  ok  [lab2_2] lab2_2.dyn.dmax variante seed=2 → 2
+  ok  [lab2_2] lab2_2.dyn.dmax variante seed=3 → 1
+  ok  [lab2_2] referencia a actividad lab2_2.fill.pca
+  ok  [lab2_2] referencia a actividad lab2_2.fill.mda
+  ok  [lab2_2] referencia a actividad lab2_2.fix.leak
+  ok  [lab2_2] referencia a actividad lab2_2.fix.ncomp
+  ok  [lab2_2] referencia a actividad lab2_2.mem.table
+  ok  [lab2_2] referencia a actividad lab2_2.adapt.snr0
+  ok  [lab2_2] referencia a actividad lab2_2.adapt.wine
+  ok  [lab2_2] referencia a actividad lab2_2.fill.pca
+  ok  [lab2_2] referencia a actividad lab2_2.fix.ncomp
+  ok  [lab2_2] referencia a actividad lab2_2.mem.table
+  ok  [lab2_2] referencia a actividad lab2_2.int.equal
+  ok  [lab2_2] referencia a actividad lab2_2.adapt.snr0
+  ok  [lab2_2] referencia a actividad lab2_2.int.q4
+  ok  [lab2_2] mapa de flujo → b_intro
+  ok  [lab2_2] mapa de flujo → b_imports
+  ok  [lab2_2] mapa de flujo → b_params
+  ok  [lab2_2] mapa de flujo → b_gen
+  ok  [lab2_2] mapa de flujo → b_scatter3d
+  ok  [lab2_2] mapa de flujo → b_pairplot
+  ok  [lab2_2] mapa de flujo → b_funcs
+  ok  [lab2_2] mapa de flujo → b_pca2
+  ok  [lab2_2] mapa de flujo → b_pca1
+  ok  [lab2_2] mapa de flujo → b_mda2
+  ok  [lab2_2] mapa de flujo → b_mda1
+  ok  [lab2_2] mapa de flujo → b_3d
+  ok  [lab2_2] mapa de flujo → b_pca2_plot
+  ok  [lab2_2] mapa de flujo → b_pca1_plot
+  ok  [lab2_2] mapa de flujo → b_mda2_plot
+  ok  [lab2_2] mapa de flujo → b_mda1_plot
+  ok  [lab2_2] lab2_2.read.func → bloque b_funcs
+  ok  [lab2_2] lab2_2.read.fit_train → bloque b_pca2
+  ok  [lab2_2] lab2_2.pred.shape_mda → bloque b_mda2
+  ok  [lab2_2] lab2_2.pred.mda3 → bloque b_mda2
+  ok  [lab2_2] lab2_2.pred.sig → bloque b_params
+  ok  [lab2_2] lab2_2.fill.pca → bloque b_pca2
+  ok  [lab2_2] lab2_2.fill.pca → bloque b_funcs
+  ok  [lab2_2] lab2_2.fill.mda → bloque b_mda2
+  ok  [lab2_2] lab2_2.fix.leak → bloque b_pca1
+  ok  [lab2_2] lab2_2.fix.leak → bloque b_gen
+  ok  [lab2_2] lab2_2.fix.ncomp → bloque b_mda2
+  ok  [lab2_2] lab2_2.mem.table → bloque b_mda2
+  ok  [lab2_2] lab2_2.mem.table → bloque b_mda1
+  ok  [lab2_2] lab2_2.mem.table → bloque b_funcs
+  ok  [lab2_2] lab2_2.adapt.snr0 → bloque b_3d
+  ok  [lab2_2] lab2_2.adapt.snr0 → bloque b_mda2
+  ok  [lab2_2] lab2_2.adapt.wine → bloque b_pca2
+  ok  [lab2_2] lab2_2.adapt.wine → bloque b_mda2
+  ok  [lab2_2] lab2_2.int.equal → bloque b_mda2
+  ok  [lab2_2] lab2_2.int.equal → bloque b_3d
+  ok  [lab2_2] lab2_2.int.misconception → bloque b_pca1
+  ok  [lab2_2] lab2_2.int.misconception → bloque b_mda1
+  ok  [lab2_2] lab2_2.int.q1 → bloque b_3d
+  ok  [lab2_2] lab2_2.int.q1 → bloque b_pca2
+  ok  [lab2_2] lab2_2.int.q1 → bloque b_pca1
+  ok  [lab2_2] lab2_2.int.q4 → bloque b_mda2
+  ok  [lab2_2] lab2_2.int.q4 → bloque b_mda1
+  ok  [lab2_2] lab2_2.int.dmax → bloque b_mda2
+  ok  [lab2_2] lab2_2.dyn.dmax → bloque b_mda2

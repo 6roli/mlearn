@@ -84,6 +84,11 @@ export const GLOSSARY: GlossaryEntry[] = [
   { id: 'estratificado', es: 'Partición estratificada', en: 'Stratified split', def: 'train_test_split(..., stratify=y): mantiene la proporción de cada clase en train y test.', labs: ['lab2'] },
   { id: 'log-periodograma', es: 'Log-periodograma', en: 'Log-periodogram', def: 'Logaritmo de la potencia espectral por frecuencia; cada feature de Phoneme es una frecuencia entre 0 y 8 kHz.', labs: ['lab2'] },
   { id: 'broadcasting', es: 'Difusión (broadcasting)', en: 'Broadcasting', def: 'NumPy extiende automáticamente arrays de forma compatible: X (n, d) − m (d,) resta m a cada fila.', labs: ['lab2'] },
+  { id: 'regularizacion', es: 'Regularización (reg_param)', en: 'Regularization / shrinkage', def: 'Encoger las covarianzas estimadas hacia la identidad para reducir su varianza y el sobreajuste (QDA: reg_param).', labs: ['lab2'] },
+  { id: 'fuga-informacion', es: 'Fuga de información', en: 'Data leakage', def: 'Usar datos del test (o información derivada de ellos) al ajustar cualquier paso del modelo, p. ej. PCA con todos los datos; invalida la estimación del error.', labs: ['lab2'] },
+  { id: 'anova-f', es: 'Estadístico F de ANOVA', en: 'ANOVA F-statistic (f_classif)', def: 'Cociente entre la varianza entre clases y la intra-clase de una feature; criterio univariante de selección de características.', labs: ['lab2', 'lab3'] },
+  { id: 'validacion', es: 'Conjunto de validación', en: 'Validation set', def: 'Datos separados para elegir hiperparámetros (p. ej. la dimensión) sin usar el test.', labs: ['lab2'] },
+
 ];
 
 export function glossaryEntry(id: string) {

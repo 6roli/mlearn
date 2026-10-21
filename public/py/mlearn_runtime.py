@@ -149,7 +149,7 @@ ALIASES = {"np", "pd", "plt", "sns", "ss", "sp", "stats", "norm", "default_rng",
            "load_digits", "Path", "eigvals"}
 DIM_WORDS = ("shape", "dimension", "broadcast", "aligned", "size", "axis", "index", "reshape",
              "same length", "same number", "1d", "2d", "3d", "Expected 2D", "too many indices",
-             "inconsistent numbers of samples", "matmul", "out of bounds")
+             "inconsistent numbers of samples", "matmul", "out of bounds", "features, but", "is expecting")
 
 
 def classify_exception(exc):
@@ -278,7 +278,7 @@ def _is_matplotlib_artist(value):
 def _clean_warnings(text):
     keep = []
     for line in text.splitlines():
-        if "warnings.warn(" in line:
+        if "warnings.warn(" in line or "Unable to import LDSO" in line:
             continue
         keep.append(line)
     return "\n".join(keep)

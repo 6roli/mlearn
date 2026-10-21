@@ -1,0 +1,183 @@
+Verificación 2026-10-21T14:27:49.242Z
+180 comprobaciones, 0 fallos
+
+  ok  [lab0_1] celda 0 asignada a un bloque
+  ok  [lab0_1] celda 1 asignada a un bloque
+  ok  [lab0_1] celda 2 asignada a un bloque
+  ok  [lab0_1] celda 3 asignada a un bloque
+  ok  [lab0_1] celda 4 asignada a un bloque
+  ok  [lab0_1] celda 5 asignada a un bloque
+  ok  [lab0_1] celda 6 asignada a un bloque
+  ok  [lab0_1] celda 7 asignada a un bloque
+  ok  [lab0_1] celda 8 asignada a un bloque
+  ok  [lab0_1] celda 9 asignada a un bloque
+  ok  [lab0_1] celda 10 asignada a un bloque
+  ok  [lab0_1] celda 11 asignada a un bloque
+  ok  [lab0_1] celda 12 asignada a un bloque
+  ok  [lab0_1] celda 13 asignada a un bloque
+  ok  [lab0_1] celda 14 asignada a un bloque
+  ok  [lab0_1] celda 15 asignada a un bloque
+  ok  [lab0_1] celda 16 asignada a un bloque
+  ok  [lab0_1] celda 17 asignada a un bloque
+  ok  [lab0_1] celda 18 asignada a un bloque
+  ok  [lab0_1] celda 19 asignada a un bloque
+  ok  [lab0_1] celda 20 asignada a un bloque
+  ok  [lab0_1] celda 21 asignada a un bloque
+  ok  [lab0_1] celda 22 asignada a un bloque
+  ok  [lab0_1] celda 23 asignada a un bloque
+  ok  [lab0_1] celda 24 asignada a un bloque
+  ok  [lab0_1] celda 25 asignada a un bloque
+  ok  [lab0_1] celda 26 asignada a un bloque
+  ok  [lab0_1] celda 5 se ejecuta
+  ok  [lab0_1] celda 7 se ejecuta
+  ok  [lab0_1] celda 9 se ejecuta
+  ok  [lab0_1] celda 11 se ejecuta
+  ok  [lab0_1] celda 13 se ejecuta
+  ok  [lab0_1] celda 15 se ejecuta
+  ok  [lab0_1] celda 17 se ejecuta
+  ok  [lab0_1] celda 19 se ejecuta
+  ok  [lab0_1] celda 21 se ejecuta
+  ok  [lab0_1] celda 23 se ejecuta
+  ok  [lab0_1] celda 25 se ejecuta
+  ok  [lab0_1] celda 26 se ejecuta
+  ok  [lab0_1] lab0_1.exp.dist {} se ejecuta (2.0 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist kurt = 0.01950599007746323 (esperado 0.01950599007746323; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
+  ok  [lab0_1] lab0_1.exp.dist skew = 0.014189860673160708 (esperado 0.014189860673160708; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
+  ok  [lab0_1] lab0_1.exp.dist media = 2.977047139785621 (esperado 2.977047139785621; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
+  ok  [lab0_1] lab0_1.exp.dist std = 4.982665940924694 (esperado 4.982665940924694; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
+  ok  [lab0_1] lab0_1.exp.dist max_dif_cdf = 0.0016634386118963285 (esperado 0.0016634386118963285; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de n está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nmu está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_uniform"} se ejecuta (3.4 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist kurt = -1.197480999277135 (esperado -1.197480999277135; Celda 21 (uniforme))
+  ok  [lab0_1] lab0_1.exp.dist skew = 0.00527575785004402 (esperado 0.00527575785004402; Celda 21 (uniforme))
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de n está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nmu está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_laplace"} se ejecuta (3.1 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist kurt = 2.832184327661956 (esperado 2.832184327661956; Celdas 21 y 26 (Laplace))
+  ok  [lab0_1] lab0_1.exp.dist skew = 0.030603984277548974 (esperado 0.03060398427754898; Celdas 21 y 26 (Laplace))
+  ok  [lab0_1] lab0_1.exp.dist max_dif_cdf = 0.06191111304323438 (esperado 0.06191111304323438; Celdas 21 y 26 (Laplace))
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de n está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nmu está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_rayleigh"} se ejecuta (2.9 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist kurt = 0.2370316573665998 (esperado 0.2370316573665998; Celda 21 (Rayleigh))
+  ok  [lab0_1] lab0_1.exp.dist skew = 0.6238096598566125 (esperado 0.6238096598566125; Celda 21 (Rayleigh))
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de n está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nmu está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
+  ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
+  ok  [lab0_1] lab0_1.check.intro tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.read.vstack tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.read.density tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.read.cdf rúbrica y respuesta modelo
+  ok  [lab0_1] lab0_1.pred.alldata predicción evaluable → [4,100000]
+  ok  [lab0_1] lab0_1.pred.axis0 predicción evaluable → [100000]
+  ok  [lab0_1] lab0_1.pred.kurt_uniform predicción evaluable → -1.197480999277135
+  ok  [lab0_1] lab0_1.fill.moments solución aprueba
+  ok  [lab0_1] lab0_1.fill.moments alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.fill.moments errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab0_1] lab0_1.fill.moments el código inicial no aprueba por sí solo
+  ok  [lab0_1] lab0_1.fill.cdf solución aprueba
+  ok  [lab0_1] lab0_1.fill.cdf alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.fill.cdf errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_1] lab0_1.fill.cdf el código inicial no aprueba por sí solo
+  ok  [lab0_1] lab0_1.fix.pearson solución aprueba
+  ok  [lab0_1] lab0_1.fix.pearson alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.fix.pearson errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_1] lab0_1.fix.pearson el código inicial no aprueba por sí solo
+  ok  [lab0_1] lab0_1.fix.axis solución aprueba
+  ok  [lab0_1] lab0_1.fix.axis el código inicial no aprueba por sí solo
+  ok  [lab0_1] lab0_1.mem.samples solución aprueba
+  ok  [lab0_1] lab0_1.mem.samples alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.mem.ks solución aprueba
+  ok  [lab0_1] lab0_1.mem.ks alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.adapt.expo solución aprueba
+  ok  [lab0_1] lab0_1.adapt.wine solución aprueba
+  ok  [lab0_1] lab0_1.adapt.wine alternativa 1 aprueba
+  ok  [lab0_1] lab0_1.adapt.wine errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_1] lab0_1.int.qq tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.int.bars tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.int.misconception tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.int.kde tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.int.q1 rúbrica y respuesta modelo
+  ok  [lab0_1] lab0_1.int.sem respuesta numérica definida
+  ok  [lab0_1] lab0_1.dyn.which variante seed=1 → Uniforme
+  ok  [lab0_1] lab0_1.dyn.which variante seed=1: la respuesta está entre las opciones
+  ok  [lab0_1] lab0_1.dyn.which variante seed=2 → Rayleigh
+  ok  [lab0_1] lab0_1.dyn.which variante seed=2: la respuesta está entre las opciones
+  ok  [lab0_1] lab0_1.dyn.which variante seed=3 → Rayleigh
+  ok  [lab0_1] lab0_1.dyn.which variante seed=3: la respuesta está entre las opciones
+  ok  [lab0_1] referencia a actividad lab0_1.fill.moments
+  ok  [lab0_1] referencia a actividad lab0_1.fill.cdf
+  ok  [lab0_1] referencia a actividad lab0_1.fix.axis
+  ok  [lab0_1] referencia a actividad lab0_1.fix.pearson
+  ok  [lab0_1] referencia a actividad lab0_1.mem.samples
+  ok  [lab0_1] referencia a actividad lab0_1.mem.ks
+  ok  [lab0_1] referencia a actividad lab0_1.adapt.expo
+  ok  [lab0_1] referencia a actividad lab0_1.mem.samples
+  ok  [lab0_1] referencia a actividad lab0_1.int.bars
+  ok  [lab0_1] referencia a actividad lab0_1.int.qq
+  ok  [lab0_1] referencia a actividad lab0_1.int.misconception
+  ok  [lab0_1] referencia a actividad lab0_1.int.q1
+  ok  [lab0_1] referencia a actividad lab0_1.adapt.expo
+  ok  [lab0_1] mapa de flujo → b_intro
+  ok  [lab0_1] mapa de flujo → b_imports
+  ok  [lab0_1] mapa de flujo → b_rng
+  ok  [lab0_1] mapa de flujo → b_normal
+  ok  [lab0_1] mapa de flujo → b_uniform
+  ok  [lab0_1] mapa de flujo → b_laplace
+  ok  [lab0_1] mapa de flujo → b_rayleigh
+  ok  [lab0_1] mapa de flujo → b_histplot
+  ok  [lab0_1] mapa de flujo → b_cdf
+  ok  [lab0_1] mapa de flujo → b_moments
+  ok  [lab0_1] mapa de flujo → b_qq
+  ok  [lab0_1] mapa de flujo → b_extra_moments
+  ok  [lab0_1] mapa de flujo → b_extra_ecdf
+  ok  [lab0_1] lab0_1.read.vstack → bloque b_moments
+  ok  [lab0_1] lab0_1.read.density → bloque b_normal
+  ok  [lab0_1] lab0_1.read.density → bloque b_cdf
+  ok  [lab0_1] lab0_1.read.cdf → bloque b_cdf
+  ok  [lab0_1] lab0_1.pred.alldata → bloque b_moments
+  ok  [lab0_1] lab0_1.pred.axis0 → bloque b_moments
+  ok  [lab0_1] lab0_1.pred.kurt_uniform → bloque b_moments
+  ok  [lab0_1] lab0_1.pred.kurt_uniform → bloque b_uniform
+  ok  [lab0_1] lab0_1.fill.moments → bloque b_moments
+  ok  [lab0_1] lab0_1.fill.cdf → bloque b_cdf
+  ok  [lab0_1] lab0_1.fix.pearson → bloque b_moments
+  ok  [lab0_1] lab0_1.fix.axis → bloque b_moments
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_rng
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_normal
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_uniform
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_laplace
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_rayleigh
+  ok  [lab0_1] lab0_1.mem.samples → bloque b_moments
+  ok  [lab0_1] lab0_1.mem.ks → bloque b_extra_ecdf
+  ok  [lab0_1] lab0_1.mem.ks → bloque b_cdf
+  ok  [lab0_1] lab0_1.adapt.expo → bloque b_moments
+  ok  [lab0_1] lab0_1.adapt.expo → bloque b_qq
+  ok  [lab0_1] lab0_1.adapt.wine → bloque b_moments
+  ok  [lab0_1] lab0_1.int.qq → bloque b_qq
+  ok  [lab0_1] lab0_1.int.bars → bloque b_moments
+  ok  [lab0_1] lab0_1.int.misconception → bloque b_moments
+  ok  [lab0_1] lab0_1.int.misconception → bloque b_uniform
+  ok  [lab0_1] lab0_1.int.kde → bloque b_histplot
+  ok  [lab0_1] lab0_1.int.q1 → bloque b_histplot
+  ok  [lab0_1] lab0_1.int.q1 → bloque b_cdf
+  ok  [lab0_1] lab0_1.int.q1 → bloque b_moments
+  ok  [lab0_1] lab0_1.int.q1 → bloque b_qq
+  ok  [lab0_1] lab0_1.int.sem → bloque b_rng
+  ok  [lab0_1] lab0_1.dyn.which → bloque b_moments

@@ -87,7 +87,7 @@ Evaluación (misma fuente): quizzes de laboratorio 30 %, competición 25 %, exam
 | lab1_2 celdas 13 vs 17 | Colores de clase intercambiados (rojo/verde) entre figuras. | La app usa una paleta fija por clase. |
 | lab1_2 celda 17 | Dibuja `w_i·x + b_i = 0` para cada clase; no son las fronteras entre pares de clases. | Nota conceptual y comparación con las regiones de `predict`. |
 | lab1 guía vs report | La guía numera Q1–Q11; el report Q1–Q12 (añade la tabla de autovalores como Q10). El report dice «Q8 y Q9» queriendo decir Q6 y Q7. | La app cita ambas numeraciones. |
-| lab2_1 celdas 29, 36 | `plt.cm.get_cmap('jet', 10)` se eliminó en Matplotlib 3.9. | Se ejecuta con `plt.get_cmap('jet', 10)` y se explica. |
+| lab2_1 celdas 29, 36 | `plt.cm.get_cmap('jet', 10)` se eliminó en Matplotlib 3.11 (tu entorno: AttributeError; la app, con 3.10, solo avisa). | Se ejecuta con `plt.get_cmap('jet', 10)` y se explica. |
 | lab2_2 celdas 19, 27 | El texto dice «first two components» al imprimir 1 componente. | Nota. |
 | lab2_2 celdas 21, 29 | El «scatter 1D» dibuja la proyección contra sí misma (diagonal). | Explicado; la app ofrece además histogramas 1D por clase. |
 | lab2_3 celda 17 | Reasigna `X = X[:, V_coor]` sobre la `X` ya recortada a 64 features (los índices siguen coincidiendo porque son las primeras 64). | Explicado. |

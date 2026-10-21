@@ -31,7 +31,6 @@ export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; fil
   const next = nb.blocks[idx + 1];
 
   const run = async () => {
-    if (!file) return;
     setBusy('Preparando…');
     try {
       const r = await runUpTo(nb, file, idx, setBusy);
@@ -76,7 +75,7 @@ export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; fil
           {block.origin && block.origin !== nb.origin && <OriginPill origin={block.origin} />}
         </div>
         <div className="row">
-          {file && !block.noRun && cells.some((c) => c.type === 'code') && (
+          {!block.noRun && (block.runCode || (file && cells.some((c) => c.type === 'code'))) && (
             <button className="btn primary" onClick={run} disabled={!!busy}>
               {busy ? <span className="spinner" /> : '▶'} Ejecutar hasta aquí
             </button>
@@ -89,7 +88,7 @@ export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; fil
 
       <div className="block-grid">
         <div className="col">
-          {!file && <div className="callout warn">No encuentro los materiales importados. Ejecuta <code>npm run import</code> para ver el código original de este bloque.</div>}
+          {!file && !nb.proposed && <div className="callout warn">No encuentro los materiales importados. Ejecuta <code>npm run import</code> para ver el código original de este bloque.</div>}
           {hidden && (
             <div className="callout warn">
               Este bloque contiene una <strong>solución</strong> (tuya o de una sesión anterior). Se muestra después de intentar la actividad{' '}
@@ -119,11 +118,13 @@ export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; fil
               </div>
             ),
           )}
-          {block.runCode && (
+          {block.runCode && (nb.proposed ? (
+            <CodeView code={block.runCode} title={<>Solución de referencia de la app (no es material de la asignatura)</>} />
+          ) : (
             <Collapsible title={<span className="small">Código que ejecuta la app (adaptado)</span>}>
               <CodeView code={block.runCode} />
             </Collapsible>
-          )}
+          ))}
           {busy && <div className="faint row"><span className="spinner" /> {busy}</div>}
           {runs?.map((r, i) => <RunOutput key={i} run={r} title={`Salida (ejecución en la app${runs.length > 1 ? `, celda ${i + 1}` : ''})`} />)}
           {vars && (

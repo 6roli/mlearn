@@ -19,7 +19,8 @@ const MODES: { id: string; label: string; desc: string; pick: (r: ActivityRef) =
 ];
 
 export function GlobalPractice({ sub }: { sub?: string }) {
-  const [labs, setLabs] = useState<string[]>(LABS.map((l) => l.id));
+  const ACTIVE = LABS.filter((l) => l.notebooks.length > 0);
+  const [labs, setLabs] = useState<string[]>(ACTIVE.map((l) => l.id));
   const [ctx, setCtx] = useState<'ambos' | 'original' | 'transferencia'>('ambos');
   const [mode, setMode] = useState(sub ?? 'mezcla');
   const [simulacro, setSimulacro] = useState(false);
@@ -48,13 +49,13 @@ export function GlobalPractice({ sub }: { sub?: string }) {
     <div className="stack">
       <div>
         <h1>Ponte a prueba</h1>
-        <p className="muted">Práctica acumulativa con todos los laboratorios incorporados ({LABS.map((l) => l.id).join(', ')}). Crece automáticamente al registrar nuevos labs. Las preguntas son de elaboración propia a partir de los materiales: no reproducen preguntas reales de examen.</p>
+        <p className="muted">Práctica acumulativa con todos los laboratorios incorporados ({ACTIVE.map((l) => l.id).join(', ')}{LABS.length > ACTIVE.length ? `; pendientes: ${LABS.filter((l) => !l.notebooks.length).map((l) => l.id).join(', ')}` : ''}). Crece automáticamente al registrar nuevos labs. Las preguntas son de elaboración propia a partir de los materiales: no reproducen preguntas reales de examen.</p>
       </div>
       <div className="card">
         <div className="grid-3">
           <div>
             <h4>Laboratorios</h4>
-            {LABS.map((l) => (
+            {ACTIVE.map((l) => (
               <label key={l.id} className="row"><input type="checkbox" checked={labs.includes(l.id)} onChange={(e) => setLabs(e.target.checked ? [...labs, l.id] : labs.filter((x) => x !== l.id))} /> {l.title}</label>
             ))}
           </div>

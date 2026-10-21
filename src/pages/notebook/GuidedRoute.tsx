@@ -61,7 +61,7 @@ export function GuidedRoute({ nb, file }: { lab: LabContent; nb: NotebookContent
         <div className="progress-bar" style={{ marginTop: '0.5rem' }}><span className="auto" style={{ width: `${(100 * (i + 1)) / steps.length}%` }} /></div>
         {!unlocked && (
           <div className="faint small" style={{ marginTop: '0.4rem' }}>
-            {step.kind === 'block' ? 'Responde la comprobación (o marca el bloque como leído) para continuar.' : step.kind === 'experiment' ? 'Ejecuta el experimento cambiando al menos un parámetro para continuar.' : 'Intenta la actividad para continuar.'}
+            {step.kind === 'block' ? 'Responde la comprobación (o marca el bloque como leído) para continuar.' : step.kind === 'experiment' ? 'Cambia algún parámetro, ejecuta y pulsa «He experimentado» para continuar.' : 'Intenta la actividad para continuar.'}
           </div>
         )}
       </div>

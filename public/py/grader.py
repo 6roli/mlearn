@@ -151,7 +151,11 @@ class Checker:
         hint = None
         if B.size and np.allclose(A, -B, rtol=rtol, atol=atol):
             hint = "Tiene el signo contrario al esperado."
-        elif B.size and np.all(B != 0) and np.allclose(A / B, (A / B).flat[0], rtol=1e-6):
+        elif B.size and np.all((B >= 0) & (B <= 1)) and np.allclose(A, 1 - B, rtol=rtol, atol=max(atol, 1e-9)):
+            hint = "Es el complementario (1 − valor esperado): ¿has calculado la tasa de acierto en lugar del error, o al revés?"
+        elif A.ndim == 2 and A.shape[0] == A.shape[1] and np.allclose(A, B.T, rtol=rtol, atol=atol):
+            hint = "Es la traspuesta de lo esperado: ¿has invertido el orden de los argumentos (p. ej. confusion_matrix(y_true, y_pred))?"
+        elif B.size > 1 and np.all(B != 0) and np.allclose(A / B, (A / B).flat[0], rtol=1e-6):
             hint = f"Difiere por un factor constante ≈ {(A / B).flat[0]:.4g} (¿ddof, una raíz cuadrada o un porcentaje?)."
         return self._add(False, f"{label} no coincide{note}: error relativo máximo {rel:.3g}.", "razonamiento",
                          hint, _fmt(expected) if show_expected else None)

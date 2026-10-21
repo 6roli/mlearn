@@ -1,0 +1,235 @@
+Verificación 2026-10-21T14:26:35.981Z
+232 comprobaciones, 0 fallos
+
+  ok  [lab0_2] celda 0 asignada a un bloque
+  ok  [lab0_2] celda 1 asignada a un bloque
+  ok  [lab0_2] celda 2 asignada a un bloque
+  ok  [lab0_2] celda 3 asignada a un bloque
+  ok  [lab0_2] celda 4 asignada a un bloque
+  ok  [lab0_2] celda 5 asignada a un bloque
+  ok  [lab0_2] celda 6 asignada a un bloque
+  ok  [lab0_2] celda 7 asignada a un bloque
+  ok  [lab0_2] celda 8 asignada a un bloque
+  ok  [lab0_2] celda 9 asignada a un bloque
+  ok  [lab0_2] celda 10 asignada a un bloque
+  ok  [lab0_2] celda 11 asignada a un bloque
+  ok  [lab0_2] celda 12 asignada a un bloque
+  ok  [lab0_2] celda 13 asignada a un bloque
+  ok  [lab0_2] celda 14 asignada a un bloque
+  ok  [lab0_2] celda 15 asignada a un bloque
+  ok  [lab0_2] celda 16 asignada a un bloque
+  ok  [lab0_2] celda 17 asignada a un bloque
+  ok  [lab0_2] celda 18 asignada a un bloque
+  ok  [lab0_2] celda 19 asignada a un bloque
+  ok  [lab0_2] celda 20 asignada a un bloque
+  ok  [lab0_2] celda 21 asignada a un bloque
+  ok  [lab0_2] celda 22 asignada a un bloque
+  ok  [lab0_2] celda 23 asignada a un bloque
+  ok  [lab0_2] celda 24 asignada a un bloque
+  ok  [lab0_2] celda 25 asignada a un bloque
+  ok  [lab0_2] celda 26 asignada a un bloque
+  ok  [lab0_2] celda 27 asignada a un bloque
+  ok  [lab0_2] celda 28 asignada a un bloque
+  ok  [lab0_2] celda 29 asignada a un bloque
+  ok  [lab0_2] celda 30 asignada a un bloque
+  ok  [lab0_2] celda 31 asignada a un bloque
+  ok  [lab0_2] celda 32 asignada a un bloque
+  ok  [lab0_2] celda 33 asignada a un bloque
+  ok  [lab0_2] celda 34 asignada a un bloque
+  ok  [lab0_2] celda 35 asignada a un bloque
+  ok  [lab0_2] celda 36 asignada a un bloque
+  ok  [lab0_2] celda 37 asignada a un bloque
+  ok  [lab0_2] celda 38 asignada a un bloque
+  ok  [lab0_2] celda 39 asignada a un bloque
+  ok  [lab0_2] celda 40 asignada a un bloque
+  ok  [lab0_2] celda 41 asignada a un bloque
+  ok  [lab0_2] celda 42 asignada a un bloque
+  ok  [lab0_2] celda 43 asignada a un bloque
+  ok  [lab0_2] celda 44 asignada a un bloque
+  ok  [lab0_2] celda 45 asignada a un bloque
+  ok  [lab0_2] celda 46 asignada a un bloque
+  ok  [lab0_2] celda 47 asignada a un bloque
+  ok  [lab0_2] celda 48 asignada a un bloque
+  ok  [lab0_2] celda 49 asignada a un bloque
+  ok  [lab0_2] celda 50 asignada a un bloque
+  ok  [lab0_2] celda 51 asignada a un bloque
+  ok  [lab0_2] celda 52 asignada a un bloque
+  ok  [lab0_2] celda 4 se ejecuta
+  ok  [lab0_2] bloque b_load (código adaptado) se ejecuta
+  ok  [lab0_2] celda 9 se ejecuta
+  ok  [lab0_2] celda 12 se ejecuta
+  ok  [lab0_2] celda 14 se ejecuta
+  ok  [lab0_2] celda 15 difiere por una diferencia de versión documentada
+  ok  [lab0_2] celda 17 se ejecuta
+  ok  [lab0_2] celda 20 salida de texto idéntica a la guardada
+  ok  [lab0_2] celda 22 se ejecuta
+  ok  [lab0_2] celda 25 se ejecuta
+  ok  [lab0_2] celda 27 se ejecuta
+  ok  [lab0_2] celda 29 se ejecuta
+  ok  [lab0_2] celda 31 se ejecuta
+  ok  [lab0_2] celda 32 se ejecuta
+  ok  [lab0_2] celda 34 se ejecuta
+  ok  [lab0_2] celda 36 se ejecuta
+  ok  [lab0_2] celda 38 se ejecuta
+  ok  [lab0_2] celda 40 se ejecuta
+  ok  [lab0_2] celda 42 se ejecuta
+  ok  [lab0_2] celda 44 se ejecuta
+  ok  [lab0_2] celda 46 se ejecuta
+  ok  [lab0_2] celda 48 se ejecuta
+  ok  [lab0_2] celda 50 se ejecuta
+  ok  [lab0_2] celda 52 se ejecuta
+  ok  [lab0_2] lab0_2.exp.dist {} se ejecuta (0.8 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist kurt_setosa = -0.2526887962236595 (esperado -0.2526887962236595; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist kurt_versicolor = -0.5330095410360967 (esperado -0.5330095410360967; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist kurt_virginica = 0.03290441633529895 (esperado 0.0329044163352985; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist skew_setosa = 0.12008698599540613 (esperado 0.12008698599540614; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist skew_versicolor = 0.10537761729396021 (esperado 0.10537761729396174; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist skew_virginica = 0.11801511964927229 (esperado 0.1180151196492624; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist mean_setosa = 5.006 (esperado 5.006; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist sw_p = 0.4595131518059563 (esperado 0.459513; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de feature está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de clase está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bias está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bins está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de multiple está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de plot está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist {"feature":"\"petal_width\""} se ejecuta (0.7 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist kurt_setosa = 1.5664416078903205 (esperado 1.5664416078903205; Celdas 31 y 32 (petal_width))
+  ok  [lab0_2] lab0_2.exp.dist skew_setosa = 1.1972429698312046 (esperado 1.1972429698312044; Celdas 31 y 32 (petal_width))
+  ok  [lab0_2] lab0_2.exp.dist kurt_virginica = -0.6022644795578462 (esperado -0.6022644795578467; Celdas 31 y 32 (petal_width))
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de feature está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de clase está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bias está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bins está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de multiple está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de plot está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist {"bias":"True"} se ejecuta (0.8 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist kurt_setosa = -0.34576467558246327 (esperado -0.34576467558246327; Recalculado con tu entorno local (scipy, bias=True))
+  ok  [lab0_2] lab0_2.exp.dist skew_setosa = 0.11645392749203057 (esperado 0.11645392749203057; Recalculado con tu entorno local (scipy, bias=True))
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de feature está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de clase está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bias está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bins está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de multiple está entre las opciones
+  ok  [lab0_2] lab0_2.exp.dist el valor por defecto de plot está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel {} se ejecuta (0.4 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.rel corr_total = -0.10936924995064935 (esperado -0.1094; Correlación recalculada con tu entorno local)
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fx está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fy está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de hue está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel {"fx":"\"petal_length\"","fy":"\"petal_width\""} se ejecuta (0.5 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.rel corr_total = 0.9627570970509663 (esperado 0.9628; Correlación recalculada con tu entorno local)
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fx está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fy está entre las opciones
+  ok  [lab0_2] lab0_2.exp.rel el valor por defecto de hue está entre las opciones
+  ok  [lab0_2] lab0_2.read.filter tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.read.describe tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.read.iax rúbrica y respuesta modelo
+  ok  [lab0_2] lab0_2.pred.shape predicción evaluable → [150,5]
+  ok  [lab0_2] lab0_2.pred.groupby predicción evaluable → [3,4]
+  ok  [lab0_2] lab0_2.pred.bias predicción evaluable → -0.34576467558246327
+  ok  [lab0_2] lab0_2.pred.mean predicción evaluable → 4.35
+  ok  [lab0_2] lab0_2.fill.moments solución aprueba
+  ok  [lab0_2] lab0_2.fill.moments alternativa 1 aprueba
+  ok  [lab0_2] lab0_2.fill.moments errónea 1 suspende como «api» (obtenido: api)
+  ok  [lab0_2] lab0_2.fill.moments el código inicial no aprueba por sí solo
+  ok  [lab0_2] lab0_2.fill.grid solución aprueba
+  ok  [lab0_2] lab0_2.fill.grid errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_2] lab0_2.fill.grid el código inicial no aprueba por sí solo
+  ok  [lab0_2] lab0_2.fix.keyerror solución aprueba
+  ok  [lab0_2] lab0_2.fix.keyerror alternativa 1 aprueba
+  ok  [lab0_2] lab0_2.fix.keyerror el código inicial no aprueba por sí solo
+  ok  [lab0_2] lab0_2.fix.iqr solución aprueba
+  ok  [lab0_2] lab0_2.fix.iqr alternativa 1 aprueba
+  ok  [lab0_2] lab0_2.fix.iqr el código inicial no aprueba por sí solo
+  ok  [lab0_2] lab0_2.mem.boxplots solución aprueba
+  ok  [lab0_2] lab0_2.mem.boxplots alternativa 1 aprueba
+  ok  [lab0_2] lab0_2.mem.moments solución aprueba
+  ok  [lab0_2] lab0_2.mem.moments errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab0_2] lab0_2.adapt.wine solución aprueba
+  ok  [lab0_2] lab0_2.adapt.sep solución aprueba
+  ok  [lab0_2] lab0_2.int.pairplot tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.int.qq tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.int.boxplot tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.int.simpson tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.int.q2 rúbrica y respuesta modelo
+  ok  [lab0_2] lab0_2.int.q4 rúbrica y respuesta modelo
+  ok  [lab0_2] lab0_2.int.q3 rúbrica y respuesta modelo
+  ok  [lab0_2] lab0_2.dyn.kurt variante seed=1 → -0.448272
+  ok  [lab0_2] lab0_2.dyn.kurt variante seed=2 → 1.566442
+  ok  [lab0_2] lab0_2.dyn.kurt variante seed=3 → 1.566442
+  ok  [lab0_2] referencia a actividad lab0_2.fill.moments
+  ok  [lab0_2] referencia a actividad lab0_2.fill.grid
+  ok  [lab0_2] referencia a actividad lab0_2.fix.keyerror
+  ok  [lab0_2] referencia a actividad lab0_2.fix.iqr
+  ok  [lab0_2] referencia a actividad lab0_2.mem.boxplots
+  ok  [lab0_2] referencia a actividad lab0_2.mem.moments
+  ok  [lab0_2] referencia a actividad lab0_2.adapt.sep
+  ok  [lab0_2] referencia a actividad lab0_2.mem.moments
+  ok  [lab0_2] referencia a actividad lab0_2.int.qq
+  ok  [lab0_2] referencia a actividad lab0_2.int.q2
+  ok  [lab0_2] referencia a actividad lab0_2.int.q3
+  ok  [lab0_2] referencia a actividad lab0_2.mem.boxplots
+  ok  [lab0_2] referencia a actividad lab0_2.int.q4
+  ok  [lab0_2] referencia a actividad lab0_2.int.pairplot
+  ok  [lab0_2] referencia a actividad lab0_2.int.simpson
+  ok  [lab0_2] referencia a actividad lab0_2.adapt.wine
+  ok  [lab0_2] referencia a actividad lab0_2.adapt.sep
+  ok  [lab0_2] mapa de flujo → b_intro
+  ok  [lab0_2] mapa de flujo → b_imports
+  ok  [lab0_2] mapa de flujo → b_load
+  ok  [lab0_2] mapa de flujo → b_head
+  ok  [lab0_2] mapa de flujo → b_tail
+  ok  [lab0_2] mapa de flujo → b_info
+  ok  [lab0_2] mapa de flujo → b_describe
+  ok  [lab0_2] mapa de flujo → b_hist1
+  ok  [lab0_2] mapa de flujo → b_hist_grid
+  ok  [lab0_2] mapa de flujo → b_seaborn
+  ok  [lab0_2] mapa de flujo → b_hue
+  ok  [lab0_2] mapa de flujo → b_cdf
+  ok  [lab0_2] mapa de flujo → b_kurt
+  ok  [lab0_2] mapa de flujo → b_skew
+  ok  [lab0_2] mapa de flujo → b_kurt1
+  ok  [lab0_2] mapa de flujo → b_qq
+  ok  [lab0_2] mapa de flujo → b_boxplot
+  ok  [lab0_2] mapa de flujo → b_task
+  ok  [lab0_2] mapa de flujo → b_violin
+  ok  [lab0_2] mapa de flujo → b_scatter
+  ok  [lab0_2] mapa de flujo → b_joint
+  ok  [lab0_2] mapa de flujo → b_pairplot
+  ok  [lab0_2] lab0_2.read.filter → bloque b_hist1
+  ok  [lab0_2] lab0_2.read.describe → bloque b_describe
+  ok  [lab0_2] lab0_2.read.iax → bloque b_hist_grid
+  ok  [lab0_2] lab0_2.pred.shape → bloque b_load
+  ok  [lab0_2] lab0_2.pred.groupby → bloque b_kurt
+  ok  [lab0_2] lab0_2.pred.bias → bloque b_kurt1
+  ok  [lab0_2] lab0_2.pred.mean → bloque b_describe
+  ok  [lab0_2] lab0_2.fill.moments → bloque b_kurt
+  ok  [lab0_2] lab0_2.fill.moments → bloque b_skew
+  ok  [lab0_2] lab0_2.fill.grid → bloque b_hist_grid
+  ok  [lab0_2] lab0_2.fix.keyerror → bloque b_hist1
+  ok  [lab0_2] lab0_2.fix.iqr → bloque b_boxplot
+  ok  [lab0_2] lab0_2.mem.boxplots → bloque b_task
+  ok  [lab0_2] lab0_2.mem.boxplots → bloque b_boxplot
+  ok  [lab0_2] lab0_2.mem.moments → bloque b_kurt
+  ok  [lab0_2] lab0_2.mem.moments → bloque b_kurt1
+  ok  [lab0_2] lab0_2.adapt.wine → bloque b_kurt
+  ok  [lab0_2] lab0_2.adapt.wine → bloque b_skew
+  ok  [lab0_2] lab0_2.adapt.wine → bloque b_boxplot
+  ok  [lab0_2] lab0_2.adapt.sep → bloque b_boxplot
+  ok  [lab0_2] lab0_2.adapt.sep → bloque b_pairplot
+  ok  [lab0_2] lab0_2.int.pairplot → bloque b_pairplot
+  ok  [lab0_2] lab0_2.int.qq → bloque b_qq
+  ok  [lab0_2] lab0_2.int.boxplot → bloque b_boxplot
+  ok  [lab0_2] lab0_2.int.simpson → bloque b_scatter
+  ok  [lab0_2] lab0_2.int.simpson → bloque b_joint
+  ok  [lab0_2] lab0_2.int.q2 → bloque b_hist_grid
+  ok  [lab0_2] lab0_2.int.q2 → bloque b_cdf
+  ok  [lab0_2] lab0_2.int.q2 → bloque b_qq
+  ok  [lab0_2] lab0_2.int.q4 → bloque b_boxplot
+  ok  [lab0_2] lab0_2.int.q4 → bloque b_task
+  ok  [lab0_2] lab0_2.int.q4 → bloque b_violin
+  ok  [lab0_2] lab0_2.int.q3 → bloque b_kurt
+  ok  [lab0_2] lab0_2.int.q3 → bloque b_skew
+  ok  [lab0_2] lab0_2.dyn.kurt → bloque b_kurt
+  ok  [lab0_2] lab0_2.dyn.kurt → bloque b_kurt1

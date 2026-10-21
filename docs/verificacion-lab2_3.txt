@@ -1,0 +1,147 @@
+Verificación 2026-10-21T14:18:42.804Z
+144 comprobaciones, 0 fallos
+
+  ok  [lab2_3] celda 0 asignada a un bloque
+  ok  [lab2_3] celda 1 asignada a un bloque
+  ok  [lab2_3] celda 2 asignada a un bloque
+  ok  [lab2_3] celda 3 asignada a un bloque
+  ok  [lab2_3] celda 4 asignada a un bloque
+  ok  [lab2_3] celda 5 asignada a un bloque
+  ok  [lab2_3] celda 6 asignada a un bloque
+  ok  [lab2_3] celda 7 asignada a un bloque
+  ok  [lab2_3] celda 8 asignada a un bloque
+  ok  [lab2_3] celda 9 asignada a un bloque
+  ok  [lab2_3] celda 10 asignada a un bloque
+  ok  [lab2_3] celda 11 asignada a un bloque
+  ok  [lab2_3] celda 12 asignada a un bloque
+  ok  [lab2_3] celda 13 asignada a un bloque
+  ok  [lab2_3] celda 14 asignada a un bloque
+  ok  [lab2_3] celda 15 asignada a un bloque
+  ok  [lab2_3] celda 16 asignada a un bloque
+  ok  [lab2_3] celda 17 asignada a un bloque
+  ok  [lab2_3] celda 18 asignada a un bloque
+  ok  [lab2_3] celda 19 asignada a un bloque
+  ok  [lab2_3] celda 20 asignada a un bloque
+  ok  [lab2_3] celda 21 asignada a un bloque
+  ok  [lab2_3] celda 2 se ejecuta
+  ok  [lab2_3] celda 4 difiere por una diferencia de versión documentada
+  ok  [lab2_3] celda 5 se ejecuta
+  ok  [lab2_3] celda 7 salida de texto idéntica a la guardada
+  ok  [lab2_3] celda 9 se ejecuta
+  ok  [lab2_3] celda 11 salida de texto idéntica a la guardada
+  ok  [lab2_3] celda 13 se ejecuta
+  ok  [lab2_3] celda 15 salida de texto idéntica a la guardada
+  ok  [lab2_3] celda 17 salida de texto idéntica a la guardada
+  ok  [lab2_3] celda 19 se ejecuta
+  ok  [lab2_3] celda 21 se ejecuta
+  ok  [lab2_3] lab2_3.exp.manual {} se ejecuta (1.1 s, 2 figuras)
+  ok  [lab2_3] lab2_3.exp.manual lda_train = 0.2550697084917617 (esperado 0.25507; Salida guardada de la celda 17 (V_coor = [10, 30]))
+  ok  [lab2_3] lab2_3.exp.manual lda_test = 0.27937915742793795 (esperado 0.279379; Salida guardada de la celda 17 (V_coor = [10, 30]))
+  ok  [lab2_3] lab2_3.exp.manual qda_train = 0.2519011406844106 (esperado 0.251901; Salida guardada de la celda 17 (V_coor = [10, 30]))
+  ok  [lab2_3] lab2_3.exp.manual qda_test = 0.28307464892830747 (esperado 0.283075; Salida guardada de la celda 17 (V_coor = [10, 30]))
+  ok  [lab2_3] lab2_3.exp.manual el valor por defecto de V_coor está entre las opciones
+  ok  [lab2_3] lab2_3.exp.manual el valor por defecto de trainsize está entre las opciones
+  ok  [lab2_3] lab2_3.exp.manual el valor por defecto de h está entre las opciones
+  ok  [lab2_3] lab2_3.exp.manual el valor por defecto de xmax está entre las opciones
+  ok  [lab2_3] lab2_3.exp.nfirst {} se ejecuta (0.6 s, 1 figuras)
+  ok  [lab2_3] lab2_3.exp.nfirst lda_train = 0.07667934093789608 (esperado 0.076679; Salida guardada de la celda 15 (64 features))
+  ok  [lab2_3] lab2_3.exp.nfirst lda_test = 0.07908351810790837 (esperado 0.079084; Salida guardada de la celda 15 (64 features))
+  ok  [lab2_3] lab2_3.exp.nfirst qda_train = 0.05259822560202787 (esperado 0.052598; Salida guardada de la celda 15 (64 features))
+  ok  [lab2_3] lab2_3.exp.nfirst qda_test = 0.11234294161123426 (esperado 0.112343; Salida guardada de la celda 15 (64 features))
+  ok  [lab2_3] lab2_3.exp.nfirst el valor por defecto de nfirst está entre las opciones
+  ok  [lab2_3] lab2_3.exp.nfirst el valor por defecto de trainsize está entre las opciones
+  ok  [lab2_3] lab2_3.exp.nfirst el valor por defecto de reg está entre las opciones
+  ok  [lab2_3] lab2_3.check.intro tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.read.broadcast tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.read.split tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.read.stratify rúbrica y respuesta modelo
+  ok  [lab2_3] lab2_3.pred.shape_train predicción evaluable → [3156,64]
+  ok  [lab2_3] lab2_3.pred.freq predicción evaluable → 0.9375
+  ok  [lab2_3] lab2_3.pred.aa predicción evaluable → 0
+  ok  [lab2_3] lab2_3.fill.center solución aprueba
+  ok  [lab2_3] lab2_3.fill.center alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.fill.center errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_3] lab2_3.fill.center errónea 2 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_3] lab2_3.fill.center el código inicial no aprueba por sí solo
+  ok  [lab2_3] lab2_3.fill.split solución aprueba
+  ok  [lab2_3] lab2_3.fill.split alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.fill.split errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_3] lab2_3.fill.split el código inicial no aprueba por sí solo
+  ok  [lab2_3] lab2_3.fix.rerun solución aprueba
+  ok  [lab2_3] lab2_3.fix.rerun alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.fix.rerun errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_3] lab2_3.fix.rerun el código inicial no aprueba por sí solo
+  ok  [lab2_3] lab2_3.fix.confusion solución aprueba
+  ok  [lab2_3] lab2_3.fix.confusion errónea 1 suspende como «dimensiones» (obtenido: dimensiones)
+  ok  [lab2_3] lab2_3.fix.confusion el código inicial no aprueba por sí solo
+  ok  [lab2_3] lab2_3.mem.pipeline solución aprueba
+  ok  [lab2_3] lab2_3.mem.pipeline alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.mem.pipeline errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_3] lab2_3.mem.meanspec solución aprueba
+  ok  [lab2_3] lab2_3.mem.meanspec alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.mem.meanspec errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_3] lab2_3.adapt.fscore solución aprueba
+  ok  [lab2_3] lab2_3.adapt.fscore alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.adapt.fscore errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_3] lab2_3.adapt.recall solución aprueba
+  ok  [lab2_3] lab2_3.adapt.recall alternativa 1 aprueba
+  ok  [lab2_3] lab2_3.adapt.recall errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_3] lab2_3.int.spectrum tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.int.qdaoverfit tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.int.params respuesta numérica definida
+  ok  [lab2_3] lab2_3.int.regions tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.int.q8 rúbrica y respuesta modelo
+  ok  [lab2_3] lab2_3.int.misconception tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.dyn.freq variante seed=1 → 3.78125
+  ok  [lab2_3] lab2_3.dyn.freq variante seed=2 → 6.6875
+  ok  [lab2_3] lab2_3.dyn.freq variante seed=3 → 6.46875
+  ok  [lab2_3] referencia a actividad lab2_3.fill.center
+  ok  [lab2_3] referencia a actividad lab2_3.fill.split
+  ok  [lab2_3] referencia a actividad lab2_3.fix.rerun
+  ok  [lab2_3] referencia a actividad lab2_3.fix.confusion
+  ok  [lab2_3] referencia a actividad lab2_3.mem.pipeline
+  ok  [lab2_3] referencia a actividad lab2_3.mem.meanspec
+  ok  [lab2_3] referencia a actividad lab2_3.adapt.recall
+  ok  [lab2_3] referencia a actividad lab2_3.fill.center
+  ok  [lab2_3] referencia a actividad lab2_3.mem.pipeline
+  ok  [lab2_3] referencia a actividad lab2_3.adapt.recall
+  ok  [lab2_3] referencia a actividad lab2_3.int.qdaoverfit
+  ok  [lab2_3] referencia a actividad lab2_3.pred.aa
+  ok  [lab2_3] referencia a actividad lab2_3.int.q8
+  ok  [lab2_3] mapa de flujo → b_intro
+  ok  [lab2_3] mapa de flujo → b_imports
+  ok  [lab2_3] mapa de flujo → b_read
+  ok  [lab2_3] mapa de flujo → b_spectrum
+  ok  [lab2_3] mapa de flujo → b_prepare
+  ok  [lab2_3] mapa de flujo → b_first64
+  ok  [lab2_3] mapa de flujo → b_split
+  ok  [lab2_3] mapa de flujo → b_classify64
+  ok  [lab2_3] mapa de flujo → b_manual
+  ok  [lab2_3] mapa de flujo → b_lines
+  ok  [lab2_3] mapa de flujo → b_regions
+  ok  [lab2_3] lab2_3.read.broadcast → bloque b_prepare
+  ok  [lab2_3] lab2_3.read.split → bloque b_split
+  ok  [lab2_3] lab2_3.read.stratify → bloque b_split
+  ok  [lab2_3] lab2_3.pred.shape_train → bloque b_split
+  ok  [lab2_3] lab2_3.pred.freq → bloque b_spectrum
+  ok  [lab2_3] lab2_3.pred.freq → bloque b_manual
+  ok  [lab2_3] lab2_3.pred.aa → bloque b_manual
+  ok  [lab2_3] lab2_3.fill.center → bloque b_read
+  ok  [lab2_3] lab2_3.fill.center → bloque b_prepare
+  ok  [lab2_3] lab2_3.fill.split → bloque b_split
+  ok  [lab2_3] lab2_3.fix.rerun → bloque b_manual
+  ok  [lab2_3] lab2_3.fix.confusion → bloque b_classify64
+  ok  [lab2_3] lab2_3.mem.pipeline → bloque b_first64
+  ok  [lab2_3] lab2_3.mem.pipeline → bloque b_split
+  ok  [lab2_3] lab2_3.mem.pipeline → bloque b_classify64
+  ok  [lab2_3] lab2_3.mem.meanspec → bloque b_spectrum
+  ok  [lab2_3] lab2_3.adapt.fscore → bloque b_manual
+  ok  [lab2_3] lab2_3.adapt.recall → bloque b_classify64
+  ok  [lab2_3] lab2_3.int.spectrum → bloque b_spectrum
+  ok  [lab2_3] lab2_3.int.qdaoverfit → bloque b_classify64
+  ok  [lab2_3] lab2_3.int.params → bloque b_classify64
+  ok  [lab2_3] lab2_3.int.regions → bloque b_regions
+  ok  [lab2_3] lab2_3.int.q8 → bloque b_manual
+  ok  [lab2_3] lab2_3.int.misconception → bloque b_first64
+  ok  [lab2_3] lab2_3.int.misconception → bloque b_manual
+  ok  [lab2_3] lab2_3.dyn.freq → bloque b_spectrum

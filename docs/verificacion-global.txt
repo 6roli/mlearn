@@ -1,0 +1,24 @@
+Verificación 2026-10-21T14:13:40.942Z
+21 comprobaciones, 0 fallos
+
+  ok  [global/g.iris.pipeline] g.iris.shapiro solución aprueba
+  ok  [global/g.iris.pipeline] g.iris.shapiro alternativa 1 aprueba
+  ok  [global/g.iris.pipeline] g.iris.shapiro errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [global/g.iris.pipeline] g.iris.cov tiene al menos una opción correcta
+  ok  [global/g.iris.pipeline] g.iris.ldaqda solución aprueba
+  ok  [global/g.iris.pipeline] g.iris.ldaqda alternativa 1 aprueba
+  ok  [global/g.iris.pipeline] g.iris.ldaqda errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [global/g.iris.pipeline] g.iris.justify rúbrica y respuesta modelo
+  ok  [global/g.bugs.pipeline] g.bugs.fix solución aprueba
+  ok  [global/g.bugs.pipeline] g.bugs.fix alternativa 1 aprueba
+  ok  [global/g.bugs.pipeline] g.bugs.fix errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [global/g.bugs.pipeline] g.bugs.fix el código inicial no aprueba por sí solo
+  ok  [global/g.wine.transfer] g.wine.explore solución aprueba
+  ok  [global/g.wine.transfer] g.wine.explore alternativa 1 aprueba
+  ok  [global/g.wine.transfer] g.wine.choose tiene al menos una opción correcta
+  ok  [global/g.wine.transfer] g.wine.apply solución aprueba
+  ok  [global/g.wine.transfer] g.wine.apply errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [global/g.wine.transfer] g.wine.justify rúbrica y respuesta modelo
+  ok  [global/g.cancer.transfer] g.cancer.auc solución aprueba
+  ok  [global/g.cancer.transfer] g.cancer.auc alternativa 1 aprueba
+  ok  [global/g.cancer.transfer] g.cancer.cost tiene al menos una opción correcta

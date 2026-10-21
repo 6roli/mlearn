@@ -1,0 +1,103 @@
+Verificación 2026-10-21T14:29:15.547Z
+100 comprobaciones, 0 fallos
+
+  ok  [lab2_4] bloque b4_load (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_pca (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_loop_pca (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_plot_pca (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_mda (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_plot_mda (código adaptado) se ejecuta
+  ok  [lab2_4] bloque b4_blocks (código adaptado) se ejecuta
+  ok  [lab2_4] lab2_4.exp.curves {} se ejecuta (10.9 s, 1 figuras)
+  ok  [lab2_4] lab2_4.exp.curves lda_test_last = 0.07317073170731703 (esperado 0.07317073170731703; Ejecución de referencia de la app (PCA, 256 componentes))
+  ok  [lab2_4] lab2_4.exp.curves qda_train_last = 0.0003168567807351197 (esperado 0.000316856780735; Ejecución de referencia de la app (PCA, 256 componentes))
+  ok  [lab2_4] lab2_4.exp.curves qda_test_last = 0.1699926090169993 (esperado 0.16999260901699928; Ejecución de referencia de la app (PCA, 256 componentes))
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de metodo está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de dims está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de reg está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de trainsize está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves {"metodo":"'MDA'"} se ejecuta (2.3 s, 1 figuras)
+  ok  [lab2_4] lab2_4.exp.curves dim_max = 4 (esperado 4; Ejecución de referencia de la app (MDA, d' = 4))
+  ok  [lab2_4] lab2_4.exp.curves lda_test_last = 0.07317073170731703 (esperado 0.07317073170731703; Ejecución de referencia de la app (MDA, d' = 4))
+  ok  [lab2_4] lab2_4.exp.curves qda_test_last = 0.07390983000739093 (esperado 0.0739; Ejecución de referencia de la app (MDA, d' = 4))
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de metodo está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de dims está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de reg está entre las opciones
+  ok  [lab2_4] lab2_4.exp.curves el valor por defecto de trainsize está entre las opciones
+  ok  [lab2_4] lab2_4.check.task tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.read.leak tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.read.dmax respuesta numérica definida
+  ok  [lab2_4] lab2_4.read.ncomp tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.pred.components predicción evaluable → [256,256]
+  ok  [lab2_4] lab2_4.pred.mdashape predicción evaluable → [1353,3]
+  ok  [lab2_4] lab2_4.fill.pca solución aprueba
+  ok  [lab2_4] lab2_4.fill.pca alternativa 1 aprueba
+  ok  [lab2_4] lab2_4.fill.pca errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_4] lab2_4.fill.pca el código inicial no aprueba por sí solo
+  ok  [lab2_4] lab2_4.fix.leak solución aprueba
+  ok  [lab2_4] lab2_4.fix.leak errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_4] lab2_4.fix.leak el código inicial no aprueba por sí solo
+  ok  [lab2_4] lab2_4.fix.mdacomp solución aprueba
+  ok  [lab2_4] lab2_4.fix.mdacomp alternativa 1 aprueba
+  ok  [lab2_4] lab2_4.fix.mdacomp errónea 1 suspende como «ejecucion» (obtenido: ejecucion)
+  ok  [lab2_4] lab2_4.fix.mdacomp el código inicial no aprueba por sí solo
+  ok  [lab2_4] lab2_4.mem.pcaloop solución aprueba
+  ok  [lab2_4] lab2_4.mem.pcaloop alternativa 1 aprueba
+  ok  [lab2_4] lab2_4.mem.pcaloop errónea 1 suspende como «razonamiento» (obtenido: razonamiento)
+  ok  [lab2_4] lab2_4.mem.pcaloop el código inicial no aprueba por sí solo
+  ok  [lab2_4] lab2_4.mem.mdaloop solución aprueba
+  ok  [lab2_4] lab2_4.mem.mdaloop alternativa 1 aprueba
+  ok  [lab2_4] lab2_4.adapt.digits solución aprueba
+  ok  [lab2_4] lab2_4.adapt.blocks solución aprueba
+  ok  [lab2_4] lab2_4.int.curves tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.int.q11 rúbrica y respuesta modelo
+  ok  [lab2_4] lab2_4.int.q13 tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.int.lda4 tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.int.misconception tiene al menos una opción correcta
+  ok  [lab2_4] lab2_4.dyn.dmax variante seed=1 → 4
+  ok  [lab2_4] lab2_4.dyn.dmax variante seed=2 → 2
+  ok  [lab2_4] lab2_4.dyn.dmax variante seed=3 → 1
+  ok  [lab2_4] referencia a actividad lab2_4.fill.pca
+  ok  [lab2_4] referencia a actividad lab2_4.fix.leak
+  ok  [lab2_4] referencia a actividad lab2_4.fix.mdacomp
+  ok  [lab2_4] referencia a actividad lab2_4.mem.pcaloop
+  ok  [lab2_4] referencia a actividad lab2_4.mem.mdaloop
+  ok  [lab2_4] referencia a actividad lab2_4.adapt.digits
+  ok  [lab2_4] referencia a actividad lab2_4.read.leak
+  ok  [lab2_4] referencia a actividad lab2_4.mem.pcaloop
+  ok  [lab2_4] referencia a actividad lab2_4.int.q11
+  ok  [lab2_4] referencia a actividad lab2_4.read.dmax
+  ok  [lab2_4] referencia a actividad lab2_4.mem.mdaloop
+  ok  [lab2_4] referencia a actividad lab2_4.int.q13
+  ok  [lab2_4] mapa de flujo → b4_task
+  ok  [lab2_4] mapa de flujo → b4_load
+  ok  [lab2_4] mapa de flujo → b4_pca
+  ok  [lab2_4] mapa de flujo → b4_loop_pca
+  ok  [lab2_4] mapa de flujo → b4_plot_pca
+  ok  [lab2_4] mapa de flujo → b4_choose_pca
+  ok  [lab2_4] mapa de flujo → b4_mda
+  ok  [lab2_4] mapa de flujo → b4_plot_mda
+  ok  [lab2_4] mapa de flujo → b4_blocks
+  ok  [lab2_4] mapa de flujo → b4_compare
+  ok  [lab2_4] lab2_4.read.leak → bloque b4_pca
+  ok  [lab2_4] lab2_4.read.dmax → bloque b4_mda
+  ok  [lab2_4] lab2_4.read.ncomp → bloque b4_mda
+  ok  [lab2_4] lab2_4.pred.components → bloque b4_pca
+  ok  [lab2_4] lab2_4.pred.mdashape → bloque b4_mda
+  ok  [lab2_4] lab2_4.fill.pca → bloque b4_pca
+  ok  [lab2_4] lab2_4.fix.leak → bloque b4_pca
+  ok  [lab2_4] lab2_4.fix.mdacomp → bloque b4_mda
+  ok  [lab2_4] lab2_4.mem.pcaloop → bloque b4_loop_pca
+  ok  [lab2_4] lab2_4.mem.pcaloop → bloque b4_plot_pca
+  ok  [lab2_4] lab2_4.mem.mdaloop → bloque b4_mda
+  ok  [lab2_4] lab2_4.mem.mdaloop → bloque b4_plot_mda
+  ok  [lab2_4] lab2_4.adapt.digits → bloque b4_mda
+  ok  [lab2_4] lab2_4.adapt.digits → bloque b4_compare
+  ok  [lab2_4] lab2_4.adapt.blocks → bloque b4_blocks
+  ok  [lab2_4] lab2_4.int.curves → bloque b4_plot_pca
+  ok  [lab2_4] lab2_4.int.curves → bloque b4_choose_pca
+  ok  [lab2_4] lab2_4.int.q11 → bloque b4_choose_pca
+  ok  [lab2_4] lab2_4.int.q13 → bloque b4_compare
+  ok  [lab2_4] lab2_4.int.lda4 → bloque b4_compare
+  ok  [lab2_4] lab2_4.int.misconception → bloque b4_choose_pca
+  ok  [lab2_4] lab2_4.dyn.dmax → bloque b4_mda

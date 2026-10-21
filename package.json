@@ -5,14 +5,14 @@
   "type": "module",
   "description": "Aplicación de estudio interactiva para Machine Learning from Data (labs y notebooks), con Python real en el navegador.",
   "scripts": {
-    "setup": "node scripts/setup-pyodide.mjs",
+    "import": "python scripts/import_materials.py",
+    "setup-offline": "node scripts/setup-pyodide.mjs",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
-    "coverage-matrix": "node --experimental-strip-types scripts/coverage-matrix.ts",
-    "verify": "node --experimental-strip-types scripts/verify.ts",
-    "test": "vitest run"
+    "verify": "node scripts/verify.ts",
+    "coverage-matrix": "node scripts/coverage-matrix.ts"
   },
   "dependencies": {
     "@codemirror/autocomplete": "6.20.3",
@@ -36,7 +36,6 @@
     "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "6.1.2",
     "typescript": "5.9.3",
-    "vite": "8.3.2",
-    "vitest": "5.0.3"
+    "vite": "8.3.2"
   }
 }
