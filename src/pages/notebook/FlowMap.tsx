@@ -17,8 +17,8 @@ export function FlowMap({ nb, active, onSelect }: { nb: NotebookContent; active?
   const byId = Object.fromEntries(nb.blocks.map((b) => [b.id, b]));
   return (
     <nav className="flowmap">
-      {nb.flow.map((st) => (
-        <div key={st.stage} className={`stage stage-${st.stage}`}>
+      {nb.flow.map((st, k) => (
+        <div key={st.stage + k} className={`stage stage-${st.stage}`}>
           <div className="stage-title">
             <span className="dot" /> {st.label}
           </div>
@@ -31,7 +31,7 @@ export function FlowMap({ nb, active, onSelect }: { nb: NotebookContent; active?
                 <span className="tick">{read[id] ? '✓' : '·'}</span>
                 <span>
                   {b.title}
-                  <span className="faint"> · c{b.cells[0]}{b.cells.length > 1 ? `–${b.cells[b.cells.length - 1]}` : ''}</span>
+                  {b.cells.length > 0 && <span className="faint"> · c{b.cells[0]}{b.cells.length > 1 ? `–${b.cells[b.cells.length - 1]}` : ''}</span>}
                 </span>
               </button>
             );
@@ -47,7 +47,7 @@ export function FlowLine({ nb, onSelect }: { nb: NotebookContent; onSelect: (id:
   return (
     <div className="flowline">
       {nb.flow.map((st, i) => (
-        <div key={st.stage} style={{ display: 'contents' }}>
+        <div key={st.stage + i} style={{ display: 'contents' }}>
           {i > 0 && <span className="arrow">→</span>}
           <div className={`st stage-${st.stage}`}>
             <h5>

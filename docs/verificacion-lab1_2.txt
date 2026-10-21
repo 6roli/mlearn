@@ -1,5 +1,5 @@
-Verificación 2026-10-21T14:22:48.955Z
-155 comprobaciones, 0 fallos
+Verificación 2026-10-21T14:41:12.819Z
+159 comprobaciones, 0 fallos
 
   ok  [lab1_2] celda 0 asignada a un bloque
   ok  [lab1_2] celda 1 asignada a un bloque
@@ -32,7 +32,7 @@ Verificación 2026-10-21T14:22:48.955Z
   ok  [lab1_2] celda 17 se ejecuta
   ok  [lab1_2] celda 19 se ejecuta
   ok  [lab1_2] celda 20 se ejecuta
-  ok  [lab1_2] lab1_2.exp.cases {} se ejecuta (3.2 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases {} se ejecuta (0.6 s, 1 figuras)
   ok  [lab1_2] lab1_2.exp.cases err_lda = 0.0014999999999999458 (esperado 0.0015; Salidas guardadas de las celdas 9 y 15 (SNR = 10 dB, Case 3))
   ok  [lab1_2] lab1_2.exp.cases err_qda = 0.0004999999999999449 (esperado 0.0005; Salidas guardadas de las celdas 9 y 15 (SNR = 10 dB, Case 3))
   ok  [lab1_2] lab1_2.exp.cases sigma0 = 0.05 (esperado 0.05; Salidas guardadas de las celdas 9 y 15 (SNR = 10 dB, Case 3))
@@ -40,14 +40,14 @@ Verificación 2026-10-21T14:22:48.955Z
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
-  ok  [lab1_2] lab1_2.exp.cases {"SNR":"5"} se ejecuta (2.0 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases {"SNR":"5"} se ejecuta (0.6 s, 1 figuras)
   ok  [lab1_2] lab1_2.exp.cases err_lda = 0.06274999999999997 (esperado 0.06275; Report resuelto de Lab1, Q9 (5 dB))
   ok  [lab1_2] lab1_2.exp.cases err_qda = 0.05900000000000005 (esperado 0.059; Report resuelto de Lab1, Q9 (5 dB))
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de ro está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
-  ok  [lab1_2] lab1_2.exp.cases {"sig0":"30"} se ejecuta (1.9 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases {"sig0":"30"} se ejecuta (0.6 s, 1 figuras)
   ok  [lab1_2] lab1_2.exp.cases err_lda = 0.127 (esperado 0.127; Report resuelto de Lab1, Q12)
   ok  [lab1_2] lab1_2.exp.cases err_qda = 0.04874999999999996 (esperado 0.04875; Report resuelto de Lab1, Q12)
   ok  [lab1_2] lab1_2.exp.cases sigma0 = 1.5 (esperado 1.5; Report resuelto de Lab1, Q12)
@@ -55,14 +55,14 @@ Verificación 2026-10-21T14:22:48.955Z
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
-  ok  [lab1_2] lab1_2.exp.cases {"ro":"[0, 0, 0, 0]"} se ejecuta (1.7 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases {"ro":"[0, 0, 0, 0]"} se ejecuta (0.6 s, 1 figuras)
   ok  [lab1_2] lab1_2.exp.cases err_lda = 0.0022499999999999742 (esperado 0.00225; Report resuelto de Lab1, Q6)
   ok  [lab1_2] lab1_2.exp.cases err_qda = 0.0020000000000000018 (esperado 0.002; Report resuelto de Lab1, Q6)
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de ro está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
-  ok  [lab1_2] lab1_2.exp.cases {"ro":"[0.5, 0.5, 0.5, 0.5]"} se ejecuta (2.0 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases {"ro":"[0.5, 0.5, 0.5, 0.5]"} se ejecuta (0.5 s, 1 figuras)
   ok  [lab1_2] lab1_2.exp.cases err_lda = 0 (esperado 0; Report resuelto de Lab1, Q7)
   ok  [lab1_2] lab1_2.exp.cases err_qda = 0 (esperado 0; Report resuelto de Lab1, Q7)
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de ro está entre las opciones
@@ -104,6 +104,8 @@ Verificación 2026-10-21T14:22:48.955Z
   ok  [lab1_2] lab1_2.dyn.eig variante seed=2 → 0.0200475
   ok  [lab1_2] lab1_2.dyn.eig variante seed=3 → 0.045
   ok  [lab1_2] lab1_2.int.train tiene al menos una opción correcta
+  ok  [lab1_2] lab1_2.cov.imports tiene al menos una opción correcta
+  ok  [lab1_2] lab1_2.cov.sig predicción evaluable → 0.05
   ok  [lab1_2] referencia a actividad lab1_2.fill.covar
   ok  [lab1_2] referencia a actividad lab1_2.fill.regions
   ok  [lab1_2] referencia a actividad lab1_2.fix.sigma30
@@ -156,3 +158,5 @@ Verificación 2026-10-21T14:22:48.955Z
   ok  [lab1_2] lab1_2.int.eig08 → bloque b_covar
   ok  [lab1_2] lab1_2.dyn.eig → bloque b_covar
   ok  [lab1_2] lab1_2.int.train → bloque b_fit
+  ok  [lab1_2] lab1_2.cov.imports → bloque b_imports
+  ok  [lab1_2] lab1_2.cov.sig → bloque b_params

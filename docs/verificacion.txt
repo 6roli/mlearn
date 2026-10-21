@@ -1,5 +1,5 @@
-Verificación 2026-10-21T14:34:58.624Z
-1520 comprobaciones, 0 fallos
+Verificación 2026-10-21T14:50:27.015Z
+1573 comprobaciones, 1 fallos
 
   ok  [lab0_1] celda 0 asignada a un bloque
   ok  [lab0_1] celda 1 asignada a un bloque
@@ -40,7 +40,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_1] celda 23 se ejecuta
   ok  [lab0_1] celda 25 se ejecuta
   ok  [lab0_1] celda 26 se ejecuta
-  ok  [lab0_1] lab0_1.exp.dist {} se ejecuta (1.7 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist {} se ejecuta (1.5 s, 1 figuras)
   ok  [lab0_1] lab0_1.exp.dist kurt = 0.01950599007746323 (esperado 0.01950599007746323; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
   ok  [lab0_1] lab0_1.exp.dist skew = 0.014189860673160708 (esperado 0.014189860673160708; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
   ok  [lab0_1] lab0_1.exp.dist media = 2.977047139785621 (esperado 2.977047139785621; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
@@ -52,7 +52,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
-  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_uniform"} se ejecuta (1.7 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_uniform"} se ejecuta (1.5 s, 1 figuras)
   ok  [lab0_1] lab0_1.exp.dist kurt = -1.197480999277135 (esperado -1.197480999277135; Celda 21 (uniforme))
   ok  [lab0_1] lab0_1.exp.dist skew = 0.00527575785004402 (esperado 0.00527575785004402; Celda 21 (uniforme))
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
@@ -61,7 +61,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
-  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_laplace"} se ejecuta (1.6 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_laplace"} se ejecuta (1.3 s, 1 figuras)
   ok  [lab0_1] lab0_1.exp.dist kurt = 2.832184327661956 (esperado 2.832184327661956; Celdas 21 y 26 (Laplace))
   ok  [lab0_1] lab0_1.exp.dist skew = 0.030603984277548974 (esperado 0.03060398427754898; Celdas 21 y 26 (Laplace))
   ok  [lab0_1] lab0_1.exp.dist max_dif_cdf = 0.06191111304323438 (esperado 0.06191111304323438; Celdas 21 y 26 (Laplace))
@@ -71,7 +71,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
-  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_rayleigh"} se ejecuta (1.8 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_rayleigh"} se ejecuta (1.4 s, 1 figuras)
   ok  [lab0_1] lab0_1.exp.dist kurt = 0.2370316573665998 (esperado 0.2370316573665998; Celda 21 (Rayleigh))
   ok  [lab0_1] lab0_1.exp.dist skew = 0.6238096598566125 (esperado 0.6238096598566125; Celda 21 (Rayleigh))
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
@@ -121,6 +121,8 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_1] lab0_1.dyn.which variante seed=2: la respuesta está entre las opciones
   ok  [lab0_1] lab0_1.dyn.which variante seed=3 → Rayleigh
   ok  [lab0_1] lab0_1.dyn.which variante seed=3: la respuesta está entre las opciones
+  ok  [lab0_1] lab0_1.cov.imports tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.cov.vstack predicción evaluable → [4,100000]
   ok  [lab0_1] referencia a actividad lab0_1.fill.moments
   ok  [lab0_1] referencia a actividad lab0_1.fill.cdf
   ok  [lab0_1] referencia a actividad lab0_1.fix.axis
@@ -181,6 +183,8 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_1] lab0_1.int.q1 → bloque b_qq
   ok  [lab0_1] lab0_1.int.sem → bloque b_rng
   ok  [lab0_1] lab0_1.dyn.which → bloque b_moments
+  ok  [lab0_1] lab0_1.cov.imports → bloque b_imports
+  ok  [lab0_1] lab0_1.cov.vstack → bloque b_extra_moments
   ok  [lab0_2] celda 0 asignada a un bloque
   ok  [lab0_2] celda 1 asignada a un bloque
   ok  [lab0_2] celda 2 asignada a un bloque
@@ -258,7 +262,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_2] celda 48 se ejecuta
   ok  [lab0_2] celda 50 se ejecuta
   ok  [lab0_2] celda 52 se ejecuta
-  ok  [lab0_2] lab0_2.exp.dist {} se ejecuta (1.3 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist {} se ejecuta (0.7 s, 1 figuras)
   ok  [lab0_2] lab0_2.exp.dist kurt_setosa = -0.2526887962236595 (esperado -0.2526887962236595; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
   ok  [lab0_2] lab0_2.exp.dist kurt_versicolor = -0.5330095410360967 (esperado -0.5330095410360967; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
   ok  [lab0_2] lab0_2.exp.dist kurt_virginica = 0.03290441633529895 (esperado 0.0329044163352985; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
@@ -273,7 +277,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bins está entre las opciones
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de multiple está entre las opciones
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de plot está entre las opciones
-  ok  [lab0_2] lab0_2.exp.dist {"feature":"\"petal_width\""} se ejecuta (0.9 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist {"feature":"\"petal_width\""} se ejecuta (0.7 s, 1 figuras)
   ok  [lab0_2] lab0_2.exp.dist kurt_setosa = 1.5664416078903205 (esperado 1.5664416078903205; Celdas 31 y 32 (petal_width))
   ok  [lab0_2] lab0_2.exp.dist skew_setosa = 1.1972429698312046 (esperado 1.1972429698312044; Celdas 31 y 32 (petal_width))
   ok  [lab0_2] lab0_2.exp.dist kurt_virginica = -0.6022644795578462 (esperado -0.6022644795578467; Celdas 31 y 32 (petal_width))
@@ -338,6 +342,16 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_2] lab0_2.dyn.kurt variante seed=1 → -0.448272
   ok  [lab0_2] lab0_2.dyn.kurt variante seed=2 → 1.566442
   ok  [lab0_2] lab0_2.dyn.kurt variante seed=3 → 1.566442
+  ok  [lab0_2] lab0_2.cov.imports tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.cov.head predicción evaluable → [5,5]
+  ok  [lab0_2] lab0_2.cov.tail predicción evaluable → "[147, 148, 149]"
+  ok  [lab0_2] lab0_2.cov.tail el valor real «[147, 148, 149]» está entre las opciones
+  ok  [lab0_2] lab0_2.cov.info predicción evaluable → [4,0]
+  ok  [lab0_2] lab0_2.cov.facet solución aprueba
+  ok  [lab0_2] lab0_2.cov.facet alternativa 1 aprueba
+  ok  [lab0_2] lab0_2.cov.facet errónea 1 suspende como «api» (obtenido: api)
+  ok  [lab0_2] lab0_2.cov.facet el código inicial no aprueba por sí solo
+  ok  [lab0_2] lab0_2.cov.hue tiene al menos una opción correcta
   ok  [lab0_2] referencia a actividad lab0_2.fill.moments
   ok  [lab0_2] referencia a actividad lab0_2.fill.grid
   ok  [lab0_2] referencia a actividad lab0_2.fix.keyerror
@@ -413,6 +427,12 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_2] lab0_2.int.q3 → bloque b_skew
   ok  [lab0_2] lab0_2.dyn.kurt → bloque b_kurt
   ok  [lab0_2] lab0_2.dyn.kurt → bloque b_kurt1
+  ok  [lab0_2] lab0_2.cov.imports → bloque b_imports
+  ok  [lab0_2] lab0_2.cov.head → bloque b_head
+  ok  [lab0_2] lab0_2.cov.tail → bloque b_tail
+  ok  [lab0_2] lab0_2.cov.info → bloque b_info
+  ok  [lab0_2] lab0_2.cov.facet → bloque b_seaborn
+  ok  [lab0_2] lab0_2.cov.hue → bloque b_hue
   ok  [lab0_3] celda 0 asignada a un bloque
   ok  [lab0_3] celda 1 asignada a un bloque
   ok  [lab0_3] celda 2 asignada a un bloque
@@ -442,7 +462,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_3] lab0_3.exp.ic el valor por defecto de confianza está entre las opciones
   ok  [lab0_3] lab0_3.exp.ic el valor por defecto de ddof está entre las opciones
   ok  [lab0_3] lab0_3.exp.ic el valor por defecto de alfa está entre las opciones
-  ok  [lab0_3] lab0_3.exp.ic {"confianza":"0.999","especie":"'Iris-virginica'"} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab0_3] lab0_3.exp.ic {"confianza":"0.999","especie":"'Iris-virginica'"} se ejecuta (0.4 s, 1 figuras)
   ok  [lab0_3] lab0_3.exp.ic ic_low = 6.273215831432414 (esperado 6.273215831432418; Salida guardada de la celda 3 (virginica, 99.9 %))
   ok  [lab0_3] lab0_3.exp.ic ic_high = 6.902784168567583 (esperado 6.902784168567583; Salida guardada de la celda 3 (virginica, 99.9 %))
   ok  [lab0_3] lab0_3.exp.ic el valor por defecto de feature está entre las opciones
@@ -450,7 +470,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab0_3] lab0_3.exp.ic el valor por defecto de confianza está entre las opciones
   ok  [lab0_3] lab0_3.exp.ic el valor por defecto de ddof está entre las opciones
   ok  [lab0_3] lab0_3.exp.ic el valor por defecto de alfa está entre las opciones
-  ok  [lab0_3] lab0_3.exp.ic {"feature":"'petal_width'"} se ejecuta (0.3 s, 1 figuras)
+  ok  [lab0_3] lab0_3.exp.ic {"feature":"'petal_width'"} se ejecuta (0.2 s, 1 figuras)
   ok  [lab0_3] lab0_3.exp.ic W = 0.8138167559908819 (esperado 0.813817; Salida guardada de la celda 5 (setosa · petal_width))
   ok  [lab0_3] lab0_3.exp.ic A2 = 4.307007548538962 (esperado 4.307008; Salida guardada de la celda 5 (setosa · petal_width))
   ok  [lab0_3] lab0_3.exp.ic el valor por defecto de feature está entre las opciones
@@ -602,8 +622,8 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab1_1] lab1_1.exp.snr err_qda_train = 0.008499999999999952 (esperado 0.0085; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
   ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.009499999999999953 (esperado 0.0095; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
   ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.010000000000000009 (esperado 0.01; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
-  ok  [lab1_1] lab1_1.exp.snr md01 = 26.46271472962468 (esperado 26.462714729624665; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
-  ok  [lab1_1] lab1_1.exp.snr md10 = 26.82570658822265 (esperado 26.825706588222634; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr md01 = 26.462714729624683 (esperado 26.462714729624665; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
+  ok  [lab1_1] lab1_1.exp.snr md10 = 26.825706588222673 (esperado 26.825706588222634; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
   ok  [lab1_1] lab1_1.exp.snr sigma2 = 0.041765602802272705 (esperado 0.0417656; Salidas guardadas de las celdas 11, 27, 36 y 39 (SNR = 3 dB))
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de SNR está entre las opciones
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de n_samples está entre las opciones
@@ -613,14 +633,14 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab1_1] lab1_1.exp.snr {"SNR":"-10"} se ejecuta (0.3 s, 1 figuras)
   ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.28900000000000003 (esperado 0.289; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
   ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.2925 (esperado 0.2925; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
-  ok  [lab1_1] lab1_1.exp.snr md01 = 4.162377745490757 (esperado 4.162378; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
-  ok  [lab1_1] lab1_1.exp.snr md10 = 4.341240539358074 (esperado 4.341241; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr md01 = 4.162377745490759 (esperado 4.162378; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
+  ok  [lab1_1] lab1_1.exp.snr md10 = 4.341240539358075 (esperado 4.341241; Report resuelto de Lab1 (Q2 y Q5, ejecución original con media escalar))
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de SNR está entre las opciones
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de n_samples está entre las opciones
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de dist está entre las opciones
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de priors está entre las opciones
   ok  [lab1_1] lab1_1.exp.snr el valor por defecto de roc_set está entre las opciones
-  ok  [lab1_1] lab1_1.exp.snr {"SNR":"-3"} se ejecuta (0.4 s, 1 figuras)
+  ok  [lab1_1] lab1_1.exp.snr {"SNR":"-3"} se ejecuta (0.3 s, 1 figuras)
   ok  [lab1_1] lab1_1.exp.snr err_lda_test = 0.11099999999999999 (esperado 0.111; Report resuelto de Lab1 (Q2 y Q4))
   ok  [lab1_1] lab1_1.exp.snr err_qda_test = 0.11099999999999999 (esperado 0.111; Report resuelto de Lab1 (Q2 y Q4))
   ok  [lab1_1] lab1_1.exp.snr auc_lda = 0.9574239999999999 (esperado 0.957424; Report resuelto de Lab1 (Q2 y Q4))
@@ -802,7 +822,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab1_2] celda 17 se ejecuta
   ok  [lab1_2] celda 19 se ejecuta
   ok  [lab1_2] celda 20 se ejecuta
-  ok  [lab1_2] lab1_2.exp.cases {} se ejecuta (0.7 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases {} se ejecuta (0.5 s, 1 figuras)
   ok  [lab1_2] lab1_2.exp.cases err_lda = 0.0014999999999999458 (esperado 0.0015; Salidas guardadas de las celdas 9 y 15 (SNR = 10 dB, Case 3))
   ok  [lab1_2] lab1_2.exp.cases err_qda = 0.0004999999999999449 (esperado 0.0005; Salidas guardadas de las celdas 9 y 15 (SNR = 10 dB, Case 3))
   ok  [lab1_2] lab1_2.exp.cases sigma0 = 0.05 (esperado 0.05; Salidas guardadas de las celdas 9 y 15 (SNR = 10 dB, Case 3))
@@ -810,14 +830,14 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
-  ok  [lab1_2] lab1_2.exp.cases {"SNR":"5"} se ejecuta (0.5 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases {"SNR":"5"} se ejecuta (0.4 s, 1 figuras)
   ok  [lab1_2] lab1_2.exp.cases err_lda = 0.06274999999999997 (esperado 0.06275; Report resuelto de Lab1, Q9 (5 dB))
   ok  [lab1_2] lab1_2.exp.cases err_qda = 0.05900000000000005 (esperado 0.059; Report resuelto de Lab1, Q9 (5 dB))
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de ro está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
-  ok  [lab1_2] lab1_2.exp.cases {"sig0":"30"} se ejecuta (0.6 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases {"sig0":"30"} se ejecuta (0.4 s, 1 figuras)
   ok  [lab1_2] lab1_2.exp.cases err_lda = 0.127 (esperado 0.127; Report resuelto de Lab1, Q12)
   ok  [lab1_2] lab1_2.exp.cases err_qda = 0.04874999999999996 (esperado 0.04875; Report resuelto de Lab1, Q12)
   ok  [lab1_2] lab1_2.exp.cases sigma0 = 1.5 (esperado 1.5; Report resuelto de Lab1, Q12)
@@ -832,7 +852,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de SNR está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de sig0 está entre las opciones
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de h está entre las opciones
-  ok  [lab1_2] lab1_2.exp.cases {"ro":"[0.5, 0.5, 0.5, 0.5]"} se ejecuta (0.6 s, 1 figuras)
+  ok  [lab1_2] lab1_2.exp.cases {"ro":"[0.5, 0.5, 0.5, 0.5]"} se ejecuta (0.5 s, 1 figuras)
   ok  [lab1_2] lab1_2.exp.cases err_lda = 0 (esperado 0; Report resuelto de Lab1, Q7)
   ok  [lab1_2] lab1_2.exp.cases err_qda = 0 (esperado 0; Report resuelto de Lab1, Q7)
   ok  [lab1_2] lab1_2.exp.cases el valor por defecto de ro está entre las opciones
@@ -874,6 +894,8 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab1_2] lab1_2.dyn.eig variante seed=2 → 0.0200475
   ok  [lab1_2] lab1_2.dyn.eig variante seed=3 → 0.045
   ok  [lab1_2] lab1_2.int.train tiene al menos una opción correcta
+  ok  [lab1_2] lab1_2.cov.imports tiene al menos una opción correcta
+  ok  [lab1_2] lab1_2.cov.sig predicción evaluable → 0.05
   ok  [lab1_2] referencia a actividad lab1_2.fill.covar
   ok  [lab1_2] referencia a actividad lab1_2.fill.regions
   ok  [lab1_2] referencia a actividad lab1_2.fix.sigma30
@@ -926,6 +948,8 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab1_2] lab1_2.int.eig08 → bloque b_covar
   ok  [lab1_2] lab1_2.dyn.eig → bloque b_covar
   ok  [lab1_2] lab1_2.int.train → bloque b_fit
+  ok  [lab1_2] lab1_2.cov.imports → bloque b_imports
+  ok  [lab1_2] lab1_2.cov.sig → bloque b_params
   ok  [lab2_1] celda 0 asignada a un bloque
   ok  [lab2_1] celda 1 asignada a un bloque
   ok  [lab2_1] celda 2 asignada a un bloque
@@ -979,7 +1003,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_1] celda 32 se ejecuta
   ok  [lab2_1] celda 35 se ejecuta
   ok  [lab2_1] bloque b_tsne_plot (código adaptado) se ejecuta
-  ok  [lab2_1] lab2_1.exp.pca {} se ejecuta (1.0 s, 3 figuras)
+  ok  [lab2_1] lab2_1.exp.pca {} se ejecuta (1.3 s, 3 figuras)
   ok  [lab2_1] lab2_1.exp.pca ev1 = 0.7625315008826108 (esperado 0.7625315008826108; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
   ok  [lab2_1] lab2_1.exp.pca ev2 = 0.018477895513562506 (esperado 0.018477895513562492; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
   ok  [lab2_1] lab2_1.exp.pca evr1 = 0.9763410074208769 (esperado 0.9763410074208769; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
@@ -989,7 +1013,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_toy está entre las opciones
   ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_digits está entre las opciones
   ok  [lab2_1] lab2_1.exp.pca el valor por defecto de umbral está entre las opciones
-  ok  [lab2_1] lab2_1.exp.pca {"umbral":"0.95"} se ejecuta (0.9 s, 3 figuras)
+  ok  [lab2_1] lab2_1.exp.pca {"umbral":"0.95"} se ejecuta (1.6 s, 3 figuras)
   ok  [lab2_1] lab2_1.exp.pca n_umbral = 29 (esperado 29; Ejecución local con tus versiones)
   ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_toy está entre las opciones
   ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_digits está entre las opciones
@@ -1035,6 +1059,13 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_1] lab2_1.dyn.cum variante seed=2 → 29
   ok  [lab2_1] lab2_1.dyn.cum variante seed=3 → 29
   ok  [lab2_1] lab2_1.int.tsne_new tiene al menos una opción correcta
+  ok  [lab2_1] lab2_1.cov.imports tiene al menos una opción correcta
+  ok  [lab2_1] lab2_1.cov.toy predicción evaluable → [200,2]
+  ok  [lab2_1] lab2_1.cov.digits predicción evaluable → [1797,8,8]
+  ok  [lab2_1] lab2_1.cov.imshow solución aprueba
+  ok  [lab2_1] lab2_1.cov.imshow alternativa 1 aprueba
+ FAIL [lab2_1] lab2_1.cov.imshow errónea 1 suspende como «dimensiones» (obtenido: ejecucion)
+  ok  [lab2_1] lab2_1.cov.imshow el código inicial no aprueba por sí solo
   ok  [lab2_1] referencia a actividad lab2_1.fill.inverse
   ok  [lab2_1] referencia a actividad lab2_1.fill.cumsum
   ok  [lab2_1] referencia a actividad lab2_1.fix.cmap
@@ -1089,6 +1120,10 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_1] lab2_1.int.mse → bloque b_inverse
   ok  [lab2_1] lab2_1.dyn.cum → bloque b_ncomp
   ok  [lab2_1] lab2_1.int.tsne_new → bloque b_tsne
+  ok  [lab2_1] lab2_1.cov.imports → bloque b_imports
+  ok  [lab2_1] lab2_1.cov.toy → bloque b_toy
+  ok  [lab2_1] lab2_1.cov.digits → bloque b_digits_load
+  ok  [lab2_1] lab2_1.cov.imshow → bloque b_digits_show
   ok  [lab2_2] celda 0 asignada a un bloque
   ok  [lab2_2] celda 1 asignada a un bloque
   ok  [lab2_2] celda 2 asignada a un bloque
@@ -1134,7 +1169,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_2] celda 25 se ejecuta
   ok  [lab2_2] celda 27 se ejecuta
   ok  [lab2_2] celda 29 se ejecuta
-  ok  [lab2_2] lab2_2.exp.reduce {} se ejecuta (0.7 s, 1 figuras)
+  ok  [lab2_2] lab2_2.exp.reduce {} se ejecuta (0.8 s, 1 figuras)
   ok  [lab2_2] lab2_2.exp.reduce lda_3d_train = 0 (esperado 0; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
   ok  [lab2_2] lab2_2.exp.reduce lda_3d_test = 0.0006666666666667043 (esperado 0.000666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
   ok  [lab2_2] lab2_2.exp.reduce qda_3d_test = 0 (esperado 0; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
@@ -1198,6 +1233,13 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_2] lab2_2.dyn.dmax variante seed=1 → 3
   ok  [lab2_2] lab2_2.dyn.dmax variante seed=2 → 2
   ok  [lab2_2] lab2_2.dyn.dmax variante seed=3 → 1
+  ok  [lab2_2] lab2_2.cov.imports tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.cov.counts predicción evaluable → 500
+  ok  [lab2_2] lab2_2.cov.pairplot predicción evaluable → [1500,4]
+  ok  [lab2_2] lab2_2.cov.pca2plot tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.cov.pca1plot tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.cov.mda2plot tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.cov.mda1plot tiene al menos una opción correcta
   ok  [lab2_2] referencia a actividad lab2_2.fill.pca
   ok  [lab2_2] referencia a actividad lab2_2.fill.mda
   ok  [lab2_2] referencia a actividad lab2_2.fix.leak
@@ -1256,6 +1298,13 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_2] lab2_2.int.q4 → bloque b_mda1
   ok  [lab2_2] lab2_2.int.dmax → bloque b_mda2
   ok  [lab2_2] lab2_2.dyn.dmax → bloque b_mda2
+  ok  [lab2_2] lab2_2.cov.imports → bloque b_imports
+  ok  [lab2_2] lab2_2.cov.counts → bloque b_scatter3d
+  ok  [lab2_2] lab2_2.cov.pairplot → bloque b_pairplot
+  ok  [lab2_2] lab2_2.cov.pca2plot → bloque b_pca2_plot
+  ok  [lab2_2] lab2_2.cov.pca1plot → bloque b_pca1_plot
+  ok  [lab2_2] lab2_2.cov.mda2plot → bloque b_mda2_plot
+  ok  [lab2_2] lab2_2.cov.mda1plot → bloque b_mda1_plot
   ok  [lab2_3] celda 0 asignada a un bloque
   ok  [lab2_3] celda 1 asignada a un bloque
   ok  [lab2_3] celda 2 asignada a un bloque
@@ -1289,7 +1338,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_3] celda 17 salida de texto idéntica a la guardada
   ok  [lab2_3] celda 19 se ejecuta
   ok  [lab2_3] celda 21 se ejecuta
-  ok  [lab2_3] lab2_3.exp.manual {} se ejecuta (1.0 s, 2 figuras)
+  ok  [lab2_3] lab2_3.exp.manual {} se ejecuta (0.9 s, 2 figuras)
   ok  [lab2_3] lab2_3.exp.manual lda_train = 0.2550697084917617 (esperado 0.25507; Salida guardada de la celda 17 (V_coor = [10, 30]))
   ok  [lab2_3] lab2_3.exp.manual lda_test = 0.27937915742793795 (esperado 0.279379; Salida guardada de la celda 17 (V_coor = [10, 30]))
   ok  [lab2_3] lab2_3.exp.manual qda_train = 0.2519011406844106 (esperado 0.251901; Salida guardada de la celda 17 (V_coor = [10, 30]))
@@ -1350,6 +1399,8 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_3] lab2_3.dyn.freq variante seed=1 → 3.78125
   ok  [lab2_3] lab2_3.dyn.freq variante seed=2 → 6.6875
   ok  [lab2_3] lab2_3.dyn.freq variante seed=3 → 6.46875
+  ok  [lab2_3] lab2_3.cov.imports tiene al menos una opción correcta
+  ok  [lab2_3] lab2_3.cov.lines tiene al menos una opción correcta
   ok  [lab2_3] referencia a actividad lab2_3.fill.center
   ok  [lab2_3] referencia a actividad lab2_3.fill.split
   ok  [lab2_3] referencia a actividad lab2_3.fix.rerun
@@ -1400,6 +1451,8 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_3] lab2_3.int.misconception → bloque b_first64
   ok  [lab2_3] lab2_3.int.misconception → bloque b_manual
   ok  [lab2_3] lab2_3.dyn.freq → bloque b_spectrum
+  ok  [lab2_3] lab2_3.cov.imports → bloque b_imports
+  ok  [lab2_3] lab2_3.cov.lines → bloque b_lines
   ok  [lab2_4] bloque b4_load (código adaptado) se ejecuta
   ok  [lab2_4] bloque b4_pca (código adaptado) se ejecuta
   ok  [lab2_4] bloque b4_loop_pca (código adaptado) se ejecuta
@@ -1407,7 +1460,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_4] bloque b4_mda (código adaptado) se ejecuta
   ok  [lab2_4] bloque b4_plot_mda (código adaptado) se ejecuta
   ok  [lab2_4] bloque b4_blocks (código adaptado) se ejecuta
-  ok  [lab2_4] lab2_4.exp.curves {} se ejecuta (12.0 s, 1 figuras)
+  ok  [lab2_4] lab2_4.exp.curves {} se ejecuta (28.3 s, 1 figuras)
   ok  [lab2_4] lab2_4.exp.curves lda_test_last = 0.07317073170731703 (esperado 0.07317073170731703; Ejecución de referencia de la app (PCA, 256 componentes))
   ok  [lab2_4] lab2_4.exp.curves qda_train_last = 0.0003168567807351197 (esperado 0.000316856780735; Ejecución de referencia de la app (PCA, 256 componentes))
   ok  [lab2_4] lab2_4.exp.curves qda_test_last = 0.1699926090169993 (esperado 0.16999260901699928; Ejecución de referencia de la app (PCA, 256 componentes))
@@ -1415,7 +1468,7 @@ Verificación 2026-10-21T14:34:58.624Z
   ok  [lab2_4] lab2_4.exp.curves el valor por defecto de dims está entre las opciones
   ok  [lab2_4] lab2_4.exp.curves el valor por defecto de reg está entre las opciones
   ok  [lab2_4] lab2_4.exp.curves el valor por defecto de trainsize está entre las opciones
-  ok  [lab2_4] lab2_4.exp.curves {"metodo":"'MDA'"} se ejecuta (2.4 s, 1 figuras)
+  ok  [lab2_4] lab2_4.exp.curves {"metodo":"'MDA'"} se ejecuta (6.6 s, 1 figuras)
   ok  [lab2_4] lab2_4.exp.curves dim_max = 4 (esperado 4; Ejecución de referencia de la app (MDA, d' = 4))
   ok  [lab2_4] lab2_4.exp.curves lda_test_last = 0.07317073170731703 (esperado 0.07317073170731703; Ejecución de referencia de la app (MDA, d' = 4))
   ok  [lab2_4] lab2_4.exp.curves qda_test_last = 0.07390983000739093 (esperado 0.0739; Ejecución de referencia de la app (MDA, d' = 4))

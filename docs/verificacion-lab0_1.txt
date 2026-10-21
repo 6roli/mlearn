@@ -1,5 +1,5 @@
-Verificación 2026-10-21T14:27:49.242Z
-180 comprobaciones, 0 fallos
+Verificación 2026-10-21T14:39:56.954Z
+184 comprobaciones, 0 fallos
 
   ok  [lab0_1] celda 0 asignada a un bloque
   ok  [lab0_1] celda 1 asignada a un bloque
@@ -40,7 +40,7 @@ Verificación 2026-10-21T14:27:49.242Z
   ok  [lab0_1] celda 23 se ejecuta
   ok  [lab0_1] celda 25 se ejecuta
   ok  [lab0_1] celda 26 se ejecuta
-  ok  [lab0_1] lab0_1.exp.dist {} se ejecuta (2.0 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist {} se ejecuta (1.4 s, 1 figuras)
   ok  [lab0_1] lab0_1.exp.dist kurt = 0.01950599007746323 (esperado 0.01950599007746323; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
   ok  [lab0_1] lab0_1.exp.dist skew = 0.014189860673160708 (esperado 0.014189860673160708; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
   ok  [lab0_1] lab0_1.exp.dist media = 2.977047139785621 (esperado 2.977047139785621; Celda 21 recalculada con tu entorno local (seed 1, n = 100 000))
@@ -52,7 +52,7 @@ Verificación 2026-10-21T14:27:49.242Z
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
-  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_uniform"} se ejecuta (3.4 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_uniform"} se ejecuta (1.4 s, 1 figuras)
   ok  [lab0_1] lab0_1.exp.dist kurt = -1.197480999277135 (esperado -1.197480999277135; Celda 21 (uniforme))
   ok  [lab0_1] lab0_1.exp.dist skew = 0.00527575785004402 (esperado 0.00527575785004402; Celda 21 (uniforme))
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
@@ -61,7 +61,7 @@ Verificación 2026-10-21T14:27:49.242Z
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
-  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_laplace"} se ejecuta (3.1 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_laplace"} se ejecuta (1.5 s, 1 figuras)
   ok  [lab0_1] lab0_1.exp.dist kurt = 2.832184327661956 (esperado 2.832184327661956; Celdas 21 y 26 (Laplace))
   ok  [lab0_1] lab0_1.exp.dist skew = 0.030603984277548974 (esperado 0.03060398427754898; Celdas 21 y 26 (Laplace))
   ok  [lab0_1] lab0_1.exp.dist max_dif_cdf = 0.06191111304323438 (esperado 0.06191111304323438; Celdas 21 y 26 (Laplace))
@@ -71,7 +71,7 @@ Verificación 2026-10-21T14:27:49.242Z
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nsigma está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de nbins está entre las opciones
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de npoints está entre las opciones
-  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_rayleigh"} se ejecuta (2.9 s, 1 figuras)
+  ok  [lab0_1] lab0_1.exp.dist {"dist":"data_rayleigh"} se ejecuta (1.4 s, 1 figuras)
   ok  [lab0_1] lab0_1.exp.dist kurt = 0.2370316573665998 (esperado 0.2370316573665998; Celda 21 (Rayleigh))
   ok  [lab0_1] lab0_1.exp.dist skew = 0.6238096598566125 (esperado 0.6238096598566125; Celda 21 (Rayleigh))
   ok  [lab0_1] lab0_1.exp.dist el valor por defecto de dist está entre las opciones
@@ -121,6 +121,8 @@ Verificación 2026-10-21T14:27:49.242Z
   ok  [lab0_1] lab0_1.dyn.which variante seed=2: la respuesta está entre las opciones
   ok  [lab0_1] lab0_1.dyn.which variante seed=3 → Rayleigh
   ok  [lab0_1] lab0_1.dyn.which variante seed=3: la respuesta está entre las opciones
+  ok  [lab0_1] lab0_1.cov.imports tiene al menos una opción correcta
+  ok  [lab0_1] lab0_1.cov.vstack predicción evaluable → [4,100000]
   ok  [lab0_1] referencia a actividad lab0_1.fill.moments
   ok  [lab0_1] referencia a actividad lab0_1.fill.cdf
   ok  [lab0_1] referencia a actividad lab0_1.fix.axis
@@ -181,3 +183,5 @@ Verificación 2026-10-21T14:27:49.242Z
   ok  [lab0_1] lab0_1.int.q1 → bloque b_qq
   ok  [lab0_1] lab0_1.int.sem → bloque b_rng
   ok  [lab0_1] lab0_1.dyn.which → bloque b_moments
+  ok  [lab0_1] lab0_1.cov.imports → bloque b_imports
+  ok  [lab0_1] lab0_1.cov.vstack → bloque b_extra_moments

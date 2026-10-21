@@ -18,6 +18,11 @@ npm run dev           # abre http://localhost:5175
 - Al añadir o cambiar materiales, vuelve a ejecutar `npm run import`: avisa de los notebooks cuyo contenido ha cambiado (SHA-256) para revisar sus explicaciones.
 - El progreso se guarda en el navegador. En **Progreso** puedes exportarlo e importarlo (JSON).
 
+### Estudiar en la tablet
+
+- **PDF para anotar:** en cada notebook, botón **«🖨 PDF para tablet»** → *Imprimir* → *Guardar como PDF*. Incluye contexto, flujo, cada bloque con su código numerado, notas por línea, explicaciones, tablas de funciones, salidas guardadas, espacio para notas y las preguntas con hueco para responder (las soluciones solo si marcas «Anexo de soluciones»). Ábrelo en tu app de notas para subrayar y escribir.
+- **La web en la tablet:** con el PC y la tablet en la misma wifi, arranca `npm run dev:tablet` y abre en la tablet la dirección «Network» que muestra la terminal (p. ej. `http://192.168.1.20:5175`). Python funciona también en la tablet, aunque la primera carga es más lenta. El progreso se guarda en cada dispositivo por separado: usa *Progreso → Exportar/Importar* para pasarlo.
+
 ### Comprobaciones
 
 ```powershell
@@ -71,7 +76,7 @@ src/progress/            progreso, errores, repaso espaciado
 scripts/                 importación de materiales, verificación, cobertura, descarga offline
 ```
 
-### Añadir un laboratorio (p. ej. Lab3)
+### Añadir un laboratorio (p. ej. el siguiente)
 
 1. Copia la carpeta del lab en `LAB/` y añade sus notebooks, datasets y documentos a `content/materials.json`.
 2. `npm run import`.

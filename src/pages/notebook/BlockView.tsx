@@ -15,9 +15,15 @@ import { blockDependencies } from '../../lib/deps';
 export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; file: NotebookFile | null; block: Block; onNav: (id: string) => void }) {
   const idx = nb.blocks.findIndex((b) => b.id === block.id);
   const read = useProgress((s) => !!s.read[block.id]);
-  const attempted = useProgress((s) => (block.hiddenUntil ? !!s.items[block.hiddenUntil] : true));
+  // Las soluciones (tuyas o de referencia de la app) se ocultan hasta intentar una actividad del bloque.
+  const gate = block.hiddenUntil
+    ? [block.hiddenUntil]
+    : nb.proposed && block.runCode
+      ? nb.activities.filter((a) => a.blocks?.includes(block.id)).map((a) => a.id)
+      : [];
+  const attempted = useProgress((s) => !gate.length || gate.some((id) => !!s.items[id]));
   const [forceShow, setForceShow] = useState(false);
-  const hidden = !!block.hiddenUntil && !attempted && !forceShow;
+  const hidden = gate.length > 0 && !attempted && !forceShow;
   const markRead = useProgress((s) => s.markRead);
   const [note, setNote] = useState<number | null>(null);
   const [runs, setRuns] = useState<RunResult[] | null>(null);
@@ -69,7 +75,7 @@ export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; fil
             <span className={`stage-${block.stage} row`} style={{ display: 'inline-flex', gap: '0.35rem' }}>
               <span className="dot" style={{ width: 8, height: 8, borderRadius: '50%', display: 'inline-block' }} /> {STAGE_LABEL[block.stage]}
             </span>{' '}
-            · Bloque {idx + 1} de {nb.blocks.length} · celda{block.cells.length > 1 ? 's' : ''} {block.cells.join(', ')}
+            · Bloque {idx + 1} de {nb.blocks.length}{block.cells.length ? ` · celda${block.cells.length > 1 ? 's' : ''} ${block.cells.join(', ')}` : ' · código de la app'}
           </div>
           <h2>{block.title}</h2>
           {block.origin && block.origin !== nb.origin && <OriginPill origin={block.origin} />}
@@ -91,8 +97,8 @@ export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; fil
           {!file && !nb.proposed && <div className="callout warn">No encuentro los materiales importados. Ejecuta <code>npm run import</code> para ver el código original de este bloque.</div>}
           {hidden && (
             <div className="callout warn">
-              Este bloque contiene una <strong>solución</strong> (tuya o de una sesión anterior). Se muestra después de intentar la actividad{' '}
-              <a href={`#/actividad/${block.hiddenUntil}`}>{block.hiddenUntil}</a>.{' '}
+              Este bloque contiene una <strong>solución</strong>{nb.proposed ? ' de referencia de la app' : ' (tuya o de una sesión anterior)'}. Se muestra después de intentar{' '}
+              {gate.map((id, i) => <span key={id}>{i ? ' o ' : ''}<a href={`#/actividad/${id}`}>{id}</a></span>)}.{' '}
               <button className="btn sm ghost" onClick={() => setForceShow(true)}>Mostrar igualmente</button>
             </div>
           )}
@@ -118,7 +124,7 @@ export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; fil
               </div>
             ),
           )}
-          {block.runCode && (nb.proposed ? (
+          {block.runCode && !hidden && (nb.proposed ? (
             <CodeView code={block.runCode} title={<>Solución de referencia de la app (no es material de la asignatura)</>} />
           ) : (
             <Collapsible title={<span className="small">Código que ejecuta la app (adaptado)</span>}>

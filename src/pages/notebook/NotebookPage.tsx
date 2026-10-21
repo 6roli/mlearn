@@ -52,6 +52,7 @@ export function NotebookPage({ lab, nb, tab = 'contexto', item }: { lab: LabCont
             {file && <span className="faint small">{file.path} · {file.cells.length} celdas</span>}
             {file === null && !nb.proposed && <span className="pill bad">Materiales sin importar</span>}
             {nb.proposed && <span className="pill warn">Notebook propuesto por la guía (no existe en los materiales)</span>}
+            <a className="btn ghost sm" href={href('imprimir', nb.id)} title="Versión para imprimir o guardar en PDF y anotar en la tablet">🖨 PDF para tablet</a>
           </div>
         </div>
         <div className="col" style={{ alignItems: 'flex-end' }}>

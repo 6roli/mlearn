@@ -4,9 +4,8 @@ import type { Activity, LabContent, NotebookContent } from '../src/content/types
 import { lab0 } from './labs/lab0/index.ts';
 import { lab1 } from './labs/lab1/index.ts';
 import { lab2 } from './labs/lab2/index.ts';
-import { lab3 } from './labs/lab3/index.ts';
 
-export const LABS: LabContent[] = [lab0, lab1, lab2, lab3];
+export const LABS: LabContent[] = [lab0, lab1, lab2];
 
 export function allNotebooks(): NotebookContent[] {
   return LABS.flatMap((l) => l.notebooks);

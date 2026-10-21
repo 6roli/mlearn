@@ -966,6 +966,38 @@ variante = {
   'explanation': f'Cada feature avanza 8/256 = 0.03125 kHz: {k} · 0.03125 = {val:.4f} kHz.'
 }`,
     },
+    // ---------------------------------------------------------- cobertura: imports y rectas de LDA
+    {
+      kind: 'mcq',
+      id: 'lab2_3.cov.imports',
+      skills: ['api'],
+      blocks: ['b_imports'],
+      source: src([2, 13]),
+      prompt: 'De los imports de la celda 2, ¿cuál es nuevo respecto a Lab1 y para qué se usa?',
+      options: [
+        { text: '`train_test_split`, de `sklearn.model_selection`, para partir los datos reales en train y test', correct: true },
+        { text: '`confusion_matrix`, para generar los datos', feedback: 'Es una métrica; ya se usaba en Lab1.' },
+        { text: '`QuadraticDiscriminantAnalysis`, para reducir la dimensión', feedback: 'Es el clasificador cuadrático de Lab1; no reduce dimensión.' },
+        { text: '`scipy.stats`, para leer el CSV', feedback: 'El CSV se lee con `pd.read_csv`.' },
+      ],
+      explanation: 'En Lab1 el test se generaba con el mismo modelo sintético; con un dataset real hay que reservar una parte de los datos (30 %, estratificado) para estimar el error.',
+    },
+    {
+      kind: 'mcq',
+      id: 'lab2_3.cov.lines',
+      skills: ['interpretacion', 'concepto'],
+      blocks: ['b_lines'],
+      figure: { notebook: 'lab2_3', cell: 19, output: 0 },
+      source: src([19]),
+      prompt: 'La figura (salida guardada de la celda 19) dibuja una recta por clase con `intercept_[i]` y `coef_[i]`. ¿Qué afirmación es correcta?',
+      options: [
+        { text: 'Cada recta es donde se anula la función discriminante de una clase; la frontera entre las clases i y j es $(w_i-w_j)^Tx + (b_i-b_j) = 0$', correct: true },
+        { text: 'Cada recta separa una clase de todas las demás, así que las regiones se leen directamente', feedback: 'Es lo que sugiere el comentario («one vs all»), pero LDA multiclase decide por el máximo de los discriminantes, no por su signo.' },
+        { text: 'Las rectas son las direcciones de PCA', feedback: 'Salen de los coeficientes del clasificador LDA.' },
+        { text: 'Hay 5 rectas porque hay 5 features', feedback: 'Hay una por clase (5 fonemas); solo hay 2 features.' },
+      ],
+      explanation: 'Las fronteras reales son las de la celda 21 (`predict` sobre una malla). Para obtener la frontera entre dos clases hay que restar sus discriminantes.',
+    },
   ],
   recall: ['lab2_3.fill.center', 'lab2_3.fill.split', 'lab2_3.fix.rerun', 'lab2_3.fix.confusion', 'lab2_3.mem.pipeline', 'lab2_3.mem.meanspec', 'lab2_3.adapt.recall'],
   practice: [

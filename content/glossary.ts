@@ -71,7 +71,7 @@ export const GLOSSARY: GlossaryEntry[] = [
   { id: 'meshgrid', es: 'Malla de puntos', en: 'Mesh grid', def: 'Rejilla regular (np.meshgrid) que se clasifica para pintar las regiones de decisión.', labs: ['lab1', 'lab2'] },
   // ---- reducción de dimensión y selección (Lab2)
   { id: 'maldicion-dimension', es: 'Maldición de la dimensionalidad', en: 'Curse of dimensionality', def: 'Con muchas features, los datos se dispersan, el entrenamiento se encarece y hay que estimar muchos parámetros.', labs: ['lab2'] },
-  { id: 'seleccion-features', es: 'Selección de características', en: 'Feature selection', def: 'Elegir un **subconjunto** de las features originales (p. ej. V_coor = [10, 30]); las features elegidas conservan su significado.', labs: ['lab2', 'lab3'] },
+  { id: 'seleccion-features', es: 'Selección de características', en: 'Feature selection', def: 'Elegir un **subconjunto** de las features originales (p. ej. V_coor = [10, 30]); las features elegidas conservan su significado.', labs: ['lab2'] },
   { id: 'extraccion-features', es: 'Extracción / reducción de dimensión', en: 'Feature extraction / dimensionality reduction', def: 'Construir **nuevas** features como combinación de las originales (y = Wᵀx), como PCA o MDA. La asignatura lo llama «feature selection by dimensionality reduction».', labs: ['lab2'] },
   { id: 'pca', es: 'Análisis de componentes principales', en: 'Principal component analysis (PCA)', def: 'Proyección no supervisada sobre las direcciones de máxima varianza (autovectores de la covarianza total); minimiza el error de reconstrucción, pero no garantiza separar clases.', labs: ['lab2'] },
   { id: 'mda', es: 'Análisis discriminante múltiple (Fisher)', en: 'Multiple discriminant analysis (MDA) / Fisher LDA', def: 'Proyección supervisada que maximiza la dispersión entre clases frente a la intra-clase; como máximo min(d, c − 1) componentes.', labs: ['lab2'] },
@@ -86,7 +86,7 @@ export const GLOSSARY: GlossaryEntry[] = [
   { id: 'broadcasting', es: 'Difusión (broadcasting)', en: 'Broadcasting', def: 'NumPy extiende automáticamente arrays de forma compatible: X (n, d) − m (d,) resta m a cada fila.', labs: ['lab2'] },
   { id: 'regularizacion', es: 'Regularización (reg_param)', en: 'Regularization / shrinkage', def: 'Encoger las covarianzas estimadas hacia la identidad para reducir su varianza y el sobreajuste (QDA: reg_param).', labs: ['lab2'] },
   { id: 'fuga-informacion', es: 'Fuga de información', en: 'Data leakage', def: 'Usar datos del test (o información derivada de ellos) al ajustar cualquier paso del modelo, p. ej. PCA con todos los datos; invalida la estimación del error.', labs: ['lab2'] },
-  { id: 'anova-f', es: 'Estadístico F de ANOVA', en: 'ANOVA F-statistic (f_classif)', def: 'Cociente entre la varianza entre clases y la intra-clase de una feature; criterio univariante de selección de características.', labs: ['lab2', 'lab3'] },
+  { id: 'anova-f', es: 'Estadístico F de ANOVA', en: 'ANOVA F-statistic (f_classif)', def: 'Cociente entre la varianza entre clases y la intra-clase de una feature; criterio univariante de selección de características.', labs: ['lab2'] },
   { id: 'validacion', es: 'Conjunto de validación', en: 'Validation set', def: 'Datos separados para elegir hiperparámetros (p. ej. la dimensión) sin usar el test.', labs: ['lab2'] },
 
 ];

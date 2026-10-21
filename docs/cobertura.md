@@ -4,20 +4,20 @@ Generada el 2026-10-21 con `npm run coverage-matrix`. También disponible en la 
 
 Estado de una celda: **completo** = explicada en un bloque y (si es de código) evaluada por al menos una actividad; **parcial** = explicada sin actividad; **pendiente** = sin cubrir.
 
-Total: 239 celdas · 215 completas · 24 parciales · 0 pendientes (90 %).
+Total: 239 celdas · 239 completas · 0 parciales · 0 pendientes (100 %).
 
 ## Resumen por notebook
 
 | Lab | Notebook | Bloques | Experimentos | Actividades | Celdas | Completas | Parciales | Pendientes |
 |---|---|---|---|---|---|---|---|---|
-| lab0 | lab0_1 | 13 | 1 | 21 | 27 | 25 | 2 | 0 |
-| lab0 | lab0_2 | 22 | 2 | 23 | 53 | 46 | 7 | 0 |
+| lab0 | lab0_1 | 13 | 1 | 23 | 27 | 27 | 0 | 0 |
+| lab0 | lab0_2 | 22 | 2 | 29 | 53 | 53 | 0 | 0 |
 | lab0 | lab0_3 | 6 | 1 | 18 | 9 | 9 | 0 | 0 |
 | lab1 | lab1_1 | 22 | 1 | 33 | 40 | 40 | 0 | 0 |
-| lab1 | lab1_2 | 11 | 1 | 20 | 21 | 19 | 2 | 0 |
-| lab2 | lab2_1 | 16 | 1 | 19 | 37 | 33 | 4 | 0 |
-| lab2 | lab2_2 | 16 | 1 | 18 | 30 | 23 | 7 | 0 |
-| lab2 | lab2_3 | 11 | 2 | 21 | 22 | 20 | 2 | 0 |
+| lab1 | lab1_2 | 11 | 1 | 22 | 21 | 21 | 0 | 0 |
+| lab2 | lab2_1 | 16 | 1 | 23 | 37 | 37 | 0 | 0 |
+| lab2 | lab2_2 | 16 | 1 | 25 | 30 | 30 | 0 | 0 |
+| lab2 | lab2_3 | 11 | 2 | 23 | 22 | 22 | 0 | 0 |
 | lab2 | lab2_4 (propuesto) | 10 | 1 | 18 | 0 | 0 | 0 | 0 |
 
 ## Labs pendientes o incompletos
@@ -36,8 +36,8 @@ Total: 239 celdas · 215 completas · 24 parciales · 0 pendientes (90 %).
 | lab0 | lab0_1 | 1 | markdown | Machine Learning from Data | Título, Colab, Python y qué es EDA | Situar el laboratorio: qué es el análisis exploratorio y qué se va a hacer en esta parte. |  | sí |  | 1 | completo |
 | lab0 | lab0_1 | 2 | markdown | Machine Learning from Data | Título, Colab, Python y qué es EDA | Situar el laboratorio: qué es el análisis exploratorio y qué se va a hacer en esta parte. |  | sí |  | 1 | completo |
 | lab0 | lab0_1 | 3 | markdown | Machine Learning from Data | Título, Colab, Python y qué es EDA | Situar el laboratorio: qué es el análisis exploratorio y qué se va a hacer en esta parte. |  | sí |  | 1 | completo |
-| lab0 | lab0_1 | 4 | markdown | Machine Learning from Data | Importación de librerías | Disponer de arrays, gráficos, tablas y funciones estadísticas. | import numpy as np, import matplotlib.pyplot as plt, import pandas as pd, import seaborn as sns, import scipy.stats as ss | sí |  | 0 | completo |
-| lab0 | lab0_1 | 5 | code | Machine Learning from Data | Importación de librerías | Disponer de arrays, gráficos, tablas y funciones estadísticas. | import numpy as np, import matplotlib.pyplot as plt, import pandas as pd, import seaborn as sns, import scipy.stats as ss | sí |  | 0 | parcial |
+| lab0 | lab0_1 | 4 | markdown | Machine Learning from Data | Importación de librerías | Disponer de arrays, gráficos, tablas y funciones estadísticas. | import numpy as np, import matplotlib.pyplot as plt, import pandas as pd, import seaborn as sns, import scipy.stats as ss | sí |  | 1 | completo |
+| lab0 | lab0_1 | 5 | code | Machine Learning from Data | Importación de librerías | Disponer de arrays, gráficos, tablas y funciones estadísticas. | import numpy as np, import matplotlib.pyplot as plt, import pandas as pd, import seaborn as sns, import scipy.stats as ss | sí |  | 1 | completo |
 | lab0 | lab0_1 | 6 | markdown | Machine Learning from Data | Tamaño de muestra, bins y semilla | Fijar cuántos valores se generan, cómo se dibujan y que la secuencia aleatoria sea reproducible. | default_rng | sí | lab0_1.exp.dist | 2 | completo |
 | lab0 | lab0_1 | 7 | code | Machine Learning from Data | Tamaño de muestra, bins y semilla | Fijar cuántos valores se generan, cómo se dibujan y que la secuencia aleatoria sea reproducible. | default_rng | sí | lab0_1.exp.dist | 2 | completo |
 | lab0 | lab0_1 | 8 | markdown | Machine Learning from Data | Muestra normal N(3, 5²) e histograma | Generar la distribución de referencia. | rng.normal, plt.hist | sí | lab0_1.exp.dist | 2 | completo |
@@ -56,25 +56,25 @@ Total: 239 celdas · 215 completas · 24 parciales · 0 pendientes (90 %).
 | lab0 | lab0_1 | 21 | code | Rayleigh distribution | Curtosis y asimetría de las cuatro muestras | Resumir la forma de cada distribución con dos números. | np.vstack, ss.kurtosis, ss.skew, plt.bar / plt.xticks | sí | lab0_1.exp.dist | 14 | completo |
 | lab0 | lab0_1 | 22 | markdown | Rayleigh distribution | Gráficos cuantil-cuantil | Comparar cada cuantil de la muestra con el que tendría una normal. | ss.probplot | sí | lab0_1.exp.dist | 3 | completo |
 | lab0 | lab0_1 | 23 | code | Rayleigh distribution | Gráficos cuantil-cuantil | Comparar cada cuantil de la muestra con el que tendría una normal. | ss.probplot | sí | lab0_1.exp.dist | 3 | completo |
-| lab0 | lab0_1 | 24 | markdown | Additional evidence for Q1 | Ampliación: momentos con valores anotados | Tener los valores numéricos de asimetría y curtosis en la figura para citarlos en Q1. | ax.annotate, ax.axhline | sí |  | 0 | completo |
-| lab0 | lab0_1 | 25 | code | Additional evidence for Q1 | Ampliación: momentos con valores anotados | Tener los valores numéricos de asimetría y curtosis en la figura para citarlos en Q1. | ax.annotate, ax.axhline | sí |  | 0 | parcial |
+| lab0 | lab0_1 | 24 | markdown | Additional evidence for Q1 | Ampliación: momentos con valores anotados | Tener los valores numéricos de asimetría y curtosis en la figura para citarlos en Q1. | ax.annotate, ax.axhline | sí |  | 1 | completo |
+| lab0 | lab0_1 | 25 | code | Additional evidence for Q1 | Ampliación: momentos con valores anotados | Tener los valores numéricos de asimetría y curtosis en la figura para citarlos en Q1. | ax.annotate, ax.axhline | sí |  | 1 | completo |
 | lab0 | lab0_1 | 26 | code | Additional evidence for Q1 | Ampliación: ECDF − CDF normal en escala estandarizada | Ver la discrepancia con la normal de forma más precisa que superponiendo curvas. | np.searchsorted | sí | lab0_1.exp.dist | 1 | completo |
 | lab0 | lab0_2 | 0 | markdown | Machine Learning from Data | Título y planteamiento: EDA de Iris | Situar la segunda parte del lab: explorar un dataset sencillo con clases. |  | sí |  | 0 | completo |
 | lab0 | lab0_2 | 1 | markdown | Introduction to Exploratory Data Analysis | Título y planteamiento: EDA de Iris | Situar la segunda parte del lab: explorar un dataset sencillo con clases. |  | sí |  | 0 | completo |
 | lab0 | lab0_2 | 2 | markdown | Introduction to Exploratory Data Analysis | Título y planteamiento: EDA de Iris | Situar la segunda parte del lab: explorar un dataset sencillo con clases. |  | sí |  | 0 | completo |
-| lab0 | lab0_2 | 3 | markdown | Introduction to Exploratory Data Analysis | Importación de librerías | Tener pandas, NumPy, matplotlib, seaborn y scipy.stats. | import pandas as pd, import seaborn as sns, import scipy.stats as ss | sí |  | 0 | completo |
-| lab0 | lab0_2 | 4 | code | Introduction to Exploratory Data Analysis | Importación de librerías | Tener pandas, NumPy, matplotlib, seaborn y scipy.stats. | import pandas as pd, import seaborn as sns, import scipy.stats as ss | sí |  | 0 | parcial |
+| lab0 | lab0_2 | 3 | markdown | Introduction to Exploratory Data Analysis | Importación de librerías | Tener pandas, NumPy, matplotlib, seaborn y scipy.stats. | import pandas as pd, import seaborn as sns, import scipy.stats as ss | sí |  | 1 | completo |
+| lab0 | lab0_2 | 4 | code | Introduction to Exploratory Data Analysis | Importación de librerías | Tener pandas, NumPy, matplotlib, seaborn y scipy.stats. | import pandas as pd, import seaborn as sns, import scipy.stats as ss | sí |  | 1 | completo |
 | lab0 | lab0_2 | 5 | markdown | Introduction to Exploratory Data Analysis | Cargar iris.csv en un DataFrame | Leer el archivo CSV en una tabla manipulable. | pd.read_csv | sí |  | 1 | completo |
 | lab0 | lab0_2 | 6 | markdown | Introduction to Exploratory Data Analysis | Cargar iris.csv en un DataFrame | Leer el archivo CSV en una tabla manipulable. | pd.read_csv | sí |  | 1 | completo |
 | lab0 | lab0_2 | 7 | code | Introduction to Exploratory Data Analysis | Cargar iris.csv en un DataFrame | Leer el archivo CSV en una tabla manipulable. | pd.read_csv | sí |  | 1 | completo |
-| lab0 | lab0_2 | 8 | markdown | Introduction to Exploratory Data Analysis | Primeras filas: muestras, features y etiqueta | Ver qué aspecto tienen los datos. | DataFrame.head | sí |  | 0 | completo |
-| lab0 | lab0_2 | 9 | code | Introduction to Exploratory Data Analysis | Primeras filas: muestras, features y etiqueta | Ver qué aspecto tienen los datos. | DataFrame.head | sí |  | 0 | parcial |
-| lab0 | lab0_2 | 10 | markdown | Introduction to Exploratory Data Analysis | Primeras filas: muestras, features y etiqueta | Ver qué aspecto tienen los datos. | DataFrame.head | sí |  | 0 | completo |
-| lab0 | lab0_2 | 11 | markdown | Introduction to Exploratory Data Analysis | Últimas filas | Comprobar el final del archivo. | DataFrame.tail | sí |  | 0 | completo |
-| lab0 | lab0_2 | 12 | code | Introduction to Exploratory Data Analysis | Últimas filas | Comprobar el final del archivo. | DataFrame.tail | sí |  | 0 | parcial |
-| lab0 | lab0_2 | 13 | markdown | Introduction to Exploratory Data Analysis | Tipos de datos e información | Comprobar tipos y valores no nulos. | DataFrame.dtypes, DataFrame.info | sí |  | 0 | completo |
-| lab0 | lab0_2 | 14 | code | Introduction to Exploratory Data Analysis | Tipos de datos e información | Comprobar tipos y valores no nulos. | DataFrame.dtypes, DataFrame.info | sí |  | 0 | parcial |
-| lab0 | lab0_2 | 15 | code | Introduction to Exploratory Data Analysis | Tipos de datos e información | Comprobar tipos y valores no nulos. | DataFrame.dtypes, DataFrame.info | sí |  | 0 | parcial |
+| lab0 | lab0_2 | 8 | markdown | Introduction to Exploratory Data Analysis | Primeras filas: muestras, features y etiqueta | Ver qué aspecto tienen los datos. | DataFrame.head | sí |  | 1 | completo |
+| lab0 | lab0_2 | 9 | code | Introduction to Exploratory Data Analysis | Primeras filas: muestras, features y etiqueta | Ver qué aspecto tienen los datos. | DataFrame.head | sí |  | 1 | completo |
+| lab0 | lab0_2 | 10 | markdown | Introduction to Exploratory Data Analysis | Primeras filas: muestras, features y etiqueta | Ver qué aspecto tienen los datos. | DataFrame.head | sí |  | 1 | completo |
+| lab0 | lab0_2 | 11 | markdown | Introduction to Exploratory Data Analysis | Últimas filas | Comprobar el final del archivo. | DataFrame.tail | sí |  | 1 | completo |
+| lab0 | lab0_2 | 12 | code | Introduction to Exploratory Data Analysis | Últimas filas | Comprobar el final del archivo. | DataFrame.tail | sí |  | 1 | completo |
+| lab0 | lab0_2 | 13 | markdown | Introduction to Exploratory Data Analysis | Tipos de datos e información | Comprobar tipos y valores no nulos. | DataFrame.dtypes, DataFrame.info | sí |  | 1 | completo |
+| lab0 | lab0_2 | 14 | code | Introduction to Exploratory Data Analysis | Tipos de datos e información | Comprobar tipos y valores no nulos. | DataFrame.dtypes, DataFrame.info | sí |  | 1 | completo |
+| lab0 | lab0_2 | 15 | code | Introduction to Exploratory Data Analysis | Tipos de datos e información | Comprobar tipos y valores no nulos. | DataFrame.dtypes, DataFrame.info | sí |  | 1 | completo |
 | lab0 | lab0_2 | 16 | markdown | Introduction to Exploratory Data Analysis | Estadísticos descriptivos | Resumir cada feature con centro, dispersión y cuartiles. | DataFrame.describe | sí |  | 2 | completo |
 | lab0 | lab0_2 | 17 | code | Introduction to Exploratory Data Analysis | Estadísticos descriptivos | Resumir cada feature con centro, dispersión y cuartiles. | DataFrame.describe | sí |  | 2 | completo |
 | lab0 | lab0_2 | 18 | markdown | Introduction to Exploratory Data Analysis | Histograma de una feature y una clase | Aprender a filtrar una clase y seleccionar una feature. | iris[iris["species"] == "Iris-setosa"], [...]["sepal_length"], plt.hist | sí |  | 2 | completo |
@@ -82,11 +82,11 @@ Total: 239 celdas · 215 completas · 24 parciales · 0 pendientes (90 %).
 | lab0 | lab0_2 | 20 | code | Introduction to Exploratory Data Analysis | Histograma de una feature y una clase | Aprender a filtrar una clase y seleccionar una feature. | iris[iris["species"] == "Iris-setosa"], [...]["sepal_length"], plt.hist | sí |  | 2 | completo |
 | lab0 | lab0_2 | 21 | markdown | Introduction to Exploratory Data Analysis | Histogramas por clase y feature (rejilla 4×3) | Ver las 12 combinaciones feature × clase. | enumerate, plt.subplot(4,3,iax), fig.subplots_adjust | sí |  | 3 | completo |
 | lab0 | lab0_2 | 22 | code | Introduction to Exploratory Data Analysis | Histogramas por clase y feature (rejilla 4×3) | Ver las 12 combinaciones feature × clase. | enumerate, plt.subplot(4,3,iax), fig.subplots_adjust | sí |  | 3 | completo |
-| lab0 | lab0_2 | 23 | markdown | Introduction to Exploratory Data Analysis | Seaborn: FacetGrid con histograma y KDE por especie | Hacer lo mismo con menos código usando la gramática de seaborn. | sns.FacetGrid, FacetGrid.map, list(iris.columns)[:-1] | sí |  | 0 | completo |
-| lab0 | lab0_2 | 24 | markdown | Introduction to Exploratory Data Analysis | Seaborn: FacetGrid con histograma y KDE por especie | Hacer lo mismo con menos código usando la gramática de seaborn. | sns.FacetGrid, FacetGrid.map, list(iris.columns)[:-1] | sí |  | 0 | completo |
-| lab0 | lab0_2 | 25 | code | Introduction to Exploratory Data Analysis | Seaborn: FacetGrid con histograma y KDE por especie | Hacer lo mismo con menos código usando la gramática de seaborn. | sns.FacetGrid, FacetGrid.map, list(iris.columns)[:-1] | sí |  | 0 | parcial |
-| lab0 | lab0_2 | 26 | markdown | Introduction to Exploratory Data Analysis | Las tres clases en un mismo eje (hue) | Comparar las clases directamente sobre la misma escala. | sns.histplot | sí | lab0_2.exp.dist | 0 | completo |
-| lab0 | lab0_2 | 27 | code | Introduction to Exploratory Data Analysis | Las tres clases en un mismo eje (hue) | Comparar las clases directamente sobre la misma escala. | sns.histplot | sí | lab0_2.exp.dist | 0 | parcial |
+| lab0 | lab0_2 | 23 | markdown | Introduction to Exploratory Data Analysis | Seaborn: FacetGrid con histograma y KDE por especie | Hacer lo mismo con menos código usando la gramática de seaborn. | sns.FacetGrid, FacetGrid.map, list(iris.columns)[:-1] | sí |  | 1 | completo |
+| lab0 | lab0_2 | 24 | markdown | Introduction to Exploratory Data Analysis | Seaborn: FacetGrid con histograma y KDE por especie | Hacer lo mismo con menos código usando la gramática de seaborn. | sns.FacetGrid, FacetGrid.map, list(iris.columns)[:-1] | sí |  | 1 | completo |
+| lab0 | lab0_2 | 25 | code | Introduction to Exploratory Data Analysis | Seaborn: FacetGrid con histograma y KDE por especie | Hacer lo mismo con menos código usando la gramática de seaborn. | sns.FacetGrid, FacetGrid.map, list(iris.columns)[:-1] | sí |  | 1 | completo |
+| lab0 | lab0_2 | 26 | markdown | Introduction to Exploratory Data Analysis | Las tres clases en un mismo eje (hue) | Comparar las clases directamente sobre la misma escala. | sns.histplot | sí | lab0_2.exp.dist | 1 | completo |
+| lab0 | lab0_2 | 27 | code | Introduction to Exploratory Data Analysis | Las tres clases en un mismo eje (hue) | Comparar las clases directamente sobre la misma escala. | sns.histplot | sí | lab0_2.exp.dist | 1 | completo |
 | lab0 | lab0_2 | 28 | markdown | Introduction to Exploratory Data Analysis | CDF por clase y feature | Comparar la CDF empírica de cada combinación con una normal ajustada. | ss.norm.cdf, plt.hist(..., cumulative=True) | sí |  | 1 | completo |
 | lab0 | lab0_2 | 29 | code | Introduction to Exploratory Data Analysis | CDF por clase y feature | Comparar la CDF empírica de cada combinación con una normal ajustada. | ss.norm.cdf, plt.hist(..., cumulative=True) | sí |  | 1 | completo |
 | lab0 | lab0_2 | 30 | markdown | Introduction to Exploratory Data Analysis | Curtosis por clase con groupby | Calcular la curtosis de las 12 combinaciones de una vez (Q3). | DataFrame.groupby, GroupBy.apply, DataFrame.kurt | sí | lab0_2.exp.dist | 6 | completo |
@@ -164,10 +164,10 @@ Total: 239 celdas · 215 completas · 24 parciales · 0 pendientes (90 %).
 | lab1 | lab1_2 | 0 | markdown | Machine Learning from Data | Título y planteamiento: QPSK, Case 2 y Case 3 | Plantear un problema de 4 clases en 2D donde se puede cambiar la forma de las covarianzas. |  | sí |  | 1 | completo |
 | lab1 | lab1_2 | 1 | markdown | Classification criteria based on maximizing the posterior pr | Título y planteamiento: QPSK, Case 2 y Case 3 | Plantear un problema de 4 clases en 2D donde se puede cambiar la forma de las covarianzas. |  | sí |  | 1 | completo |
 | lab1 | lab1_2 | 2 | markdown | Part2: Eigenvalues of the covariance matrix and cluster shap | Título y planteamiento: QPSK, Case 2 y Case 3 | Plantear un problema de 4 clases en 2D donde se puede cambiar la forma de las covarianzas. |  | sí |  | 1 | completo |
-| lab1 | lab1_2 | 3 | code | Part2: Eigenvalues of the covariance matrix and cluster shap | Imports y generador con semilla | Tener las librerías y un generador reproducible. | default_rng | sí |  | 0 | parcial |
-| lab1 | lab1_2 | 4 | markdown | 1. Data generation | SNR y parámetros de diseño | Elegir el ruido y el tamaño del problema. |  | sí |  | 0 | completo |
-| lab1 | lab1_2 | 5 | markdown | Parameter initialization | SNR y parámetros de diseño | Elegir el ruido y el tamaño del problema. |  | sí |  | 0 | completo |
-| lab1 | lab1_2 | 6 | code | Parameter initialization | SNR y parámetros de diseño | Elegir el ruido y el tamaño del problema. |  | sí | lab1_2.exp.cases | 0 | parcial |
+| lab1 | lab1_2 | 3 | code | Part2: Eigenvalues of the covariance matrix and cluster shap | Imports y generador con semilla | Tener las librerías y un generador reproducible. | default_rng | sí |  | 1 | completo |
+| lab1 | lab1_2 | 4 | markdown | 1. Data generation | SNR y parámetros de diseño | Elegir el ruido y el tamaño del problema. |  | sí |  | 1 | completo |
+| lab1 | lab1_2 | 5 | markdown | Parameter initialization | SNR y parámetros de diseño | Elegir el ruido y el tamaño del problema. |  | sí |  | 1 | completo |
+| lab1 | lab1_2 | 6 | code | Parameter initialization | SNR y parámetros de diseño | Elegir el ruido y el tamaño del problema. |  | sí | lab1_2.exp.cases | 1 | completo |
 | lab1 | lab1_2 | 7 | markdown | Parameter initialization | Elección del caso: correlación ρ por clase | Decidir la forma de las covarianzas. |  | sí | lab1_2.exp.cases | 1 | completo |
 | lab1 | lab1_2 | 8 | code | Parameter initialization | Elección del caso: correlación ρ por clase | Decidir la forma de las covarianzas. |  | sí | lab1_2.exp.cases | 1 | completo |
 | lab1 | lab1_2 | 9 | code | Parameter initialization | Medias QPSK, varianza y covarianzas | Construir los parámetros de las cuatro gaussianas. | np.dot, np.zeros | sí | lab1_2.exp.cases | 9 | completo |
@@ -185,10 +185,10 @@ Total: 239 celdas · 215 completas · 24 parciales · 0 pendientes (90 %).
 | lab2 | lab2_1 | 0 | markdown | Machine Learning from Data | Por qué reducir dimensiones: proyección | Muchos problemas tienen muchas features: entrenar es lento, hay que estimar muchos parámetros y no se puede visualizar (maldición de la dime |  | sí |  | 1 | completo |
 | lab2 | lab2_1 | 1 | markdown | Machine Learning from Data | Por qué reducir dimensiones: proyección | Muchos problemas tienen muchas features: entrenar es lento, hay que estimar muchos parámetros y no se puede visualizar (maldición de la dime |  | sí |  | 1 | completo |
 | lab2 | lab2_1 | 2 | markdown | Machine Learning from Data | Por qué reducir dimensiones: proyección | Muchos problemas tienen muchas features: entrenar es lento, hay que estimar muchos parámetros y no se puede visualizar (maldición de la dime |  | sí |  | 1 | completo |
-| lab2 | lab2_1 | 3 | markdown | Machine Learning from Data | Importaciones | Disponer de NumPy, Matplotlib y Seaborn. | sns.set() | sí |  | 0 | completo |
-| lab2 | lab2_1 | 4 | code | Machine Learning from Data | Importaciones | Disponer de NumPy, Matplotlib y Seaborn. | sns.set() | sí |  | 0 | parcial |
-| lab2 | lab2_1 | 5 | markdown | Introducing Principal Component Analysis | Datos 2D correlacionados | Tener un ejemplo pequeño donde se vea la relación lineal entre dos variables. | np.random.RandomState, rng.rand(2, 2), rng.randn(2, 200), np.dot(A, B).T, plt.axis('equal') | sí | lab2_1.exp.pca | 0 | completo |
-| lab2 | lab2_1 | 6 | code | Introducing Principal Component Analysis | Datos 2D correlacionados | Tener un ejemplo pequeño donde se vea la relación lineal entre dos variables. | np.random.RandomState, rng.rand(2, 2), rng.randn(2, 200), np.dot(A, B).T, plt.axis('equal') | sí | lab2_1.exp.pca | 0 | parcial |
+| lab2 | lab2_1 | 3 | markdown | Machine Learning from Data | Importaciones | Disponer de NumPy, Matplotlib y Seaborn. | sns.set() | sí |  | 1 | completo |
+| lab2 | lab2_1 | 4 | code | Machine Learning from Data | Importaciones | Disponer de NumPy, Matplotlib y Seaborn. | sns.set() | sí |  | 1 | completo |
+| lab2 | lab2_1 | 5 | markdown | Introducing Principal Component Analysis | Datos 2D correlacionados | Tener un ejemplo pequeño donde se vea la relación lineal entre dos variables. | np.random.RandomState, rng.rand(2, 2), rng.randn(2, 200), np.dot(A, B).T, plt.axis('equal') | sí | lab2_1.exp.pca | 1 | completo |
+| lab2 | lab2_1 | 6 | code | Introducing Principal Component Analysis | Datos 2D correlacionados | Tener un ejemplo pequeño donde se vea la relación lineal entre dos variables. | np.random.RandomState, rng.rand(2, 2), rng.randn(2, 200), np.dot(A, B).T, plt.axis('equal') | sí | lab2_1.exp.pca | 1 | completo |
 | lab2 | lab2_1 | 7 | markdown | Introducing Principal Component Analysis | Ajustar PCA | Encontrar los ejes principales de la nube. | PCA | sí |  | 2 | completo |
 | lab2 | lab2_1 | 8 | code | Introducing Principal Component Analysis | Ajustar PCA | Encontrar los ejes principales de la nube. | PCA | sí | lab2_1.exp.pca | 2 | completo |
 | lab2 | lab2_1 | 9 | markdown | Introducing Principal Component Analysis | Ajustar PCA | Encontrar los ejes principales de la nube. | PCA | sí |  | 2 | completo |
@@ -204,10 +204,10 @@ Total: 239 celdas · 215 completas · 24 parciales · 0 pendientes (90 %).
 | lab2 | lab2_1 | 19 | markdown | PCA as dimensionality reduction | Reconstrucción con inverse_transform | Visualizar la información descartada. | pca.inverse_transform | sí | lab2_1.exp.pca | 2 | completo |
 | lab2 | lab2_1 | 20 | code | PCA as dimensionality reduction | Reconstrucción con inverse_transform | Visualizar la información descartada. | pca.inverse_transform | sí | lab2_1.exp.pca | 2 | completo |
 | lab2 | lab2_1 | 21 | markdown | PCA as dimensionality reduction | Reconstrucción con inverse_transform | Visualizar la información descartada. | pca.inverse_transform | sí | lab2_1.exp.pca | 2 | completo |
-| lab2 | lab2_1 | 22 | markdown | PCA for visualization: Hand-written digits | Cargar digits | Tener datos de alta dimensión donde la reducción sea realmente útil. | load_digits | sí |  | 0 | completo |
-| lab2 | lab2_1 | 23 | code | PCA for visualization: Hand-written digits | Cargar digits | Tener datos de alta dimensión donde la reducción sea realmente útil. | load_digits | sí |  | 0 | parcial |
-| lab2 | lab2_1 | 24 | markdown | PCA for visualization: Hand-written digits | Ver las imágenes | Saber qué representan las 64 features. | fig.add_subplot(8, 8, i+1, xticks=[], yticks=[]), ax.imshow, ax.text | sí |  | 0 | completo |
-| lab2 | lab2_1 | 25 | code | PCA for visualization: Hand-written digits | Ver las imágenes | Saber qué representan las 64 features. | fig.add_subplot(8, 8, i+1, xticks=[], yticks=[]), ax.imshow, ax.text | sí |  | 0 | parcial |
+| lab2 | lab2_1 | 22 | markdown | PCA for visualization: Hand-written digits | Cargar digits | Tener datos de alta dimensión donde la reducción sea realmente útil. | load_digits | sí |  | 1 | completo |
+| lab2 | lab2_1 | 23 | code | PCA for visualization: Hand-written digits | Cargar digits | Tener datos de alta dimensión donde la reducción sea realmente útil. | load_digits | sí |  | 1 | completo |
+| lab2 | lab2_1 | 24 | markdown | PCA for visualization: Hand-written digits | Ver las imágenes | Saber qué representan las 64 features. | fig.add_subplot(8, 8, i+1, xticks=[], yticks=[]), ax.imshow, ax.text | sí |  | 1 | completo |
+| lab2 | lab2_1 | 25 | code | PCA for visualization: Hand-written digits | Ver las imágenes | Saber qué representan las 64 features. | fig.add_subplot(8, 8, i+1, xticks=[], yticks=[]), ax.imshow, ax.text | sí |  | 1 | completo |
 | lab2 | lab2_1 | 26 | markdown | PCA for visualization: Hand-written digits | PCA de 64 a 2 dimensiones | Representar cada imagen con 2 números. | PCA(2), fit_transform | sí | lab2_1.exp.pca | 2 | completo |
 | lab2 | lab2_1 | 27 | code | PCA for visualization: Hand-written digits | PCA de 64 a 2 dimensiones | Representar cada imagen con 2 números. | PCA(2), fit_transform | sí | lab2_1.exp.pca | 2 | completo |
 | lab2 | lab2_1 | 28 | markdown | PCA for visualization: Hand-written digits | Dígitos proyectados en el plano | Ver si los dígitos del mismo tipo quedan agrupados. | plt.scatter(..., c=digits.target, cmap=...), plt.get_cmap('jet', 10), plt.colorbar | sí | lab2_1.exp.pca | 2 | completo |
@@ -221,37 +221,37 @@ Total: 239 celdas · 215 completas · 24 parciales · 0 pendientes (90 %).
 | lab2 | lab2_1 | 36 | code | t-SNE | Embedding de t-SNE | Comparar visualmente con la proyección PCA. | plt.scatter / plt.colorbar | sí |  | 1 | completo |
 | lab2 | lab2_2 | 0 | markdown | Machine Learning from Data | Planteamiento: reducción por PCA y por MDA | Saber cuántas features se pueden eliminar sin perder capacidad de clasificar, y con qué criterio. |  | sí |  | 1 | completo |
 | lab2 | lab2_2 | 1 | markdown | Machine Learning from Data | Planteamiento: reducción por PCA y por MDA | Saber cuántas features se pueden eliminar sin perder capacidad de clasificar, y con qué criterio. |  | sí |  | 1 | completo |
-| lab2 | lab2_2 | 2 | code | Machine Learning from Data | Importaciones y generador aleatorio | Disponer de las librerías y de una semilla. | PCA, LinearDiscriminantAnalysis, from sklearn import metrics | sí | lab2_2.exp.reduce | 0 | parcial |
+| lab2 | lab2_2 | 2 | code | Machine Learning from Data | Importaciones y generador aleatorio | Disponer de las librerías y de una semilla. | PCA, LinearDiscriminantAnalysis, from sklearn import metrics | sí | lab2_2.exp.reduce | 1 | completo |
 | lab2 | lab2_2 | 3 | markdown | Machine Learning from Data | SNR, medias y covarianzas aleatorias | Definir tres gaussianas con medias fijas y covarianzas distintas y orientadas al azar. | rng.normal(size=(3,3)), np.linalg.eig, np.matmul, np.diag | sí | lab2_2.exp.reduce | 1 | completo |
 | lab2 | lab2_2 | 4 | code | Machine Learning from Data | SNR, medias y covarianzas aleatorias | Definir tres gaussianas con medias fijas y covarianzas distintas y orientadas al azar. | rng.normal(size=(3,3)), np.linalg.eig, np.matmul, np.diag | sí | lab2_2.exp.reduce | 1 | completo |
 | lab2 | lab2_2 | 5 | markdown | Generate Gaussain training and test datasets | Conjuntos de entrenamiento y test | Tener datos para entrenar y otros independientes para evaluar. | rng.multivariate_normal, rng.permutation | sí | lab2_2.exp.reduce | 1 | completo |
 | lab2 | lab2_2 | 6 | code | Generate Gaussain training and test datasets | Conjuntos de entrenamiento y test | Tener datos para entrenar y otros independientes para evaluar. | rng.multivariate_normal, rng.permutation | sí | lab2_2.exp.reduce | 1 | completo |
-| lab2 | lab2_2 | 7 | markdown | Generate Gaussain training and test datasets | Scatter 3D | Ver las tres nubes en el espacio original. | ax.scatter3D | sí |  | 0 | completo |
-| lab2 | lab2_2 | 8 | code | Generate Gaussain training and test datasets | Scatter 3D | Ver las tres nubes en el espacio original. | ax.scatter3D | sí |  | 0 | parcial |
-| lab2 | lab2_2 | 9 | code | Generate Gaussain training and test datasets | Pairplot de las features originales | Ver las parejas de features. | sns.pairplot | sí |  | 0 | parcial |
+| lab2 | lab2_2 | 7 | markdown | Generate Gaussain training and test datasets | Scatter 3D | Ver las tres nubes en el espacio original. | ax.scatter3D | sí |  | 1 | completo |
+| lab2 | lab2_2 | 8 | code | Generate Gaussain training and test datasets | Scatter 3D | Ver las tres nubes en el espacio original. | ax.scatter3D | sí |  | 1 | completo |
+| lab2 | lab2_2 | 9 | code | Generate Gaussain training and test datasets | Pairplot de las features originales | Ver las parejas de features. | sns.pairplot | sí |  | 1 | completo |
 | lab2 | lab2_2 | 10 | markdown | Generate Gaussain training and test datasets | Funciones para entrenar y evaluar LDA y QDA | Repetir el mismo entrenamiento/evaluación con distintas representaciones sin copiar código. | LinearDiscriminantAnalysis(solver="svd", store_covariance=True), QuadraticDiscriminantAnalysis(store_covariance=True), metrics.confusion_matrix | sí |  | 3 | completo |
 | lab2 | lab2_2 | 11 | code | Generate Gaussain training and test datasets | Funciones para entrenar y evaluar LDA y QDA | Repetir el mismo entrenamiento/evaluación con distintas representaciones sin copiar código. | LinearDiscriminantAnalysis(solver="svd", store_covariance=True), QuadraticDiscriminantAnalysis(store_covariance=True), metrics.confusion_matrix | sí | lab2_2.exp.reduce | 3 | completo |
 | lab2 | lab2_2 | 12 | markdown | Generate Gaussain training and test datasets | Referencia: LDA y QDA con las 3 features | Saber el error sin reducir dimensión. | lda_classifier / qda_classifier | sí | lab2_2.exp.reduce | 3 | completo |
 | lab2 | lab2_2 | 13 | code | Generate Gaussain training and test datasets | Referencia: LDA y QDA con las 3 features | Saber el error sin reducir dimensión. | lda_classifier / qda_classifier | sí | lab2_2.exp.reduce | 3 | completo |
 | lab2 | lab2_2 | 14 | markdown | Generate Gaussain training and test datasets | PCA a 2 dimensiones y clasificación | Quitar una dimensión conservando la máxima varianza. | PCA(n_components=2).fit(X_train), pca.transform(X_test) | sí | lab2_2.exp.reduce | 4 | completo |
 | lab2 | lab2_2 | 15 | code | Generate Gaussain training and test datasets | PCA a 2 dimensiones y clasificación | Quitar una dimensión conservando la máxima varianza. | PCA(n_components=2).fit(X_train), pca.transform(X_test) | sí | lab2_2.exp.reduce | 4 | completo |
-| lab2 | lab2_2 | 16 | markdown | Generate Gaussain training and test datasets | Fronteras en el plano PCA | Ver cómo separan LDA y QDA en 2D. | np.meshgrid, np.c_[xx.ravel(), yy.ravel()], ax.contourf | sí | lab2_2.exp.reduce | 0 | completo |
-| lab2 | lab2_2 | 17 | code | Generate Gaussain training and test datasets | Fronteras en el plano PCA | Ver cómo separan LDA y QDA en 2D. | np.meshgrid, np.c_[xx.ravel(), yy.ravel()], ax.contourf | sí | lab2_2.exp.reduce | 0 | parcial |
+| lab2 | lab2_2 | 16 | markdown | Generate Gaussain training and test datasets | Fronteras en el plano PCA | Ver cómo separan LDA y QDA en 2D. | np.meshgrid, np.c_[xx.ravel(), yy.ravel()], ax.contourf | sí | lab2_2.exp.reduce | 1 | completo |
+| lab2 | lab2_2 | 17 | code | Generate Gaussain training and test datasets | Fronteras en el plano PCA | Ver cómo separan LDA y QDA en 2D. | np.meshgrid, np.c_[xx.ravel(), yy.ravel()], ax.contourf | sí | lab2_2.exp.reduce | 1 | completo |
 | lab2 | lab2_2 | 18 | markdown | Generate Gaussain training and test datasets | PCA a 1 dimensión | Quedarse solo con la dirección de máxima varianza. | PCA(n_components=1) | sí | lab2_2.exp.reduce | 3 | completo |
 | lab2 | lab2_2 | 19 | code | Generate Gaussain training and test datasets | PCA a 1 dimensión | Quedarse solo con la dirección de máxima varianza. | PCA(n_components=1) | sí | lab2_2.exp.reduce | 3 | completo |
-| lab2 | lab2_2 | 20 | markdown | Generate Gaussain training and test datasets | «Scatter» de la proyección PCA 1D | Ver cómo se solapan las clases en una dimensión. | ax.scatter(X[idx,0], X[idx,0]) | sí |  | 0 | completo |
-| lab2 | lab2_2 | 21 | code | Generate Gaussain training and test datasets | «Scatter» de la proyección PCA 1D | Ver cómo se solapan las clases en una dimensión. | ax.scatter(X[idx,0], X[idx,0]) | sí | lab2_2.exp.reduce | 0 | parcial |
+| lab2 | lab2_2 | 20 | markdown | Generate Gaussain training and test datasets | «Scatter» de la proyección PCA 1D | Ver cómo se solapan las clases en una dimensión. | ax.scatter(X[idx,0], X[idx,0]) | sí |  | 1 | completo |
+| lab2 | lab2_2 | 21 | code | Generate Gaussain training and test datasets | «Scatter» de la proyección PCA 1D | Ver cómo se solapan las clases en una dimensión. | ax.scatter(X[idx,0], X[idx,0]) | sí | lab2_2.exp.reduce | 1 | completo |
 | lab2 | lab2_2 | 22 | markdown | Generate Gaussain training and test datasets | MDA a 2 dimensiones (LDA.transform) | Reducir a 2 dimensiones maximizando la separación entre clases. | LinearDiscriminantAnalysis(n_components=2) | sí | lab2_2.exp.reduce | 11 | completo |
 | lab2 | lab2_2 | 23 | code | Generate Gaussain training and test datasets | MDA a 2 dimensiones (LDA.transform) | Reducir a 2 dimensiones maximizando la separación entre clases. | LinearDiscriminantAnalysis(n_components=2) | sí | lab2_2.exp.reduce | 11 | completo |
-| lab2 | lab2_2 | 24 | markdown | Generate Gaussain training and test datasets | Fronteras en el plano MDA | Ver la separación tras MDA. | np.meshgrid / contourf | sí | lab2_2.exp.reduce | 0 | completo |
-| lab2 | lab2_2 | 25 | code | Generate Gaussain training and test datasets | Fronteras en el plano MDA | Ver la separación tras MDA. | np.meshgrid / contourf | sí | lab2_2.exp.reduce | 0 | parcial |
+| lab2 | lab2_2 | 24 | markdown | Generate Gaussain training and test datasets | Fronteras en el plano MDA | Ver la separación tras MDA. | np.meshgrid / contourf | sí | lab2_2.exp.reduce | 1 | completo |
+| lab2 | lab2_2 | 25 | code | Generate Gaussain training and test datasets | Fronteras en el plano MDA | Ver la separación tras MDA. | np.meshgrid / contourf | sí | lab2_2.exp.reduce | 1 | completo |
 | lab2 | lab2_2 | 26 | markdown | Generate Gaussain training and test datasets | MDA a 1 dimensión | Quedarse con la mejor dirección discriminante. | LinearDiscriminantAnalysis(n_components=1) | sí | lab2_2.exp.reduce | 3 | completo |
 | lab2 | lab2_2 | 27 | code | Generate Gaussain training and test datasets | MDA a 1 dimensión | Quedarse con la mejor dirección discriminante. | LinearDiscriminantAnalysis(n_components=1) | sí | lab2_2.exp.reduce | 3 | completo |
-| lab2 | lab2_2 | 28 | markdown | Generate Gaussain training and test datasets | «Scatter» de la proyección MDA 1D | Ver el solapamiento en la dirección discriminante. | ax.scatter | sí |  | 0 | completo |
-| lab2 | lab2_2 | 29 | code | Generate Gaussain training and test datasets | «Scatter» de la proyección MDA 1D | Ver el solapamiento en la dirección discriminante. | ax.scatter | sí | lab2_2.exp.reduce | 0 | parcial |
+| lab2 | lab2_2 | 28 | markdown | Generate Gaussain training and test datasets | «Scatter» de la proyección MDA 1D | Ver el solapamiento en la dirección discriminante. | ax.scatter | sí |  | 1 | completo |
+| lab2 | lab2_2 | 29 | code | Generate Gaussain training and test datasets | «Scatter» de la proyección MDA 1D | Ver el solapamiento en la dirección discriminante. | ax.scatter | sí | lab2_2.exp.reduce | 1 | completo |
 | lab2 | lab2_3 | 0 | markdown | Machine Learning from Data | Título: Phoneme, todas las features o un subconjunto | Situar el experimento: clasificar con todas las features disponibles o con un subconjunto elegido manualmente. |  | sí |  | 1 | completo |
 | lab2 | lab2_3 | 1 | markdown | Machine Learning from Data | Título: Phoneme, todas las features o un subconjunto | Situar el experimento: clasificar con todas las features disponibles o con un subconjunto elegido manualmente. |  | sí |  | 1 | completo |
-| lab2 | lab2_3 | 2 | code | Machine Learning from Data | Importación de librerías | Disponer de pandas, NumPy, matplotlib y las herramientas de scikit-learn. | train_test_split, LinearDiscriminantAnalysis / QuadraticDiscriminantAnalysis, accuracy_score, confusion_matrix | sí |  | 0 | parcial |
+| lab2 | lab2_3 | 2 | code | Machine Learning from Data | Importación de librerías | Disponer de pandas, NumPy, matplotlib y las herramientas de scikit-learn. | train_test_split, LinearDiscriminantAnalysis / QuadraticDiscriminantAnalysis, accuracy_score, confusion_matrix | sí |  | 1 | completo |
 | lab2 | lab2_3 | 3 | markdown | Machine Learning from Data | Lectura del dataset (CSV sin cabecera) | Cargar la tabla de log-periodogramas. | pd.read_csv, DataFrame.info, DataFrame.head | sí |  | 1 | completo |
 | lab2 | lab2_3 | 4 | code | Machine Learning from Data | Lectura del dataset (CSV sin cabecera) | Cargar la tabla de log-periodogramas. | pd.read_csv, DataFrame.info, DataFrame.head | sí |  | 1 | completo |
 | lab2 | lab2_3 | 5 | code | Machine Learning from Data | Lectura del dataset (CSV sin cabecera) | Cargar la tabla de log-periodogramas. | pd.read_csv, DataFrame.info, DataFrame.head | sí |  | 1 | completo |
@@ -267,7 +267,7 @@ Total: 239 celdas · 215 completas · 24 parciales · 0 pendientes (90 %).
 | lab2 | lab2_3 | 15 | code | Plot spectrum | LDA y QDA con 64 features: errores y matrices de confusión (Q6, Q7) | Medir el rendimiento de los dos clasificadores en train y en test. | LinearDiscriminantAnalysis(solver="svd", store_covariance=True), QuadraticDiscriminantAnalysis(store_covariance=True), confusion_matrix(y_true, y_pred) | sí | lab2_3.exp.nfirst | 5 | completo |
 | lab2 | lab2_3 | 16 | markdown | Plot spectrum | Selección manual de dos features: V_coor = [10, 30] (Q8) | Clasificar con solo dos features elegidas a la vista de los espectros. | X[:, V_coor] | sí | lab2_3.exp.manual | 6 | completo |
 | lab2 | lab2_3 | 17 | code | Plot spectrum | Selección manual de dos features: V_coor = [10, 30] (Q8) | Clasificar con solo dos features elegidas a la vista de los espectros. | X[:, V_coor] | sí | lab2_3.exp.manual | 6 | completo |
-| lab2 | lab2_3 | 18 | markdown | Plot spectrum | Scatter con las rectas de LDA (uno contra todos) | Visualizar las dos features por clase y las rectas que define LDA. | lda.coef_, lda.intercept_ | sí |  | 0 | completo |
-| lab2 | lab2_3 | 19 | code | Plot spectrum | Scatter con las rectas de LDA (uno contra todos) | Visualizar las dos features por clase y las rectas que define LDA. | lda.coef_, lda.intercept_ | sí |  | 0 | parcial |
+| lab2 | lab2_3 | 18 | markdown | Plot spectrum | Scatter con las rectas de LDA (uno contra todos) | Visualizar las dos features por clase y las rectas que define LDA. | lda.coef_, lda.intercept_ | sí |  | 1 | completo |
+| lab2 | lab2_3 | 19 | code | Plot spectrum | Scatter con las rectas de LDA (uno contra todos) | Visualizar las dos features por clase y las rectas que define LDA. | lda.coef_, lda.intercept_ | sí |  | 1 | completo |
 | lab2 | lab2_3 | 20 | markdown | Plot spectrum | Regiones de decisión de LDA y QDA (Q9) | Ver qué clase asigna cada modelo a cada punto del plano. | np.meshgrid, np.c_[xx.ravel(), yy.ravel()], plt.contourf | sí | lab2_3.exp.manual | 1 | completo |
 | lab2 | lab2_3 | 21 | code | Plot spectrum | Regiones de decisión de LDA y QDA (Q9) | Ver qué clase asigna cada modelo a cada punto del plano. | np.meshgrid, np.c_[xx.ravel(), yy.ravel()], plt.contourf | sí | lab2_3.exp.manual | 1 | completo |

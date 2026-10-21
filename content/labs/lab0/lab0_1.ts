@@ -775,6 +775,35 @@ variante = {
   'explanation': 'Referencias teóricas (asimetría, curtosis): normal (0, 0), uniforme (0, −1.2), Laplace (0, 3), Rayleigh (0.63, 0.25).'
 }`,
     },
+    // ---------------------------------------------------------- cobertura: imports y ampliación de momentos
+    {
+      kind: 'mcq',
+      id: 'lab0_1.cov.imports',
+      skills: ['api'],
+      blocks: ['b_imports'],
+      source: src([5]),
+      prompt: 'En la celda 5 se importan cinco librerías con alias. ¿Qué alias necesitas para llamar a `probplot`, `kurtosis` y `norm.cdf` tal como aparecen en el notebook?',
+      options: [
+        { text: '`ss`, porque son funciones de `scipy.stats`', correct: true },
+        { text: '`np`, porque son funciones numéricas', feedback: 'NumPy no tiene `probplot` ni `kurtosis`; están en `scipy.stats`.' },
+        { text: '`sns`, porque se usan para dibujar', feedback: '`probplot` dibuja con matplotlib (`plot=plt`), pero pertenece a `scipy.stats`.' },
+        { text: '`pd`, porque los datos están en un DataFrame', feedback: 'En lab0_1 los datos son arrays de NumPy, no DataFrames.' },
+      ],
+      explanation: '`import scipy.stats as ss` da acceso a distribuciones (`ss.norm`), momentos (`ss.skew`, `ss.kurtosis`) y gráficos de probabilidad (`ss.probplot`). Sin esa línea, las celdas 19, 21 y 23 fallarían con `NameError: name \'ss\' is not defined`.',
+    },
+    {
+      kind: 'predict',
+      id: 'lab0_1.cov.vstack',
+      skills: ['codigo', 'api'],
+      blocks: ['b_extra_moments'],
+      source: src([25], { origin: 'ampliacion' }),
+      prompt: 'En la celda 25 (ampliación) se calculan los momentos con `ss.skew(np.vstack(samples), axis=1)`. ¿Qué forma tiene `np.vstack(samples)`? Escríbela como tupla.',
+      setup: SETUP,
+      code: 'samples = [data_normal, data_uniform, data_laplace, data_rayleigh]\nM = np.vstack(samples)\nskewness = ss.skew(M, axis=1)',
+      expr: 'M.shape',
+      answerKind: 'shape',
+      explanation: '`vstack` apila las 4 muestras de 100 000 valores como **filas**: (4, 100000). Por eso se usa `axis=1`: un momento por fila (por distribución). Con `axis=0` saldrían 100 000 valores sin sentido, uno por posición.',
+    },
   ],
   recall: ['lab0_1.fill.moments', 'lab0_1.fill.cdf', 'lab0_1.fix.axis', 'lab0_1.fix.pearson', 'lab0_1.mem.samples', 'lab0_1.mem.ks', 'lab0_1.adapt.expo'],
   practice: [

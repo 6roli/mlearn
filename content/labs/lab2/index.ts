@@ -6,7 +6,7 @@ import { lab2_4 } from './lab2_4.ts';
 
 export const lab2: LabContent = {
   id: 'lab2',
-  title: 'Lab 2 — Reducción de dimensionalidad: PCA y MDA',
+  title: 'Lab 2 — Feature selection: PCA y MDA',
   folder: 'Lab2 - Feature Selection',
   summary:
     'La asignatura lo titula «Feature selection using PCA and MDA»: se reduce el número de features con una transformación lineal aprendida en entrenamiento (PCA, no supervisada; MDA/Fisher, supervisada) y se compara con elegir a mano un subconjunto de features (Phoneme, V_coor). Se mide cómo cambian los errores de LDA y QDA en train y test.',
@@ -30,7 +30,7 @@ La guía y las slides llaman a este lab «**Feature selection** using PCA and MD
 | ¿Usa etiquetas? | Depende del método (aquí, criterio visual sobre los espectros por clase) | PCA no (no supervisada); MDA sí (supervisada) |
 | Número máximo | Hasta d | PCA: hasta d; MDA: hasta min(d, c − 1) |
 
-La slide 2 define *feature selection* como «seleccionar un subconjunto de features relevantes» y remite a \`sklearn.feature_selection\` (slide 3); los métodos automáticos de selección se estudian en el **Lab3 (Feature selection, 22/10)**, cuyos materiales aún no están en la carpeta. En la app, PCA y MDA se tratan como **reducción de dimensionalidad** y se señala cuándo el lab usa la palabra *selección* en sentido amplio.
+La slide 2 define *feature selection* como «seleccionar un subconjunto de features relevantes» y remite a \`sklearn.feature_selection\` (slide 3). La guía, el report y las slides de este lab usan «feature selection» en sentido amplio para PCA y MDA, que técnicamente son **reducción de dimensionalidad por extracción**; la app respeta el nombre del lab y señala la diferencia cada vez que aparece. (El calendario de las slides de Lab0 llama a esta sesión «Dimensionality reduction: PCA and MDA».)
 
 En ambos casos la regla es la misma: la transformación (o el subconjunto) se decide **solo con el conjunto de entrenamiento** y después se aplica igual al test (slide 4).`,
 };

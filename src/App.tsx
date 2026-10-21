@@ -5,6 +5,7 @@ import { Home, LabPage, ReviewPage, ProgressPage, CoveragePage, SourcePage, Mate
 import { NotebookPage } from './pages/notebook/NotebookPage';
 import { GlossaryPage } from './pages/Glossary';
 import { GlobalPractice } from './pages/GlobalPractice';
+import { PrintView } from './pages/PrintView';
 import { startEngine, useEngine, restartEngine } from './engine/client';
 import { useProgress } from './progress/store';
 
@@ -61,6 +62,7 @@ export function App() {
   else if (a === 'materiales') page = <MaterialsPage />;
   else if (a === 'fuente' && b) page = <SourcePage nbId={b} cell={c} />;
   else if (a === 'actividad' && b) page = <ActivityPage id={b} />;
+  else if (a === 'imprimir' && b) page = <PrintView nbId={b} />;
   else page = <NotFound />;
 
   return (

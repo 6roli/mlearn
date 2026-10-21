@@ -34,30 +34,38 @@
 }
 
 :root[data-theme='light'] {
-  --bg: #f6f7fb;
-  --bg-2: #eef0f7;
+  --bg: #f5f6f8;
+  --bg-2: #eceef2;
   --panel: #ffffff;
-  --panel-2: #f3f5fb;
-  --line: #dde1ec;
-  --line-2: #c9cfde;
-  --text: #1b2030;
-  --text-2: #4a5268;
-  --text-3: #79819a;
-  --accent: #3d5bdb;
-  --accent-2: #7a4fd6;
-  --accent-soft: rgba(61, 91, 219, 0.1);
-  --ok: #138a5a;
-  --ok-soft: rgba(19, 138, 90, 0.1);
-  --warn: #b26b00;
-  --warn-soft: rgba(178, 107, 0, 0.1);
-  --bad: #c62839;
-  --bad-soft: rgba(198, 40, 57, 0.09);
-  --hl: rgba(255, 200, 40, 0.22);
-  --hl-strong: rgba(255, 190, 0, 0.42);
-  --code-bg: #f7f8fc;
-  --shadow: 0 8px 24px rgba(20, 30, 60, 0.08);
+  --panel-2: #f6f7f9;
+  --line: #e2e5eb;
+  --line-2: #cfd4dd;
+  --text: #1d2433;
+  --text-2: #4a5365;
+  --text-3: #6f788a;
+  --accent: #2f5be0;
+  --accent-2: #6d46c9;
+  --accent-soft: rgba(47, 91, 224, 0.09);
+  --ok: #12804f;
+  --ok-soft: rgba(18, 128, 79, 0.09);
+  --warn: #a35f00;
+  --warn-soft: rgba(214, 140, 0, 0.12);
+  --bad: #c0283b;
+  --bad-soft: rgba(192, 40, 59, 0.08);
+  --hl: rgba(255, 213, 79, 0.3);
+  --hl-strong: rgba(255, 193, 7, 0.5);
+  --code-bg: #fbfbfd;
+  --shadow: 0 1px 2px rgba(20, 30, 60, 0.06);
   color-scheme: light;
 }
+:root[data-theme='light'] .card, :root[data-theme='light'] .activity { box-shadow: var(--shadow); }
+:root[data-theme='light'] .pill.original { color: #1f5fbf; border-color: rgba(31, 95, 191, 0.35); }
+:root[data-theme='light'] .pill.kind-datos { color: #0b72a8; }
+:root[data-theme='light'] .pill.kind-preprocesado { color: #7b3fa0; }
+:root[data-theme='light'] .pill.kind-modelo { color: #a35f00; }
+:root[data-theme='light'] .pill.kind-evaluacion { color: #2e7d32; }
+:root[data-theme='light'] .pill.kind-visualizacion { color: #546e7a; }
+:root[data-theme='light'] .cat { filter: saturate(0.8) brightness(1.15); }
 
 * { box-sizing: border-box; }
 html, body, #root { height: 100%; }
@@ -66,8 +74,8 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
-  font-size: 15.5px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
 a { color: var(--accent); text-decoration: none; }
@@ -351,4 +359,38 @@ label { font-size: 0.92rem; }
   .main { padding: 1rem 16px 3rem; }
   .topbar { flex-wrap: wrap; padding: 0.5rem 16px; }
   .skill-row { grid-template-columns: 120px 1fr 40px; }
+}
+
+/* ---------------------------------------------------------------- versión imprimible / PDF */
+.print-doc { max-width: 900px; margin: 0 auto; }
+.print-doc h2 { margin-top: 1.6rem; border-bottom: 2px solid var(--line); padding-bottom: 0.2rem; }
+.print-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.print-block { border-top: 1px solid var(--line); padding-top: 0.8rem; margin-top: 1rem; }
+.print-dl dt { font-weight: 700; font-size: 0.8rem; text-transform: uppercase; color: var(--text-3); margin-top: 0.4rem; }
+.print-dl dd { margin: 0; }
+.print-out { background: var(--panel-2); border: 1px solid var(--line); padding: 0.5rem; font-size: 0.75rem; white-space: pre-wrap; }
+.print-fig { max-width: 100%; max-height: 420px; display: block; margin: 0.4rem 0; }
+.notes-space { margin-top: 0.6rem; min-height: 3.2cm; border: 1px dashed var(--line-2); border-radius: 8px; padding: 0.3rem 0.5rem; color: var(--text-3); font-size: 0.8rem; }
+.answer-space { min-height: 3.5cm; border-bottom: 1px dashed var(--line-2); margin-bottom: 0.6rem; }
+.print-q { margin: 0.8rem 0; }
+@media print {
+  @page { size: A4; margin: 14mm; }
+  :root, :root[data-theme='dark'] {
+    --bg: #fff; --panel: #fff; --panel-2: #f6f7f9; --line: #d9dde4; --line-2: #c5cbd5; --text: #111; --text-2: #333; --text-3: #666;
+    --code-bg: #fafafa; --hl: rgba(255, 213, 79, 0.35); --accent: #2f5be0; --accent-soft: rgba(47,91,224,0.08);
+  }
+  body { font-size: 11pt; background: #fff; }
+  .topbar, .no-print { display: none !important; }
+  .main { padding: 0; max-width: none; }
+  .print-doc { max-width: none; }
+  .print-cols { grid-template-columns: 1fr; }
+  html, body { overflow: visible; }
+  .code { overflow: visible; max-height: none !important; font-size: 8.5pt; }
+  .code .ln { min-width: 0; }
+  .code .ln .tx { white-space: pre-wrap; word-break: break-all; }
+  .print-doc table { table-layout: fixed; }
+  .print-doc td, .print-doc code { overflow-wrap: anywhere; }
+  .avoid-break, .print-q { break-inside: avoid; }
+  .page-break { break-before: page; }
+  a { color: inherit; text-decoration: none; }
 }

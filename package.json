@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "verify": "node scripts/verify.ts",
-    "coverage-matrix": "node scripts/coverage-matrix.ts"
+    "coverage-matrix": "node scripts/coverage-matrix.ts",
+    "dev:tablet": "vite --host"
   },
   "dependencies": {
     "@codemirror/autocomplete": "6.20.3",

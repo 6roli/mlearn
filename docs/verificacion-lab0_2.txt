@@ -1,5 +1,5 @@
-Verificación 2026-10-21T14:26:35.981Z
-232 comprobaciones, 0 fallos
+Verificación 2026-10-21T14:40:47.175Z
+248 comprobaciones, 0 fallos
 
   ok  [lab0_2] celda 0 asignada a un bloque
   ok  [lab0_2] celda 1 asignada a un bloque
@@ -78,7 +78,7 @@ Verificación 2026-10-21T14:26:35.981Z
   ok  [lab0_2] celda 48 se ejecuta
   ok  [lab0_2] celda 50 se ejecuta
   ok  [lab0_2] celda 52 se ejecuta
-  ok  [lab0_2] lab0_2.exp.dist {} se ejecuta (0.8 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist {} se ejecuta (0.6 s, 1 figuras)
   ok  [lab0_2] lab0_2.exp.dist kurt_setosa = -0.2526887962236595 (esperado -0.2526887962236595; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
   ok  [lab0_2] lab0_2.exp.dist kurt_versicolor = -0.5330095410360967 (esperado -0.5330095410360967; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
   ok  [lab0_2] lab0_2.exp.dist kurt_virginica = 0.03290441633529895 (esperado 0.0329044163352985; Salidas guardadas de las celdas 31, 32 y 34; p-valor de lab0_3 (Q7))
@@ -93,7 +93,7 @@ Verificación 2026-10-21T14:26:35.981Z
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bins está entre las opciones
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de multiple está entre las opciones
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de plot está entre las opciones
-  ok  [lab0_2] lab0_2.exp.dist {"feature":"\"petal_width\""} se ejecuta (0.7 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist {"feature":"\"petal_width\""} se ejecuta (0.5 s, 1 figuras)
   ok  [lab0_2] lab0_2.exp.dist kurt_setosa = 1.5664416078903205 (esperado 1.5664416078903205; Celdas 31 y 32 (petal_width))
   ok  [lab0_2] lab0_2.exp.dist skew_setosa = 1.1972429698312046 (esperado 1.1972429698312044; Celdas 31 y 32 (petal_width))
   ok  [lab0_2] lab0_2.exp.dist kurt_virginica = -0.6022644795578462 (esperado -0.6022644795578467; Celdas 31 y 32 (petal_width))
@@ -103,7 +103,7 @@ Verificación 2026-10-21T14:26:35.981Z
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bins está entre las opciones
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de multiple está entre las opciones
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de plot está entre las opciones
-  ok  [lab0_2] lab0_2.exp.dist {"bias":"True"} se ejecuta (0.8 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.dist {"bias":"True"} se ejecuta (0.5 s, 1 figuras)
   ok  [lab0_2] lab0_2.exp.dist kurt_setosa = -0.34576467558246327 (esperado -0.34576467558246327; Recalculado con tu entorno local (scipy, bias=True))
   ok  [lab0_2] lab0_2.exp.dist skew_setosa = 0.11645392749203057 (esperado 0.11645392749203057; Recalculado con tu entorno local (scipy, bias=True))
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de feature está entre las opciones
@@ -112,12 +112,12 @@ Verificación 2026-10-21T14:26:35.981Z
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de bins está entre las opciones
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de multiple está entre las opciones
   ok  [lab0_2] lab0_2.exp.dist el valor por defecto de plot está entre las opciones
-  ok  [lab0_2] lab0_2.exp.rel {} se ejecuta (0.4 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.rel {} se ejecuta (0.3 s, 1 figuras)
   ok  [lab0_2] lab0_2.exp.rel corr_total = -0.10936924995064935 (esperado -0.1094; Correlación recalculada con tu entorno local)
   ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fx está entre las opciones
   ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fy está entre las opciones
   ok  [lab0_2] lab0_2.exp.rel el valor por defecto de hue está entre las opciones
-  ok  [lab0_2] lab0_2.exp.rel {"fx":"\"petal_length\"","fy":"\"petal_width\""} se ejecuta (0.5 s, 1 figuras)
+  ok  [lab0_2] lab0_2.exp.rel {"fx":"\"petal_length\"","fy":"\"petal_width\""} se ejecuta (0.3 s, 1 figuras)
   ok  [lab0_2] lab0_2.exp.rel corr_total = 0.9627570970509663 (esperado 0.9628; Correlación recalculada con tu entorno local)
   ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fx está entre las opciones
   ok  [lab0_2] lab0_2.exp.rel el valor por defecto de fy está entre las opciones
@@ -158,6 +158,16 @@ Verificación 2026-10-21T14:26:35.981Z
   ok  [lab0_2] lab0_2.dyn.kurt variante seed=1 → -0.448272
   ok  [lab0_2] lab0_2.dyn.kurt variante seed=2 → 1.566442
   ok  [lab0_2] lab0_2.dyn.kurt variante seed=3 → 1.566442
+  ok  [lab0_2] lab0_2.cov.imports tiene al menos una opción correcta
+  ok  [lab0_2] lab0_2.cov.head predicción evaluable → [5,5]
+  ok  [lab0_2] lab0_2.cov.tail predicción evaluable → "[147, 148, 149]"
+  ok  [lab0_2] lab0_2.cov.tail el valor real «[147, 148, 149]» está entre las opciones
+  ok  [lab0_2] lab0_2.cov.info predicción evaluable → [4,0]
+  ok  [lab0_2] lab0_2.cov.facet solución aprueba
+  ok  [lab0_2] lab0_2.cov.facet alternativa 1 aprueba
+  ok  [lab0_2] lab0_2.cov.facet errónea 1 suspende como «api» (obtenido: api)
+  ok  [lab0_2] lab0_2.cov.facet el código inicial no aprueba por sí solo
+  ok  [lab0_2] lab0_2.cov.hue tiene al menos una opción correcta
   ok  [lab0_2] referencia a actividad lab0_2.fill.moments
   ok  [lab0_2] referencia a actividad lab0_2.fill.grid
   ok  [lab0_2] referencia a actividad lab0_2.fix.keyerror
@@ -233,3 +243,9 @@ Verificación 2026-10-21T14:26:35.981Z
   ok  [lab0_2] lab0_2.int.q3 → bloque b_skew
   ok  [lab0_2] lab0_2.dyn.kurt → bloque b_kurt
   ok  [lab0_2] lab0_2.dyn.kurt → bloque b_kurt1
+  ok  [lab0_2] lab0_2.cov.imports → bloque b_imports
+  ok  [lab0_2] lab0_2.cov.head → bloque b_head
+  ok  [lab0_2] lab0_2.cov.tail → bloque b_tail
+  ok  [lab0_2] lab0_2.cov.info → bloque b_info
+  ok  [lab0_2] lab0_2.cov.facet → bloque b_seaborn
+  ok  [lab0_2] lab0_2.cov.hue → bloque b_hue

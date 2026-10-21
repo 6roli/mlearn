@@ -149,7 +149,7 @@ ALIASES = {"np", "pd", "plt", "sns", "ss", "sp", "stats", "norm", "default_rng",
            "load_digits", "Path", "eigvals"}
 DIM_WORDS = ("shape", "dimension", "broadcast", "aligned", "size", "axis", "index", "reshape",
              "same length", "same number", "1d", "2d", "3d", "Expected 2D", "too many indices",
-             "inconsistent numbers of samples", "matmul", "out of bounds", "features, but", "is expecting")
+             "inconsistent numbers of samples", "matmul", "out of bounds", "features, but", "is expecting", "invalid shape")
 
 
 def classify_exception(exc):
@@ -168,6 +168,8 @@ def classify_exception(exc):
     if isinstance(exc, (AttributeError, ImportError, KeyError)):
         return "api"
     if isinstance(exc, TypeError):
+        if "invalid shape" in low or "dimension" in low:
+            return "dimensiones"
         if any(w in low for w in ("argument", "keyword", "positional", "not callable", "takes", "missing")):
             return "api"
         return "ejecucion"

@@ -1,5 +1,5 @@
-Verificación 2026-10-21T14:30:01.919Z
-167 comprobaciones, 0 fallos
+Verificación 2026-10-21T14:42:49.047Z
+181 comprobaciones, 0 fallos
 
   ok  [lab2_2] celda 0 asignada a un bloque
   ok  [lab2_2] celda 1 asignada a un bloque
@@ -46,7 +46,7 @@ Verificación 2026-10-21T14:30:01.919Z
   ok  [lab2_2] celda 25 se ejecuta
   ok  [lab2_2] celda 27 se ejecuta
   ok  [lab2_2] celda 29 se ejecuta
-  ok  [lab2_2] lab2_2.exp.reduce {} se ejecuta (0.7 s, 1 figuras)
+  ok  [lab2_2] lab2_2.exp.reduce {} se ejecuta (0.5 s, 1 figuras)
   ok  [lab2_2] lab2_2.exp.reduce lda_3d_train = 0 (esperado 0; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
   ok  [lab2_2] lab2_2.exp.reduce lda_3d_test = 0.0006666666666667043 (esperado 0.000666667; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
   ok  [lab2_2] lab2_2.exp.reduce qda_3d_test = 0 (esperado 0; Ejecución celda a celda del notebook en la app, 10 dB (tu entorno local difiere en la clase 0; ver la nota de la celda 6))
@@ -63,7 +63,7 @@ Verificación 2026-10-21T14:30:01.919Z
   ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de n_samples está entre las opciones
   ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de vista está entre las opciones
   ok  [lab2_2] lab2_2.exp.reduce el valor por defecto de h está entre las opciones
-  ok  [lab2_2] lab2_2.exp.reduce {"SNR":"0"} se ejecuta (0.6 s, 1 figuras)
+  ok  [lab2_2] lab2_2.exp.reduce {"SNR":"0"} se ejecuta (0.5 s, 1 figuras)
   ok  [lab2_2] lab2_2.exp.reduce lda_3d_train = 0.11399999999999999 (esperado 0.114; Ejecución celda a celda del notebook en la app, 0 dB)
   ok  [lab2_2] lab2_2.exp.reduce lda_3d_test = 0.1273333333333333 (esperado 0.127333333; Ejecución celda a celda del notebook en la app, 0 dB)
   ok  [lab2_2] lab2_2.exp.reduce qda_3d_train = 0.07066666666666666 (esperado 0.070666667; Ejecución celda a celda del notebook en la app, 0 dB)
@@ -110,6 +110,13 @@ Verificación 2026-10-21T14:30:01.919Z
   ok  [lab2_2] lab2_2.dyn.dmax variante seed=1 → 3
   ok  [lab2_2] lab2_2.dyn.dmax variante seed=2 → 2
   ok  [lab2_2] lab2_2.dyn.dmax variante seed=3 → 1
+  ok  [lab2_2] lab2_2.cov.imports tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.cov.counts predicción evaluable → 500
+  ok  [lab2_2] lab2_2.cov.pairplot predicción evaluable → [1500,4]
+  ok  [lab2_2] lab2_2.cov.pca2plot tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.cov.pca1plot tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.cov.mda2plot tiene al menos una opción correcta
+  ok  [lab2_2] lab2_2.cov.mda1plot tiene al menos una opción correcta
   ok  [lab2_2] referencia a actividad lab2_2.fill.pca
   ok  [lab2_2] referencia a actividad lab2_2.fill.mda
   ok  [lab2_2] referencia a actividad lab2_2.fix.leak
@@ -168,3 +175,10 @@ Verificación 2026-10-21T14:30:01.919Z
   ok  [lab2_2] lab2_2.int.q4 → bloque b_mda1
   ok  [lab2_2] lab2_2.int.dmax → bloque b_mda2
   ok  [lab2_2] lab2_2.dyn.dmax → bloque b_mda2
+  ok  [lab2_2] lab2_2.cov.imports → bloque b_imports
+  ok  [lab2_2] lab2_2.cov.counts → bloque b_scatter3d
+  ok  [lab2_2] lab2_2.cov.pairplot → bloque b_pairplot
+  ok  [lab2_2] lab2_2.cov.pca2plot → bloque b_pca2_plot
+  ok  [lab2_2] lab2_2.cov.pca1plot → bloque b_pca1_plot
+  ok  [lab2_2] lab2_2.cov.mda2plot → bloque b_mda2_plot
+  ok  [lab2_2] lab2_2.cov.mda1plot → bloque b_mda1_plot

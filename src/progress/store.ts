@@ -86,7 +86,7 @@ const initial = {
   experiments: [],
   sessions: [],
   helpLevel: 'completa' as HelpLevel,
-  theme: 'dark' as const,
+  theme: 'light' as 'dark' | 'light',
 };
 
 export const useProgress = create<ProgressState>()(
@@ -147,7 +147,12 @@ export const useProgress = create<ProgressState>()(
       },
       reset: () => set({ ...initial }),
     }),
-    { name: 'mlearn-progress-v1', version: 1 },
+    {
+      name: 'mlearn-progress-v1',
+      version: 2,
+      // v2: el tema claro pasa a ser el predeterminado
+      migrate: (state, version) => (version < 2 ? { ...(state as object), theme: 'light' } : state) as ProgressState,
+    },
   ),
 );
 
