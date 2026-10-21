@@ -118,9 +118,13 @@ export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; fil
                   noted={notedLines(c.index)}
                   onLine={(l) => onLine(c.index, l)}
                 />
-                <Collapsible title={<span className="small">Salida guardada en tu notebook</span>}>
+                {c.outputs.length > 0 ? (
                   <SavedOutputs outputs={c.outputs} />
-                </Collapsible>
+                ) : (
+                  <div className="faint small">
+                    Sin salida guardada en tu notebook{nb.id === 'lab2_1' || nb.id === 'lab2_2' ? ' (este notebook nunca se ejecutó)' : ''}: pulsa «Ejecutar hasta aquí» para verla calculada por la app.
+                  </div>
+                )}
               </div>
             ),
           )}
