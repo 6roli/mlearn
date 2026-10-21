@@ -122,7 +122,7 @@ export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; fil
                   <SavedOutputs outputs={c.outputs} />
                 ) : (
                   <div className="faint small">
-                    Sin salida guardada en tu notebook{nb.id === 'lab2_1' || nb.id === 'lab2_2' ? ' (este notebook nunca se ejecutó)' : ''}: pulsa «Ejecutar hasta aquí» para verla calculada por la app.
+                    Sin salida guardada en tu notebook (celda no ejecutada o sin salida): pulsa «Ejecutar hasta aquí» para verla calculada por la app.
                   </div>
                 )}
               </div>

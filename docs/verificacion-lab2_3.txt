@@ -1,4 +1,4 @@
-Verificación 2026-10-21T14:43:36.265Z
+Verificación 2026-10-21T16:19:51.712Z
 148 comprobaciones, 0 fallos
 
   ok  [lab2_3] celda 0 asignada a un bloque
@@ -24,17 +24,17 @@ Verificación 2026-10-21T14:43:36.265Z
   ok  [lab2_3] celda 20 asignada a un bloque
   ok  [lab2_3] celda 21 asignada a un bloque
   ok  [lab2_3] celda 2 se ejecuta
-  ok  [lab2_3] celda 4 difiere por una diferencia de versión documentada
+  ok  [lab2_3] celda 4 salida de texto idéntica a la guardada
   ok  [lab2_3] celda 5 se ejecuta
   ok  [lab2_3] celda 7 salida de texto idéntica a la guardada
   ok  [lab2_3] celda 9 se ejecuta
   ok  [lab2_3] celda 11 salida de texto idéntica a la guardada
   ok  [lab2_3] celda 13 se ejecuta
-  ok  [lab2_3] celda 15 salida de texto idéntica a la guardada
+  ok  [lab2_3] celda 15 difiere por una diferencia de versión documentada
   ok  [lab2_3] celda 17 salida de texto idéntica a la guardada
   ok  [lab2_3] celda 19 se ejecuta
   ok  [lab2_3] celda 21 se ejecuta
-  ok  [lab2_3] lab2_3.exp.manual {} se ejecuta (1.0 s, 2 figuras)
+  ok  [lab2_3] lab2_3.exp.manual {} se ejecuta (0.9 s, 2 figuras)
   ok  [lab2_3] lab2_3.exp.manual lda_train = 0.2550697084917617 (esperado 0.25507; Salida guardada de la celda 17 (V_coor = [10, 30]))
   ok  [lab2_3] lab2_3.exp.manual lda_test = 0.27937915742793795 (esperado 0.279379; Salida guardada de la celda 17 (V_coor = [10, 30]))
   ok  [lab2_3] lab2_3.exp.manual qda_train = 0.2519011406844106 (esperado 0.251901; Salida guardada de la celda 17 (V_coor = [10, 30]))

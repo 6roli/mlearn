@@ -1,4 +1,4 @@
-Verificación 2026-10-21T14:52:50.166Z
+Verificación 2026-10-21T16:17:54.946Z
 174 comprobaciones, 0 fallos
 
   ok  [lab2_1] celda 0 asignada a un bloque
@@ -41,20 +41,20 @@ Verificación 2026-10-21T14:52:50.166Z
   ok  [lab2_1] celda 4 se ejecuta
   ok  [lab2_1] celda 6 se ejecuta
   ok  [lab2_1] celda 8 se ejecuta
-  ok  [lab2_1] celda 10 se ejecuta
-  ok  [lab2_1] celda 11 se ejecuta
-  ok  [lab2_1] celda 12 se ejecuta
+  ok  [lab2_1] celda 10 salida de texto idéntica a la guardada
+  ok  [lab2_1] celda 11 salida de texto idéntica a la guardada
+  ok  [lab2_1] celda 12 salida de texto idéntica a la guardada
   ok  [lab2_1] celda 15 se ejecuta
-  ok  [lab2_1] celda 18 se ejecuta
+  ok  [lab2_1] celda 18 salida de texto idéntica a la guardada
   ok  [lab2_1] celda 20 se ejecuta
   ok  [lab2_1] celda 23 se ejecuta
   ok  [lab2_1] celda 25 se ejecuta
-  ok  [lab2_1] celda 27 se ejecuta
+  ok  [lab2_1] celda 27 salida de texto idéntica a la guardada
   ok  [lab2_1] bloque b_digits_scatter (código adaptado) se ejecuta
   ok  [lab2_1] celda 32 se ejecuta
   ok  [lab2_1] celda 35 se ejecuta
   ok  [lab2_1] bloque b_tsne_plot (código adaptado) se ejecuta
-  ok  [lab2_1] lab2_1.exp.pca {} se ejecuta (2.8 s, 3 figuras)
+  ok  [lab2_1] lab2_1.exp.pca {} se ejecuta (1.0 s, 3 figuras)
   ok  [lab2_1] lab2_1.exp.pca ev1 = 0.7625315008826108 (esperado 0.7625315008826108; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
   ok  [lab2_1] lab2_1.exp.pca ev2 = 0.018477895513562506 (esperado 0.018477895513562492; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
   ok  [lab2_1] lab2_1.exp.pca evr1 = 0.9763410074208769 (esperado 0.9763410074208769; Ejecución local con tus versiones (numpy 2.5.3, scikit-learn 1.9.1))
@@ -64,7 +64,7 @@ Verificación 2026-10-21T14:52:50.166Z
   ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_toy está entre las opciones
   ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_digits está entre las opciones
   ok  [lab2_1] lab2_1.exp.pca el valor por defecto de umbral está entre las opciones
-  ok  [lab2_1] lab2_1.exp.pca {"umbral":"0.95"} se ejecuta (2.5 s, 3 figuras)
+  ok  [lab2_1] lab2_1.exp.pca {"umbral":"0.95"} se ejecuta (1.0 s, 3 figuras)
   ok  [lab2_1] lab2_1.exp.pca n_umbral = 29 (esperado 29; Ejecución local con tus versiones)
   ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_toy está entre las opciones
   ok  [lab2_1] lab2_1.exp.pca el valor por defecto de k_digits está entre las opciones

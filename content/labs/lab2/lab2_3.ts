@@ -415,6 +415,7 @@ Preguntas de la guía/report (Lab2): Q5 espectros, Q6 errores con todas las feat
       id: 'b_classify64',
       title: 'LDA y QDA con 64 features: errores y matrices de confusión (Q6, Q7)',
       cells: [14, 15],
+      versionNotes: [{ cell: 15, text: 'Tu ejecución local del 21/10/2026 (scikit-learn 1.9.1) da un error de test de LDA de **0.079823**; la salida guardada anterior y la app (scikit-learn 1.8.0) dan **0.079084**. La diferencia es **una muestra de 1353**, que está casi sobre la frontera y cae de un lado u otro según la versión de las librerías numéricas. El resto de errores y matrices coincide.' }],
       stage: 'metodo',
       problem: 'Medir el rendimiento de los dos clasificadores en train y en test.',
       purpose: 'Responde Q6 y Q7. Compara un modelo con covarianza común (LDA, 2080 parámetros de covarianza) con otro con una covarianza por clase (QDA, 10400).',
