@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { FigureOut, RunResult } from '../engine/client';
-import type { CellOutput } from '../lib/materials';
+import type { Cell, CellOutput, NotebookFile } from '../lib/materials';
 import { CategoryTag } from './common';
 
 export function Figures({ figures, thumb }: { figures: { png: string }[]; thumb?: boolean }) {
@@ -67,12 +67,29 @@ export function ErrorBox({ error }: { error: NonNullable<RunResult['error']> }) 
 }
 
 /** Salidas guardadas en el notebook original (resultados reales de tu ejecución). */
-export function SavedOutputs({ outputs }: { outputs: CellOutput[] }) {
+/** Salida de una celda: la guardada por ti o, si no hay, la de la ejecución completa con tu entorno. */
+export function CellOutputs({ cell, file }: { cell: Cell; file: NotebookFile | null }) {
+  const patch = file?.execution?.patches?.find((p) => p.cell === cell.index);
+  const own = cell.outputs.length > 0;
+  const outs = own ? cell.outputs : cell.execOutputs ?? [];
+  const label = own
+    ? 'Salida guardada en tu notebook'
+    : `Salida de la ejecución completa (copia ejecutada con tu entorno local${file?.execution?.generated ? `, ${file.execution.generated}` : ''})`;
+  if (!outs.length) return <div className="faint small">Esta celda no produce salida visible.</div>;
+  return (
+    <div className="col" style={{ gap: '0.3rem' }}>
+      {!own && patch && <div className="callout warn small">Para ejecutarla se cambió: <code>{patch.new}</code> — {patch.why}</div>}
+      <SavedOutputs outputs={outs} label={label} />
+    </div>
+  );
+}
+
+export function SavedOutputs({ outputs, label = 'Salida guardada en el notebook' }: { outputs: CellOutput[]; label?: string }) {
   if (!outputs.length) return <div className="faint">El notebook original no tiene salidas guardadas para esta celda.</div>;
   const imgs = outputs.filter((o) => o.type === 'image' && o.png).map((o) => ({ png: o.png! }));
   return (
     <div className="output">
-      <div className="faint" style={{ marginBottom: '0.3rem' }}>Salida guardada en el notebook</div>
+      <div className="faint" style={{ marginBottom: '0.3rem' }}>{label}</div>
       {outputs.map((o, i) =>
         o.type === 'stream' || o.type === 'text' ? (
           o.text && !/^<Figure/.test(o.text) ? <pre key={i}>{o.text}</pre> : null

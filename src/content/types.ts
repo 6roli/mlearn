@@ -313,3 +313,18 @@ export interface GlobalChallenge {
   steps: Activity[];
   review: Record<string, { notebook: string; block?: string; label: string }>; // por id de paso
 }
+
+/** Tarea de código que pide el enunciado (guía/report): qué se pedía, qué se ha hecho y el código. */
+export interface LabTask {
+  id: string;
+  lab: string;
+  notebook: string; // notebook en el que se apoya
+  question: string; // 'Q6', 'Q2–Q5'…
+  title: string;
+  asks: string; // qué pide el enunciado (resumido de la guía)
+  did: string; // qué se ha hecho y cómo leer el resultado
+  code: string; // script autocontenido que se ejecuta
+  data?: string[];
+  author: 'solucion' | 'app'; // de tus soluciones o escrita por la app
+  source: SourceRef;
+}

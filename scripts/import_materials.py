@@ -51,6 +51,30 @@ def convert_outputs(outputs):
     return result
 
 
+EXECUTED = ROOT / "executed"
+
+
+def attach_execution(data, raw):
+    """Añade las salidas de la ejecución completa (scripts/execute_notebooks.py), si existe."""
+    path = EXECUTED / f"{data['id']}.ipynb"
+    if not path.exists():
+        return
+    ex = json.loads(path.read_text(encoding="utf-8"))
+    if len(ex["cells"]) != len(raw["cells"]):
+        print(f"  AVISO: la ejecución completa de {data['id']} no coincide con el original; vuelve a ejecutarla")
+        return
+    for cell, exc, orig in zip(data["cells"], ex["cells"], raw["cells"]):
+        if cell["type"] == "code" and "".join(exc.get("source", "")) == "".join(orig.get("source", "")):
+            cell["execOutputs"] = convert_outputs(exc.get("outputs", []))
+    info = {}
+    report_path = EXECUTED / "informe.json"
+    if report_path.exists():
+        rep = json.loads(report_path.read_text(encoding="utf-8"))
+        info = {"generated": rep.get("generated"), "versions": rep.get("versions"),
+                **rep.get("notebooks", {}).get(data["id"], {})}
+    data["execution"] = info
+
+
 def main():
     src_root = Path(sys.argv[1] if len(sys.argv) > 1 else MANIFEST["defaultRoot"])
     if not src_root.exists():
@@ -85,6 +109,7 @@ def main():
             })
         data = {"id": nb["id"], "lab": nb["lab"], "path": nb["path"], "origin": nb["origin"],
                 "sha256": digest, "cells": cells}
+        attach_execution(data, raw)
         (OUT / "notebooks" / f"{nb['id']}.json").write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
         files.append({"id": nb["id"], "kind": "notebook", "path": nb["path"], "sha256": digest})
         if nb["id"] in previous and previous[nb["id"]] != digest:
@@ -108,6 +133,10 @@ def main():
         files.append({"id": doc["id"], "kind": "document", "path": doc["path"], "sha256": sha256(path),
                       "file": f"docs/{target.name}"})
 
+    tasks_out = EXECUTED / "tasks_out.json"
+    if tasks_out.exists():
+        shutil.copyfile(tasks_out, OUT / "tasks.json")
+        print("  Tareas del enunciado: salidas copiadas (executed/tasks_out.json)")
     index_path.write_text(json.dumps({"root": str(src_root), "files": files}, ensure_ascii=False, indent=1),
                           encoding="utf-8")
     print(f"Importados {len(files)} archivos en {OUT}")

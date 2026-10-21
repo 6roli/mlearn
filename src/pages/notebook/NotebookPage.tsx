@@ -11,6 +11,8 @@ import { ActivityCard, useActivityStatus } from '../../activities/ActivityCard';
 import { useProgress, type HelpLevel } from '../../progress/store';
 import { ExamRunner } from '../../activities/ExamRunner';
 import { GuidedRoute } from './GuidedRoute';
+import { TaskList } from '../Tasks';
+import { TASKS } from '../../../content/tasks';
 
 const TABS = [
   { id: 'contexto', letter: 'A', label: 'Contexto' },
@@ -19,6 +21,7 @@ const TABS = [
   { id: 'interpretar', letter: 'D', label: 'Interpretar' },
   { id: 'recuperar', letter: 'E', label: 'Recuperar de memoria' },
   { id: 'practica', letter: 'F', label: 'Práctica' },
+  { id: 'tareas', letter: 'G', label: 'Tareas del enunciado' },
 ];
 
 export function useNotebookFile(id: string) {
@@ -99,6 +102,12 @@ export function NotebookPage({ lab, nb, tab = 'contexto', item }: { lab: LabCont
           {tab === 'interpretar' && <ActivityList nb={nb} filter={(a) => a.kind !== 'code' && a.kind !== 'predict' && (a.skills.includes('interpretacion') || a.skills.includes('concepto') || a.skills.includes('metodo'))} intro="Preguntas sobre los resultados reales del notebook (o de una ejecución modificada). Justifica y compara antes de mirar la explicación." />}
           {tab === 'recuperar' && <RecallTab nb={nb} />}
           {tab === 'practica' && <PracticeTab lab={lab} nb={nb} />}
+          {tab === 'tareas' && (
+            <div>
+              <p className="muted">Lo que la guía pide <strong>programar</strong> a partir de este notebook: qué se pedía, qué se ha hecho, el código nuevo y su ejecución. Para practicar antes de mirar, usa las pestañas E y F.</p>
+              <TaskList tasks={TASKS.filter((t) => t.notebook === nb.id)} />
+            </div>
+          )}
         </>
       )}
     </div>

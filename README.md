@@ -18,6 +18,16 @@ npm run dev           # abre http://localhost:5175
 - Al añadir o cambiar materiales, vuelve a ejecutar `npm run import`: avisa de los notebooks cuyo contenido ha cambiado (SHA-256) para revisar sus explicaciones.
 - El progreso se guarda en el navegador. En **Progreso** puedes exportarlo e importarlo (JSON).
 
+### Ejecuciones completas y tareas del enunciado
+
+```powershell
+npm run refresh   # = npm run execute + npm run tasks + npm run import
+```
+
+- `npm run execute` ejecuta **copias** de todos los notebooks con tu entorno del laboratorio (`LAB/.venv`) y guarda las salidas en `executed/` (tus originales no se tocan; los arreglos mínimos —ruta de `iris.csv`, `get_cmap`— quedan anotados en `executed/informe.json` y en la web).
+- `npm run tasks` ejecuta las **tareas de código del enunciado** (`content/tasks.ts`): lo que cada guía pide programar, con qué se pedía, qué se ha hecho, el código y sus salidas. Se ven en la pestaña **G · Tareas del enunciado** de cada notebook, en la página de cada lab y al final de los PDF.
+- Debajo de cada celda se muestra tu salida guardada; si la celda no la tiene, la de la ejecución completa (etiquetada).
+
 ### Estudiar en la tablet
 
 - **PDF para anotar:** en cada notebook, botón **«🖨 PDF para tablet»** → *Imprimir* → *Guardar como PDF*. Incluye contexto, flujo, cada bloque con su código numerado, notas por línea, explicaciones, tablas de funciones, salidas guardadas, espacio para notas y las preguntas con hueco para responder (las soluciones solo si marcas «Anexo de soluciones»). Ábrelo en tu app de notas para subrayar y escribir.

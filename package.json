@@ -13,7 +13,10 @@
     "typecheck": "tsc --noEmit",
     "verify": "node scripts/verify.ts",
     "coverage-matrix": "node scripts/coverage-matrix.ts",
-    "dev:tablet": "vite --host"
+    "dev:tablet": "vite --host",
+    "execute": "\"C:/Users/groli/OneDrive/Documents/MATT/Q2 - Tardor/MLEARN/LAB/.venv/Scripts/python.exe\" scripts/execute_notebooks.py",
+    "tasks": "node scripts/export-tasks.ts && \"C:/Users/groli/OneDrive/Documents/MATT/Q2 - Tardor/MLEARN/LAB/.venv/Scripts/python.exe\" scripts/run_tasks.py",
+    "refresh": "npm run execute && npm run tasks && npm run import"
   },
   "dependencies": {
     "@codemirror/autocomplete": "6.20.3",

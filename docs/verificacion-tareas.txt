@@ -1,0 +1,14 @@
+Verificación 2026-10-21T17:29:11.136Z
+11 comprobaciones, 0 fallos
+
+  ok  [tareas] lab0.q4 se ejecuta en Pyodide (1.5 s, 1 figuras)
+  ok  [tareas] lab0.q6 se ejecuta en Pyodide (0.0 s, 0 figuras)
+  ok  [tareas] lab0.q7 se ejecuta en Pyodide (0.0 s, 0 figuras)
+  ok  [tareas] lab1.q2q5 se ejecuta en Pyodide (2.0 s, 1 figuras)
+  ok  [tareas] lab1.q6q8 se ejecuta en Pyodide (1.7 s, 2 figuras)
+  ok  [tareas] lab1.q9q11 se ejecuta en Pyodide (1.7 s, 2 figuras)
+  ok  [tareas] lab1.q12 se ejecuta en Pyodide (0.8 s, 1 figuras)
+  ok  [tareas] lab2.q1q4 se ejecuta en Pyodide (1.0 s, 1 figuras)
+  ok  [tareas] lab2.q8q9 se ejecuta en Pyodide (2.0 s, 2 figuras)
+  ok  [tareas] lab2.q10q11 se ejecuta en Pyodide (13.0 s, 1 figuras)
+  ok  [tareas] lab2.q12q13 se ejecuta en Pyodide (21.4 s, 1 figuras)

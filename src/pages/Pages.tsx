@@ -13,6 +13,8 @@ import { SavedOutputs } from '../ui/Output';
 import { ExamRunner } from '../activities/ExamRunner';
 import { reviewTargetFor } from './notebook/NotebookPage';
 import { MATERIALS_DOCS } from '../../content/docs';
+import { TASKS } from '../../content/tasks';
+import { TaskList } from './Tasks';
 
 const SKILLS: { id: Skill; label: string }[] = [
   { id: 'concepto', label: 'Comprensión conceptual' },
@@ -102,6 +104,11 @@ export function LabPage({ lab }: { lab: LabContent }) {
             </div>
           </div>
         ))}
+      </div>
+      <div>
+        <h2>Tareas de código del enunciado</h2>
+        <p className="muted small">Todo lo que la guía de este lab pide programar, con su código y su ejecución.</p>
+        <TaskList tasks={TASKS.filter((t) => t.lab === lab.id)} />
       </div>
       <div className="card">
         <h3>Documentos de apoyo</h3>

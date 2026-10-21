@@ -9,6 +9,8 @@ import { useNotebookFile } from './notebook/NotebookPage';
 import { STAGE_LABEL } from './notebook/FlowMap';
 import { glossaryEntry } from '../../content/glossary';
 import { href } from '../router';
+import { TASKS } from '../../content/tasks';
+import { TaskList } from './Tasks';
 
 function promptOf(a: Activity): string {
   if (a.kind === 'code') return `**${a.title}.** ${a.prompt}\n\n*Disponible:* ${a.available}\n\n*Debe producir:* ${a.produce}`;
@@ -105,10 +107,17 @@ export function PrintView({ nbId }: { nbId: string }) {
                 {cells.filter((c) => c.type === 'code').map((c) => (
                   <div key={c.index} className="avoid-break">
                     <CodeView code={c.source} title={`Celda ${c.index}`} highlight={new Set(b.lines.filter((n) => n.cell === c.index).flatMap((n) => Array.from({ length: n.lines[1] - n.lines[0] + 1 }, (_, k) => n.lines[0] + k)))} />
-                    {outputs && c.outputs.some((o) => (o.type === 'stream' || o.type === 'text') && o.text && !/^<Figure/.test(o.text)) && (
-                      <pre className="print-out">{c.outputs.filter((o) => (o.type === 'stream' || o.type === 'text') && !/^<Figure/.test(o.text ?? '')).map((o) => o.text).join('\n').slice(0, 2500)}</pre>
-                    )}
-                    {outputs && c.outputs.filter((o) => o.type === 'image' && o.png).map((o, k) => <img key={k} className="print-fig" src={`data:image/png;base64,${o.png}`} alt="" />)}
+                    {outputs && (() => {
+                      const outs = c.outputs.length ? c.outputs : c.execOutputs ?? [];
+                      const txt = outs.filter((o) => (o.type === 'stream' || o.type === 'text' || o.type === 'error') && o.text && !/^<Figure/.test(o.text));
+                      return (
+                        <>
+                          {!c.outputs.length && outs.length > 0 && <div className="faint small">Salida de la ejecución completa con tu entorno local</div>}
+                          {txt.length > 0 && <pre className="print-out">{txt.map((o) => o.text).join('\n').slice(0, 2500)}</pre>}
+                          {outs.filter((o) => o.type === 'image' && o.png).map((o, k) => <img key={k} className="print-fig" src={`data:image/png;base64,${o.png}`} alt="" />)}
+                        </>
+                      );
+                    })()}
                   </div>
                 ))}
                 {b.runCode && !cells.some((c) => c.type === 'code') && <CodeView code={b.runCode} title="Código de referencia de la app" />}
@@ -137,6 +146,13 @@ export function PrintView({ nbId }: { nbId: string }) {
           </section>
         );
       })}
+
+      {TASKS.some((t) => t.notebook === nb.id) && (
+        <>
+          <h2 className="page-break">G · Tareas de código del enunciado</h2>
+          <TaskList tasks={TASKS.filter((t) => t.notebook === nb.id)} print />
+        </>
+      )}
 
       {questions && (
         <>

@@ -3,7 +3,7 @@ import type { Block, NotebookContent } from '../../content/types';
 import type { NotebookFile } from '../../lib/materials';
 import { Md, SourceLink, Collapsible, OriginPill } from '../../ui/common';
 import { CodeView } from '../../ui/CodeView';
-import { RunOutput, SavedOutputs } from '../../ui/Output';
+import { RunOutput, CellOutputs } from '../../ui/Output';
 import { ActivityCard } from '../../activities/ActivityCard';
 import { useProgress } from '../../progress/store';
 import { runUpTo, resetKernel } from './kernel';
@@ -118,13 +118,7 @@ export function BlockView({ nb, file, block, onNav }: { nb: NotebookContent; fil
                   noted={notedLines(c.index)}
                   onLine={(l) => onLine(c.index, l)}
                 />
-                {c.outputs.length > 0 ? (
-                  <SavedOutputs outputs={c.outputs} />
-                ) : (
-                  <div className="faint small">
-                    Sin salida guardada en tu notebook (celda no ejecutada o sin salida): pulsa «Ejecutar hasta aquí» para verla calculada por la app.
-                  </div>
-                )}
+                <CellOutputs cell={c} file={file} />
               </div>
             ),
           )}

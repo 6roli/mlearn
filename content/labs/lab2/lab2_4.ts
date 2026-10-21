@@ -6,7 +6,7 @@ const NB = 'lab2_4';
 const DATA = ['BD_phoneme.csv'];
 const guide = (section: string, note?: string) => ({ doc: 'lab2_guide', section, origin: 'app' as const, note: note ?? 'Enunciado de la guía; solución de referencia de la app' });
 
-const LOAD = `import numpy as np
+export const LOAD = `import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -22,14 +22,14 @@ X = X - X.mean(axis=0)
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.7, random_state=5, shuffle=True, stratify=y)
 `;
 
-const PCA_FIT = `# PCA se ajusta SOLO con el conjunto de entrenamiento
+export const PCA_FIT = `# PCA se ajusta SOLO con el conjunto de entrenamiento
 pca = PCA()
 pca.fit(X_train)
 X_train_pca = pca.transform(X_train)
 X_test_pca = pca.transform(X_test)
 `;
 
-const PCA_LOOP = `dims = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 40, 50, 64, 80, 100, 128, 160, 200, 256]
+export const PCA_LOOP = `dims = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 40, 50, 64, 80, 100, 128, 160, 200, 256]
 lda_tr, lda_te, qda_tr, qda_te = [], [], [], []
 for nfeat in dims:
     Ztr, Zte = X_train_pca[:, :nfeat], X_test_pca[:, :nfeat]   # primeras nfeat componentes
@@ -41,7 +41,7 @@ for nfeat in dims:
     qda_te.append(1 - accuracy_score(y_test, qda.predict(Zte)))
 `;
 
-const PCA_PLOT = `plt.figure(figsize=(9, 5))
+export const PCA_PLOT = `plt.figure(figsize=(9, 5))
 plt.plot(dims, lda_tr, 'b--', label='LC train')
 plt.plot(dims, lda_te, 'b-', label='LC test')
 plt.plot(dims, qda_tr, 'r--', label='QC train')
@@ -54,7 +54,7 @@ plt.title('PCA: error frente a la dimensión')
 plt.show()
 `;
 
-const MDA_LOOP = `n_classes = len(np.unique(y_train))
+export const MDA_LOOP = `n_classes = len(np.unique(y_train))
 dmax = min(X_train.shape[1], n_classes - 1)
 print('dmax =', dmax)
 mda_dims = list(range(1, dmax + 1))
@@ -70,7 +70,7 @@ for d in mda_dims:
     mqda_te.append(1 - accuracy_score(y_test, qda.predict(Zte)))
 `;
 
-const MDA_PLOT = `plt.figure(figsize=(7, 4.5))
+export const MDA_PLOT = `plt.figure(figsize=(7, 4.5))
 plt.plot(mda_dims, mlda_tr, 'b--o', label='LC train')
 plt.plot(mda_dims, mlda_te, 'b-o', label='LC test')
 plt.plot(mda_dims, mqda_tr, 'r--o', label='QC train')

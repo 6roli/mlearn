@@ -10,6 +10,7 @@ import path from 'node:path';
 import { createEngine } from './lib/node-engine.ts';
 import { LABS } from '../content/index.ts';
 import { GLOBAL_CHALLENGES } from '../content/global/index.ts';
+import { TASKS } from '../content/tasks.ts';
 import { defaults, render } from '../src/lib/template.ts';
 import type { Activity, NotebookContent } from '../src/content/types.ts';
 
@@ -186,6 +187,16 @@ for (const lab of LABS) {
 if (!filter || filter === 'global') {
   console.log('\n== global');
   for (const ch of GLOBAL_CHALLENGES) for (const a of ch.steps) await verifyActivity(a, `global/${ch.id}`);
+}
+
+if (!filter || filter === 'tareas') {
+  console.log('\n== tareas del enunciado');
+  for (const t of TASKS) {
+    await e.data(t.data ?? []);
+    const t0 = Date.now();
+    const r: Any = e.call('experiment', { code: t.code });
+    log(!r.error, `[tareas] ${t.id} se ejecuta en Pyodide (${((Date.now() - t0) / 1000).toFixed(1)} s, ${r.figures.length} figuras)${r.error ? ': ' + r.error.message : ''}`);
+  }
 }
 
 fs.mkdirSync(path.resolve(import.meta.dirname, '../docs'), { recursive: true });

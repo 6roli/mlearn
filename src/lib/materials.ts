@@ -10,6 +10,8 @@ export interface Cell {
   source: string;
   executionCount: number | null;
   outputs: CellOutput[];
+  /** Salidas de la ejecución completa de una copia con tu entorno local (si existe). */
+  execOutputs?: CellOutput[];
 }
 export interface NotebookFile {
   id: string;
@@ -18,6 +20,7 @@ export interface NotebookFile {
   origin: string;
   sha256: string;
   cells: Cell[];
+  execution?: { generated?: string; versions?: Record<string, string>; patches?: { cell: number; why: string; new: string }[]; errors?: { cell: number; error: string }[] };
 }
 export interface MaterialIndex {
   root: string;

@@ -4,3 +4,4 @@ public/materials
 public/pyodide
 *.log
 .DS_Store
+executed
